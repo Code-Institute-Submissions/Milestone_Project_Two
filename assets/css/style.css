@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+
+/* General */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #808080;
+    letter-spacing: 3px;
+    line-height: 22px;
+    text-align: center;
+}
+
+#introcontainer {
+    height: 90vh;
+
+    position: relative;
+    
+    background: url(../images/BTN_Home.jpg) no-repeat center center fixed; 
+    background-size: cover;
+    
+    align-items: center;
+    justify-content: center;
+}
