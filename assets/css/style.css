@@ -13,7 +13,7 @@ body {
     font-weight: 400;
     color: black;
     letter-spacing: 0.3rem;
-    line-height: 2rem;
+    line-height: 0.2rem;
     text-align: center;
 }
 
@@ -45,8 +45,7 @@ body {
 }
 
 #intro {
-    color: #fff;
-    background-color: rgba(0,0,0,0.5);
+    color: #000;
     font-size: 3rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -54,14 +53,14 @@ body {
 
 .homebox {
     padding: 0;
-    padding top: 70rem;
-    padding bottom: 70rem;
+    padding top: 0;
+    padding bottom: 0;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 700;
     color: white;
     justify-content: center;
     text-align: center;
-    font-size: 4rem;
+    font-size: 3rem;
     letter-spacing: 0.5rem;
     cursor: pointer;
 }
@@ -70,5 +69,7 @@ body {
     height: 90%;
     width: 90%;
     padding-top: 5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 
 }
