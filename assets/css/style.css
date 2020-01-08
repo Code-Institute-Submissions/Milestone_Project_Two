@@ -131,6 +131,7 @@ body {
 
 /* Divider end */
 
+
 .bluebox {
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -138,17 +139,21 @@ body {
     height: 100px;
 }
 
+
+
 /* Review Pages start */
 
 .containerreview {
- height: 90vh;
-    background-color: yellow; 
+    height: 100vh;
+    background-color: red; 
 }
 
 .reviewpic {
-    margin-top: 5.7rem;
-    height: 100px;
+    margin-top: 2rem;
+    height: 200px;
+    width: 200px;
     cursor: pointer;
+    background-color: yellow;
 }
 
 /* Review Pages start */
