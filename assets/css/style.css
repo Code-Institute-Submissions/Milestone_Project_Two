@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
 
 
-/* General */
+/* General start */
 
 html {
     scroll-behavior: smooth;
@@ -17,7 +17,11 @@ body {
     text-align: center;
 }
 
-/* Nav Bar */
+/* General end */
+
+
+
+/* Nav Bar start */
 
 #navcontainer {
     position: sticky;
@@ -26,16 +30,20 @@ body {
     left: 0;
     padding-left: 0;
     padding-right: 0.3rem;
-    padding-bottom: 2rem
+    padding-bottom: 3rem
     z-index: 1;
     background-color: #fff;
 }
 
-#Homebutton {
+#homebutton {
 	color: #6cc3cc;
 }
 
-/* Home page */
+/* Nav Bar end */
+
+
+
+/* Home page start */
 
 #introcontainer {
     height: 90vh;
@@ -94,23 +102,6 @@ body {
     cursor: pointer;
 }
 
-.box2 {
-    margin-bottom: 1rem;
-    padding-top: 6rem;
-	padding-right: 0rem;
-	padding-bottom: 4rem;
-	padding-left: 0rem;
-	height: 200px;
-    width: responsive;
-	background-color: red;
-    font-weight: 700;
-    color: white;
-    justify-content: center;
-    text-align: center;
-    font-size: 2rem;
-    letter-spacing: 0.5rem;
-    cursor: pointer;
-}
 
 #homeblock {
     padding-left: 5%;
@@ -118,11 +109,18 @@ body {
     background-color: red;
 }
 
-.Eatbox {
+.eatbox {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     background-color: red;
+    height: 100px;
 }
 
-/* Space */
+/* Home page end */
+
+
+
+/* Divider start*/
 
 .seagull {
     padding-top: 1rem;
@@ -130,3 +128,27 @@ body {
     height: 100px;
    
 }
+
+/* Divider end */
+
+.bluebox {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: royalblue;
+    height: 100px;
+}
+
+/* Review Pages start */
+
+.containerreview {
+ height: 90vh;
+    background-color: yellow; 
+}
+
+.reviewpic {
+    margin-top: 5.7rem;
+    height: 100px;
+    cursor: pointer;
+}
+
+/* Review Pages start */
