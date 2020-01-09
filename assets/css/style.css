@@ -1,5 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
 
 /* General start */
 
@@ -8,9 +13,9 @@ html {
 }
 
 body {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 300;
     color: black;
     letter-spacing: 0.3rem;
     line-height: 0.2rem;
@@ -36,9 +41,19 @@ body {
     margin-bottom: 0.5rem;
 }
 
-#homebutton {
-	color: #6cc3cc;
+.nav-link {
+    color: #000 !important;
 }
+
+.nav-link:hover {
+    color: #6cc3cc !important;
+    transition: .5s ease-in-out;
+}
+
+.active {
+    color: #6cc3cc !important;
+}
+
 
 /* Nav Bar end */
 
@@ -58,6 +73,8 @@ body {
     justify-content: center;
     
 }
+
+
 
 #intro {
     color: #000;
@@ -81,12 +98,13 @@ body {
     justify-content: center;
     text-align: center;
     font-size: 2rem;
+    text-transform: uppercase;
     letter-spacing: 0.5rem;
     cursor: pointer;
 }
 
 .box {
-    margin-bottom: 1rem;
+    margin: 1.5rem;
     padding-top: 6rem;
 	padding-right: 0rem;
 	padding-bottom: 4rem;
@@ -98,23 +116,9 @@ body {
     color: white;
     justify-content: center;
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
     letter-spacing: 0.5rem;
     cursor: pointer;
-}
-
-
-# zhomeblock {
-    padding-left: 5%;
-    padding-right: 5%;
-    background-color: red;
-}
-
-eatbox {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    background-color: red;
-    height: 100px;
 }
 
 /* Home page end */
@@ -161,6 +165,15 @@ eatbox {
     height: auto;
     transition: 1s ease;
     backface-visibility: hidden;
+}
+
+.reviewboxtext {
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+    font-size: .5rem;
+    letter-spacing: 0.5rem;
+    cursor: pointer;
 }
 
 /* Review Pages end */
