@@ -95,10 +95,12 @@ body {
 }
 
 #intro {
-    color: #000;
-    font-size: 2rem;
-    padding-top: 3rem;
-    padding-bottom: 13rem;
+    background-color: rgba(108, 195, 204, 0.6);
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 1rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
 }
 
 
@@ -115,7 +117,7 @@ body {
     color: #fff;
     justify-content: center;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-transform: uppercase;
     letter-spacing: 0.5rem;
     cursor: pointer;
