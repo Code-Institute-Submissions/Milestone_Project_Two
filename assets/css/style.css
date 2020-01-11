@@ -38,7 +38,7 @@ body {
     padding-bottom: 3rem
     z-index: 1;
     background-color: #fff;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
 }
 
 .nav-link {
@@ -62,7 +62,7 @@ body {
 /* Home page start */
 
 #introcontainer {
-    height: 90vh;
+    height: 100vh;
 
     position: relative;
     
@@ -123,24 +123,6 @@ body {
     cursor: pointer;
 }
 
-.box {
-    margin: 1.5rem;
-    padding-top: 6rem;
-	padding-right: 0rem;
-	padding-bottom: 4rem;
-	padding-left: 0rem;
-	height: 200px;
-    width: responsive;
-	background-color: #6cc3cc;
-    font-weight: 700;
-    color: white;
-    justify-content: center;
-    text-align: center;
-    font-size: 3rem;
-    letter-spacing: 0.5rem;
-    cursor: pointer;
-}
-
 /* Home page end */
 
 
@@ -161,7 +143,7 @@ body {
 /* Review Pages start */
 
 .containerreview {
-    height: 90vh;
+    height: 100%;
     background-color: green;
 }
 
@@ -187,13 +169,50 @@ body {
     backface-visibility: hidden;
 }
 
-.reviewboxtext {
-    color: #fff;
+.box {
+    margin: 1.5rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+	height: 250px;
+    display: flex;
     justify-content: center;
-    text-align: center;
-    font-size: .5rem;
-    letter-spacing: 0.5rem;
+    align-items: center;
+    width: responsive;
+	background-color: #6cc3cc;
     cursor: pointer;
+    background-image: flex;
+}
+
+
+.reviewboxtext {
+    position: absolute;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    align-content: center;
+    font-size: 1rem;
+    letter-spacing: 0.5rem;
+    line-height: 1.6;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+
+}
+
+.reviewboxsub {
+    position: absolute;
+    color: yellow;
+    font-weight: 700;
+    text-align: center;
+    font-size: .75rem;
+    letter-spacing: 0.5rem;
+    line-height: 1.6;
+    text-transform: uppercase;  
+}
+
+.img-fluid {
+    display: block;
+    width: 100%;
+    max-height: 250px;
 }
 
 /* Review Pages end */
