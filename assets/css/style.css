@@ -18,7 +18,7 @@ body {
     font-weight: 300;
     color: black;
     letter-spacing: 0.3rem;
-    line-height: 0.2rem;
+    line-height: 1.6;
     text-align: center;
 }
 
@@ -143,8 +143,8 @@ body {
 
 /* Review Pages start */
 
-.containerreview {
-    height: 100%;
+#containerrevieweat {
+    height: 100vh;
     background-color: greenyellow;
 }
 
@@ -205,3 +205,39 @@ body {
 }
 
 /* Review Pages end */
+
+
+
+/* Map Page start */
+
+#containermap {
+    height: 100vh;
+    background-color: green;
+}
+
+.review {
+    background-color: red;
+    height: 100%;
+    margin-top: 3rem;
+    color: #000;
+    font-weight: 700;
+    text-align: left;
+}
+
+.map {
+    background-color: yellow;
+    height: 700px;
+    margin-top: 3rem;
+}
+
+.venuename {
+    color: black;
+    font-size: 1rem;
+}
+
+.bodytext {
+    color: black;
+    font-size: 0.75rem;
+}
+
+/* Map Page end */
