@@ -30,7 +30,7 @@ body {
 
 #navcontainer {
     position: sticky;
-    width: 99vw;
+    width: 100vw;
     top: 0;
     left: 0;
     padding-left: 0;
@@ -107,8 +107,8 @@ body {
 .blackbox {
     margin-top: 5.5rem;
     margin-bottom: -6rem;
-    height: 180px;
-    width: 180px;
+    height: 200px;
+    width: 200px;
     cursor: pointer;
 }
 
@@ -122,6 +122,7 @@ body {
     letter-spacing: 0.5rem;
     cursor: pointer;
 }
+
 
 /* Home page end */
 
@@ -144,21 +145,9 @@ body {
 
 .containerreview {
     height: 100%;
-    background-color: green;
+    background-color: ;
 }
 
-.place {
-    margin: 1rem;
-    height: 15rem;
-    width: 80%;
-    padding-top: 1rem;
-    font-weight: 300;
-    color: yellow;
-    text-align: center;
-    font-size: 1rem;
-    letter-spacing: 3px;
-    background-color: blue;
-}
 
 .image {
     opacity: 1;
@@ -169,7 +158,7 @@ body {
     backface-visibility: hidden;
 }
 
-.box {
+box {
     margin: 1.5rem;
     padding-left: 0rem;
     padding-right: 0rem;
@@ -178,7 +167,7 @@ body {
     justify-content: center;
     align-items: center;
     width: responsive;
-	background-color: #6cc3cc;
+	background-color:red;
     cursor: pointer;
     background-image: flex;
 }
@@ -200,7 +189,7 @@ body {
 
 .reviewboxsub {
     position: absolute;
-    color: yellow;
+    color: pink;
     font-weight: 700;
     text-align: center;
     font-size: .75rem;
