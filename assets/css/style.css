@@ -158,7 +158,7 @@ body {
     backface-visibility: hidden;
 }
 
-box {
+.box {
     margin: 1.5rem;
     padding-left: 0rem;
     padding-right: 0rem;
