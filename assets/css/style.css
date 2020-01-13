@@ -30,7 +30,7 @@ body {
 
 #navcontainer {
     position: sticky;
-    width: 100vw;
+    width: 95vw;
     top: 0;
     left: 0;
     padding-left: 0;
@@ -152,7 +152,7 @@ body {
 .image {
     opacity: 1;
     display: block;
-    width: 100%;
+    max-width: 50%;
     height: auto;
     transition: 1s ease;
     backface-visibility: hidden;
@@ -181,7 +181,7 @@ body {
     align-content: center;
     font-size: 1rem;
     letter-spacing: 0.5rem;
-    line-height: 1.6;
+    line-height: 2.5;
     text-transform: uppercase;
     padding-bottom: 0.5rem;
 
@@ -190,7 +190,7 @@ body {
 .reviewboxsub {
     position: absolute;
     color: yellow;
-    padding-top: 3rem;
+    padding-top: 4.5rem;
     font-weight: 700;
     text-align: center;
     font-size: .75rem;
