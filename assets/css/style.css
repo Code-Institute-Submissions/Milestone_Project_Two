@@ -230,26 +230,49 @@ image {
 .review {
     background-color: red;
     height: 100%;
-    margin-top: 3rem;
-    color: #000;
-    font-weight: 700;
-    text-align: left;
+    margin-top: 1rem;
+
 }
 
 .map {
     background-color: yellow;
     height: 700px;
-    margin-top: 3rem;
+    margin-top: 1rem;
 }
 
 .venuename {
-    color: black;
-    font-size: 1rem;
+    padding-left: 1rem;
+    color: #6cc3cc;
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 900;
+    letter-spacing: 0.5rem;
+    line-height: 1.2;
+    text-transform: uppercase;
 }
 
 .bodytext {
-    color: black;
-    font-size: 0.75rem;
+    padding-left: 1rem;
+    color: #000;
+    text-align: left;
+    font-size: 0.8rem;
+    font-weight: 300;
+    letter-spacing: 0rem;
+}
+
+.weblink {
+    padding-left: 1rem;
+    color: #000;
+    text-align: left;
+    font-size: 0.8rem;
+    font-weight: 900;
+    letter-spacing: 0.5rem;
+    text-decoration: none;
+}
+
+.weblink:hover {
+    color: #6cc3cc;
+    transition: .25s ease-in-out;
 }
 
 /* Map Page end */
