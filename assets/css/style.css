@@ -19,6 +19,7 @@ body {
     letter-spacing: 0.3rem;
     line-height: 1.6;
     text-align: center;
+    text-decoration: none;
 }
 
 /* General end */
@@ -46,7 +47,7 @@ body {
 
 .nav-link:hover {
     color: #6cc3cc !important;
-    transition: .5s ease-in-out;
+    transition: .25s ease-in-out;
 }
 
 .active {
@@ -176,6 +177,11 @@ image {
     background-image: flex;
 }
 
+.box:hover {
+    opacity: 0.7;
+    transition: .25s ease-in-out;
+}
+
 
 .reviewboxtext {
     position: absolute;
@@ -185,7 +191,7 @@ image {
     align-content: center;
     font-size: 1.5rem;
     letter-spacing: 0.5rem;
-    line-height: 2.5;
+    line-height: 1.1;
     text-transform: uppercase;
     padding-bottom: 0.5rem;
 
@@ -197,7 +203,7 @@ image {
     padding-top: 4.5rem;
     font-weight: 900;
     text-align: center;
-    font-size: .75rem;
+    font-size: 0.75rem;
     letter-spacing: 0.5rem;
     line-height: 2.4rem;
     text-transform: uppercase;  
@@ -212,7 +218,7 @@ image {
 
 .img-fluid:hover {
     opacity: 1;
-    transition: .5s ease-in-out;
+    transition: .25s ease-in-out;
 }
 
 
@@ -224,11 +230,11 @@ image {
 
 #containermap {
     height: 100vh;
-    background-color: green;
+    background-color: none;
 }
 
-.review {
-    background-color: red;
+.reviewbox {
+    background-color: #fff;
     height: 100%;
     margin-top: 1rem;
 
@@ -242,28 +248,30 @@ image {
 
 .venuename {
     padding-left: 1rem;
+    padding-right: 1rem;
     color: #6cc3cc;
     text-align: left;
     font-size: 1.5rem;
     font-weight: 900;
     letter-spacing: 0.5rem;
-    line-height: 1.2;
+    line-height: 1.1;
     text-transform: uppercase;
 }
 
 .bodytext {
     padding-left: 1rem;
+    padding-right: 1rem;
     color: #000;
     text-align: left;
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: 300;
     letter-spacing: 0rem;
 }
 
 .weblink {
     padding-left: 1rem;
-    color: #000;
-    text-align: left;
+    color: #6cc3cc;
+    text-align: right;
     font-size: 0.8rem;
     font-weight: 900;
     letter-spacing: 0.5rem;
@@ -271,7 +279,7 @@ image {
 }
 
 .weblink:hover {
-    color: #6cc3cc;
+    color: #000;
     transition: .25s ease-in-out;
 }
 
