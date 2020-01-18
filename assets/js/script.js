@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
-    $(".boxtext").click(function(){
-        $(".boxtext").addClass(".boxtextyellow");
+    $("#redbutton").click(function(){
+        $("#textred").fadeTo(1000, 0.5);
     });
 
 });
