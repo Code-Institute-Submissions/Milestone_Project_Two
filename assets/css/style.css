@@ -111,9 +111,21 @@ blackbox {
     font-size: 1.5rem;
     text-transform: uppercase;
     letter-spacing: 0.5rem;
+    text-decoration: none;
     cursor: pointer;
 }
 
+.boxtextyellow {
+    font-weight: 900;
+    color: yellow;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    text-decoration: none;
+    cursor: pointer;
+}
 
 /* Home page end */
 
@@ -228,7 +240,7 @@ image {
 }
 
 .map {
-    background-color: yellow;
+    background-color: darkmagenta;
     height: 700px;
     margin-top: 1rem;
 }
