@@ -85,30 +85,6 @@ body {
     color: #fff;
 }
 
-#textyellow {
-    color: yellow;
-    font-size: 5rem;
-    font-weight: 900;
-}
-
-#textred {
-    color: red;
-    font-size: 5rem;
-    font-weight: 900;
-}
-
-#redbutton {
-    background-color: red;
-    color: yellow;
-    padding: 2rem;
-}
-
-#bluebutton {
-    background-color: blue;
-    color: white;
-    padding: 2rem;
-}
-
 #intro {
     max-width: 100%;
     background-color: rgba(108, 195, 204, 0.6);

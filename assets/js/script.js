@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
     $("#redbutton").click(function(){
-        $("#textred").hide();
+        $("#textred").hide().show("#textyellow");
     });
 
 });
