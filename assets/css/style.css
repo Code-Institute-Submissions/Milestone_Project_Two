@@ -42,10 +42,10 @@ body {
     left: 0;
     padding-left: 0;
     padding-right: 0.rem;
-    padding-bottom: 3rem
-    z-index: 9999;
+    padding-bottom: 1rem;
+    z-index: 1;
     background-color: yellow;
-    margin-bottom: 1rem;
+    margin-bottom: 0rem;
 }
 
 .nav-link {
