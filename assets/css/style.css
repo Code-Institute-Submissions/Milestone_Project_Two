@@ -90,7 +90,7 @@ body {
     padding: 2rem;
 }
 
-#homecontainer {
+#home {
     height: 90vh;
 
     position: relative;
@@ -270,7 +270,7 @@ image {
 /* Map Page start */
 
 #map {
-    height: 100vh;
+    height: 90vh;
     background-color: tomato;
 }
 
@@ -283,7 +283,7 @@ image {
 
 .map {
     background-color: darkmagenta;
-    height: 100vh;
+    height: 70vh;
     margin-top: 1rem;
 }
 
@@ -329,7 +329,7 @@ image {
 
 /* Footer start */
 
-#footertest {
+#footer {
     background-color: orange;
     position: absolute;
     left: 0;
@@ -337,13 +337,6 @@ image {
     height: 4rem;
     width: 100%;
     overflow: hidden;
-}
-
-#footercontainer {
-
-    background-color: pink;
-    padding-top: 0px;
-    padding-bottom: 1rem;
 }
 
 .sociallinks {
