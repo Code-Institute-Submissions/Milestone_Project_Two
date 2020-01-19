@@ -41,15 +41,16 @@ body {
     top: 0;
     left: 0;
     padding-left: 0;
-    padding-right: 0.rem;
-    padding-bottom: 1rem;
+    padding-right: 0rem;
+    padding-bottom: 0rem;
     z-index: 1;
-    background-color: pink;
+    background-color: aquamarine;
     margin-bottom: 1rem;
 }
 
 .nav-link {
     color: #000 !important;
+    cursor: pointer;
 }
 
 .nav-link:hover {
@@ -67,28 +68,6 @@ body {
 
 
 /* Home page start */
-
-
-#textyellow {
-    color: yellow;
-    font-size: 5rem;
-    font-weight: 900;
-}
-#textred {
-    color: red;
-    font-size: 5rem;
-    font-weight: 900;
-}
-#redbutton {
-    background-color: red;
-    color: yellow;
-    padding: 2rem;
-}
-#bluebutton {
-    background-color: blue;
-    color: white;
-    padding: 2rem;
-}
 
 #home {
     height: 90vh;
@@ -108,7 +87,7 @@ body {
 }
 
 #intro {
-    max-width: 100%;
+    width: 100%;
     background-color: rgba(108, 195, 204, 0.6);
     color: #fff;
     font-size: 1.5rem;
@@ -149,6 +128,63 @@ blackbox {
     cursor: pointer;
 }
 
+#buttoneat {
+    margin: 1.5rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+	height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: responsive;
+	background-color: goldenrod;
+    cursor: pointer;
+    background-image: flex;
+}
+
+#buttoneat:hover {
+    opacity: 0.7;
+    transition: .25s ease-in-out;
+}
+
+#buttondrink {
+    margin: 1.5rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+	height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: responsive;
+	background-color: greenyellow;
+    cursor: pointer;
+    background-image: flex;
+}
+
+#buttondrink:hover {
+    opacity: 0.7;
+    transition: .25s ease-in-out;
+}
+
+#buttonstay {
+    margin: 1.5rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+	height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: responsive;
+	background-color: darkolivegreen;
+    cursor: pointer;
+    background-image: flex;
+}
+
+#buttoneat:hover {
+    opacity: 0.7;
+    transition: .25s ease-in-out;
+}
+
 /* Home page end */
 
 
@@ -170,7 +206,7 @@ blackbox {
 
 #eat {
     height: 100%;
-    background-color: violet;
+    background-color: slateblue;
 }
 
 
@@ -196,26 +232,6 @@ image {
 	background-color:#000;
     cursor: pointer;
     background-image: flex;
-}
-
-
-#buttoneat {
-    margin: 1.5rem;
-    padding-left: 0rem;
-    padding-right: 0rem;
-	height: 250px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: responsive;
-	background-color: goldenrod;
-    cursor: pointer;
-    background-image: flex;
-}
-
-#buttoneat:hover {
-    opacity: 0.7;
-    transition: .25s ease-in-out;
 }
 
 .box:hover {
@@ -270,7 +286,7 @@ image {
 /* Map Page start */
 
 #map {
-    height: 90vh;
+    height: 100%;
     background-color: tomato;
 }
 
@@ -283,8 +299,9 @@ image {
 
 .map {
     background-color: darkmagenta;
-    height: 70vh;
+    height: 80vh;
     margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .venuename {
