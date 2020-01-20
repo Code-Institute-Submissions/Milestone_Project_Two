@@ -73,6 +73,8 @@ body {
     
     background: url(../images/BTN_Home.jpg) no-repeat center center fixed; 
     background-size: cover;
+
+    max-height: 120vh;
     
     align-items: center;
     justify-content: center;
@@ -349,7 +351,7 @@ image {
 
 #footer {
     background-color: rgba(108, 195, 204, 0.6);;
-    position: absolute;
+    position: fixed;
     left: 0;
     bottom: 0;
     height: 4rem;
@@ -358,25 +360,24 @@ image {
 }
 
 .sociallinks {
-    padding-top: 1rem;
+    padding-top: 0.5rem;
     padding-bottom: 1rem;
 }
 
 .sociallinks li a i {
     width: 40px;
     height: 40px;
-    padding: 20px 10px;
+    padding: 1.5rem;
     border-radius: 50%;
-    font-size: 25px;
-    line-height: 4px;
+    font-size: 2rem;
+    line-height: .25rem;
     text-align: center;
     color: #fff;
-    background: #6cc3cc;
 
 }
 
 .sociallinks li a i:hover {
-    background: #000;
+    color: #000;
 }
 
 
