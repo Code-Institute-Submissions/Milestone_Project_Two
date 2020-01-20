@@ -148,9 +148,13 @@
          we won the Number One spot of the Brighton Top 20 in 2016 & 2017.</p>
         <a class="weblink" href="https://64degrees.co.uk/" target="_blank">WEBSITE</a>
         </div>
-           <div class="col-12 col-md-8 col-lg-9 map">MAP TO GO IN HERE</div>
+           <div class="col-12 col-md-8 col-lg-9 map" id="googlemapeat01">
+           </div>
+           
         </div>
   </div>
+
+  
 
 </section>
 
@@ -355,8 +359,28 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="assets/js/script.js"></script>
-
+  
 <!-- Bootstrap JavaScript end -->
+
+<!-- Google Maps start -->
+
+  <script> 
+    function initMap(){
+        let googlemapeat01 = new google.maps.Map(document.getElementById("googlemapeat01"), {
+            zoom: 15,
+            center: {
+                lat: 50.821910,
+                lng: -0.137354
+            }
+        });
+    }
+  </script>
+
+  <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBo1kJEplYhkNMdllqP9PBPpZTggeOYWpo&callback=initMap"></script>
+
+<!-- Google Maps end -->
+
     
 </body>
 </html>
