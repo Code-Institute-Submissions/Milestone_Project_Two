@@ -40,11 +40,8 @@ body {
     width: 98.5vw;
     top: 0;
     left: 0;
-    padding-left: 0;
-    padding-right: 0rem;
-    padding-bottom: 0rem;
     z-index: 1;
-    background-color: aquamarine;
+    background-color: #fff;
     margin-bottom: 1rem;
 }
 
@@ -90,9 +87,12 @@ body {
     width: 100%;
     background-color: rgba(108, 195, 204, 0.6);
     color: #fff;
+    font-weight: 900;
     font-size: 1.5rem;
     padding: 1rem;
     margin-bottom: 10rem;
+    align-items: center;
+    justify-content: center;
 }
 
 blackbox {
@@ -105,7 +105,7 @@ blackbox {
 
 .boxtext {
     font-weight: 900;
-    color: #6cc3cc;
+    color: #fff;
     justify-content: center;
     text-align: center;
     font-size: 1.5rem;
@@ -137,7 +137,7 @@ blackbox {
     justify-content: center;
     align-items: center;
     width: responsive;
-	background-color: goldenrod;
+	background-color: rgba(0, 0, 0, 0.7);
     cursor: pointer;
     background-image: flex;
 }
@@ -156,7 +156,7 @@ blackbox {
     justify-content: center;
     align-items: center;
     width: responsive;
-	background-color: greenyellow;
+	background-color: rgba(0, 0, 0, 0.7);;
     cursor: pointer;
     background-image: flex;
 }
@@ -175,7 +175,7 @@ blackbox {
     justify-content: center;
     align-items: center;
     width: responsive;
-	background-color: darkolivegreen;
+	background-color: rgba(0, 0, 0, 0.7);;
     cursor: pointer;
     background-image: flex;
 }
@@ -206,7 +206,7 @@ blackbox {
 
 #eat {
     height: 100%;
-    background-color: slateblue;
+    background-color: #fff;
 }
 
 
@@ -347,7 +347,7 @@ image {
 /* Footer start */
 
 #footer {
-    background-color: orange;
+    background-color: rgba(108, 195, 204, 0.6);;
     position: absolute;
     left: 0;
     bottom: 0;
