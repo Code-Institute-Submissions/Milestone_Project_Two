@@ -147,10 +147,10 @@
          local produce. Every year since opening we were awarded a Bib Gourmand by Michelin and 
          we won the Number One spot of the Brighton Top 20 in 2016 & 2017.</p>
         <a class="weblink" href="https://64degrees.co.uk/" target="_blank">WEBSITE</a>
+         </div>
+           <div class="col-12 col-md-8 col-lg-9 map" id="googlemapeat01">cccc</div>   
         </div>
-           <div class="col-12 col-md-8 col-lg-9 map" id="googlemapeat01"></div>  
             
-        </div>
   </div>
 
   
@@ -365,24 +365,31 @@
 
 <script> 
     function initMap(){
-        let googlemapeat01 = new google.maps.Map(document.getElementById("googlemapeat01"), {
-            zoom: 14,
+        const map = new google.maps.Map(document.getElementById("googlemapeat01"), {
+            zoom: 16,
             center: {
                 lat: 50.821910,
-                lng: -0.137354
+                lng: -0.140770  /* 64 Degrees */
             }
         });
 
-        let labels = "ABCDEFGHIJKLMNOPQRSTUVXYZ";
+        const labels = "ABCDEFGHIJKLMNOPQRSTUVXYZ";
 
-        let locations = [
-            { lat: 50.822010, lng: -0.140770 }; /* 64 Degrees*/
-            { lat: 50.825371, lng: -0.138480 }; /* Chilli Pickle */
-            { lat: 50.827030, lng: -0.136340 }; /* Issac At */
-            { lat: 50.828442, lng: -0.135370 }; /* Meatliquor */
-            { lat: 50.819600, lng: -0.127810}; /* Metro Deco */
-            { lat: 50.821079, lng: -0.146990 }; /* Salt Room */
-        ]
+        const locations = [
+            { lat: 50.822010, lng: -0.140770 }, /* 64 Degrees */
+
+        ];
+
+        const markers = locations.map(function(location, i) {
+            return new google.maps.Marker({
+                position: location,
+                label: labels[i % labels.lenght]
+            });
+        });
+
+            const markerCluster = new MarkerClusterer(map, markers,
+            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
+
     }
   </script>
 
@@ -392,6 +399,15 @@
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBo1kJEplYhkNMdllqP9PBPpZTggeOYWpo&callback=initMap"></script>
 
 <!-- Google Maps end -->
+
+<!--
+                
+            { lat: 50.825371, lng: -0.138480 }, /* Chilli Pickle */
+            { lat: 50.827030, lng: -0.136340 }, /* Issac At */
+            { lat: 50.828442, lng: -0.135370 }, /* Meatliquor */
+            { lat: 50.819600, lng: -0.127810 }, /* Metro Deco */
+            { lat: 50.821079, lng: -0.146990 }, /* Salt Room */
+-->
 
     
 </body>
