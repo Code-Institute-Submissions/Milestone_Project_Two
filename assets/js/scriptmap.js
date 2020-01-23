@@ -1,7 +1,7 @@
 /* Eat Map 01 Start */
 
 function initMap(){
-        const googlemapeat01 = new google.maps.Map(document.getElementById("googlemapeat01"), {
+        const map = new google.maps.Map(document.getElementById("googlemapeat01"), {
             zoom: 16,
             center: {
                 lat: 50.821910,
@@ -16,7 +16,7 @@ function initMap(){
 
         ];
 
-        const markers = locations.googlemapeat01(function(location, i) {
+        const markers = locations.map(function(location, i) {
             return new google.maps.Marker({
                 position: location,
                 label: labels[i % labels.lenght]
@@ -26,40 +26,8 @@ function initMap(){
             const markerCluster = new MarkerClusterer(map, markers,
             {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
 
-    }
+    } 
 
     /* Eat Map 01 end */
 
 
-    /* Eat Map 02 Start 
-
-
-    function initMap(){
-        const googlemapeat02 = new google.maps.Map(document.getElementById("googlemapeat02"), {
-            zoom: 16,
-            center: {
-                lat: 50.825371,
-                lng: -0.138480  
-            }
-        });
-
-        const labels = "ABCDEFGHIJKLMNOPQRSTUVXYZ";
-
-        const locations = [
-            { lat: 50.825371, lng: -0.138480 },  
-
-        ];
-
-        const markers = locations.googlemapeat02(function(location, i) {
-            return new google.maps.Marker({
-                position: location,
-                label: labels[i % labels.lenght]
-            });
-        });
-
-            const markerCluster = new MarkerClusterer(map, markers,
-            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
-
-    }
-
-    */
