@@ -287,6 +287,20 @@ image {
 }
 
 
+.backbutton {
+    background-color: #000;
+    color: #6cc3cc;
+     margin-top: 1rem;
+    padding-left: 0.75rem;
+    padding-right: 0.25rem;
+    font-weight: 900;
+    text-align: center;
+    font-size: 0.5rem;
+    letter-spacing: 0.5rem;
+    line-height: 1.4rem;
+    text-transform: uppercase;
+}
+
 /* Review Pages end */
 
 
@@ -299,7 +313,7 @@ image {
 }
 
 .reviewbox {
-    background-color: yellow;
+    background-color: none;
     height: 100%;
     margin-top: 1rem;
 
