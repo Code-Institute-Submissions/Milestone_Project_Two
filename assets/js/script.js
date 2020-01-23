@@ -73,6 +73,22 @@ $(document).ready(function() {
     $("#footer").hide();
     });
 
+    /* Show Eat Page */
+    $(".backbuttoneat").click(function(){
+    $("#eat").show();
+    $("#home").hide();
+    $("#mapeat01").hide();
+    $("#mapeat02").hide();
+    $("#mapeat03").hide();
+    $("#mapeat04").hide();
+    $("#mapeat05").hide();
+    $("#mapeat06").hide();
+    $("#mapeat07").hide();
+    $("#mapeat08").hide();
+    $("#mapeat09").hide();
+    $("#footer").hide();
+    });
+
 /* Show mapeat01 */
     $("#eat01").click(function(){
     $("#mapeat01").show();
@@ -216,6 +232,10 @@ $(document).ready(function() {
     $("#eat").hide();
     $("#footer").hide();
     });
+
+
+
+
 
 /* ******* EAT END ******** */
 
