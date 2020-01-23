@@ -71,17 +71,20 @@ body {
 /* Home page start */
 
 #home {
-    height: 90vh;
+    height: 100vh;
 
     position: relative;
     
     background: url(../images/BTN_Home.jpg) no-repeat center center fixed; 
     background-size: cover;
 
-    max-height: 120vh;
+    max-height: 200vh;
     
     align-items: center;
     justify-content: center;
+
+    top: 0;
+    left: 0;
     
 }
 
@@ -90,11 +93,11 @@ body {
 }
 
 #intro {
-    width: 98.5vw;
-    background-color: rgba(108, 195, 204, 0.6);
-    color: #fff;
+    width: 96.75vw;
+    background-color: none;
+    color: #6cc3cc;
     font-weight: 900;
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding: 1rem;
     left: 0;
     margin-left: 0;
@@ -124,28 +127,17 @@ blackbox {
 }
 
 
-.boxtextyellow {
-    font-weight: 900;
-    color: yellow;
-    justify-content: center;
-    text-align: center;
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    letter-spacing: 0.5rem;
-    text-decoration: none;
-    cursor: pointer;
-}
-
 #buttoneat {
     margin: 1.5rem;
+    padding-top: 0.5rem;
     padding-left: 0rem;
     padding-right: 0rem;
-	height: 250px;
+	height: 180px;
     display: flex;
     justify-content: center;
     align-items: center;
     width: responsive;
-	background-color: rgba(0, 0, 0, 0.7);
+	background-color: rgba(0, 0, 0, 0.7);;
     cursor: pointer;
     background-image: flex;
 }
@@ -157,9 +149,10 @@ blackbox {
 
 #buttondrink {
     margin: 1.5rem;
+    padding-top: 0.5rem;
     padding-left: 0rem;
     padding-right: 0rem;
-	height: 250px;
+	height: 180px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -176,9 +169,10 @@ blackbox {
 
 #buttonstay {
     margin: 1.5rem;
+    padding-top: 0.5rem;
     padding-left: 0rem;
     padding-right: 0rem;
-	height: 250px;
+	height: 180px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -406,3 +400,23 @@ image {
 
 
 /* Footer end */
+
+
+/*  
+
+#buttondrink {
+    margin: 1.5rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+	height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: responsive;
+	background-color: rgba(0, 0, 0, 0.7);;
+    cursor: pointer;
+    background-image: flex;
+}
+
+
+*/
