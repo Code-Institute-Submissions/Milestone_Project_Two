@@ -290,8 +290,10 @@ image {
 .backbutton {
     background-color: #000;
     color: #6cc3cc;
-     margin-top: 1rem;
-    padding-left: 0.75rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-left: 0.75rem;1
     padding-right: 0.25rem;
     font-weight: 900;
     text-align: center;
@@ -350,6 +352,9 @@ image {
 
 .weblink {
     padding-left: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 3rem;
     color: #6cc3cc;
     text-align: right;
     font-size: 0.8rem;
