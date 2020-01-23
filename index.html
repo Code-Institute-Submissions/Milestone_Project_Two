@@ -148,7 +148,7 @@
          we won the Number One spot of the Brighton Top 20 in 2016 & 2017.</p>
         <a class="weblink" href="https://64degrees.co.uk/" target="_blank">WEBSITE</a>
          </div>
-           <div class="col-12 col-md-8 col-lg-9 map" id="googlemapeat01">cccc</div>   
+           <div class="col-12 col-md-8 col-lg-9 map" id="googlemapeat01"></div>   
         </div>
             
   </div>
@@ -358,39 +358,14 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="assets/js/script.js"></script>
+  <script type="text/javascript" src="assets/js/scriptmap.js"></script>
   
 <!-- Bootstrap JavaScript end -->
 
 <!-- Google Maps EAT start -->
 
 <script> 
-    function initMap(){
-        const map = new google.maps.Map(document.getElementById("googlemapeat01"), {
-            zoom: 16,
-            center: {
-                lat: 50.821910,
-                lng: -0.140770  /* 64 Degrees */
-            }
-        });
-
-        const labels = "ABCDEFGHIJKLMNOPQRSTUVXYZ";
-
-        const locations = [
-            { lat: 50.822010, lng: -0.140770 }, /* 64 Degrees */
-
-        ];
-
-        const markers = locations.map(function(location, i) {
-            return new google.maps.Marker({
-                position: location,
-                label: labels[i % labels.lenght]
-            });
-        });
-
-            const markerCluster = new MarkerClusterer(map, markers,
-            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
-
-    }
+    
   </script>
 
 <!-- Google Maps EAT ends -->
