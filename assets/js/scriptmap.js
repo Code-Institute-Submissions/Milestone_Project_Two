@@ -1,18 +1,18 @@
-/* Eat Map 01 Start */
+/* Eat Map 
 
 function initMap(){
         const map = new google.maps.Map(document.getElementById("googlemapeat01"), {
             zoom: 16,
             center: {
                 lat: 50.821910,
-                lng: -0.140770  /* 64 Degrees */
+                lng: -0.140770  
             }
         });
 
         const labels = "ABCDEFGHIJKLMNOPQRSTUVXYZ";
 
         const locations = [
-            { lat: 50.822010, lng: -0.140770 }, /* 64 Degrees */
+            { lat: 50.822010, lng: -0.140770 }, 
 
         ];
 
@@ -28,6 +28,24 @@ function initMap(){
 
     } 
 
-    /* Eat Map 01 end */
+    /* old Eat Map 01 end */
 
 
+/* Eat Map 01 start */
+
+function initMap() {
+  const myLatLng = {lat: 50.821910, lng: -0.140770};
+
+  const map = new google.maps.Map(document.getElementById('googlemapeat01'), {
+    zoom: 16,
+    center: myLatLng
+  });
+
+  const marker = new google.maps.Marker({
+    position: myLatLng,
+    map: map,
+    title: '64 Degrees'
+  });
+}
+
+/* Eat Map 01 start */
