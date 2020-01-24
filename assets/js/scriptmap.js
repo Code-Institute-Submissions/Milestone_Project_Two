@@ -34,18 +34,21 @@ function initMap(){
 /* Eat Map 01 start */
 
 function initMap() {
-  const myLatLng = {lat: 50.821910, lng: -0.140770};
+  const googlemapeat01 = {lat: 50.821910, lng: -0.140770};
 
   const map = new google.maps.Map(document.getElementById('googlemapeat01'), {
     zoom: 16,
-    center: myLatLng
+    center: googlemapeat01
   });
 
   const marker = new google.maps.Marker({
-    position: myLatLng,
+    position: googlemapeat01,
     map: map,
     title: '64 Degrees'
   });
 }
 
-/* Eat Map 01 start */
+/* Eat Map 01 end */
+
+
+
