@@ -1,41 +1,45 @@
 $(document).ready(function() {
 
-// ----------- NAV BAR ---------
+/* ----------- NAV BAR START -----------  */
 
-// On load, hide all sections apart from 'home'
+/* ------ On load, hide all sections apart from 'home'  ------ */ 
+
 $(function() {
     $("#eat, #drink, #stay, #mapeat01").hide();
 
-    // When each nav li is clicked, hide all sections.
+/* ------ Hide sections ------ */
+
 		$("#navhome, #naveat, #navdrink, #navstay").on("click", function () {
 			$("#home, #eat, #drink, #stay").hide();
 
-			// Remove the 'active' class from all li elements.
-			$("#navhome, #naveat, #navdrink, #stay").removeClass('active');
+/* ------ Remove active class ------ */
 
-			// If/else statements to check which li was clicked,
-			// apply 'active' class only to that li, and show the corresponding section.
-			if ($(this).attr("id") == "navhome") {
-				$("#navhome").addClass('active');
-                $("#home").show();
+		$("#navhome, #naveat, #navdrink, #stay").removeClass('active');
 
-            } else if ($(this).attr("id") == "navbarbrand") {
-				$("#navhome").addClass('active');
-                $("#home").show();
+// If/else statements to check which li was clicked,
+// apply 'active' class only to that li, and show the corresponding section.
+		if ($(this).attr("id") == "navhome") {
+			$("#navhome").addClass('active');
+            $("#home").show();
 
-			} else if ($(this).attr("id") == "naveat") {
-				$("#naveat").addClass('active');
-                $("#eat").show();
+        } else if ($(this).attr("id") == "navbarbrand") {
+			$("#navhome").addClass('active');
+            $("#home").show();
 
-			} else if ($(this).attr("id") == "navdrink") {
-				$("#navdrink").addClass('active');
-                $("#drink").show();
+		} else if ($(this).attr("id") == "naveat") {
+			$("#naveat").addClass('active');
+            $("#eat").show();
+
+		} else if ($(this).attr("id") == "navdrink") {
+			$("#navdrink").addClass('active');
+            $("#drink").show();
                 
-			} else if ($(this).attr("id") == "navstay") {
-				$("#navstay").addClass('active');
-                $("#stay").show();
+		} else if ($(this).attr("id") == "navstay") {
+			$("#navstay").addClass('active');
+             $("#stay").show();
             }
         });
 	});
 });
 
+// ----------- NAV BAR END ----------- //
