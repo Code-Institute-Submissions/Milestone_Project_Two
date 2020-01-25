@@ -34,7 +34,6 @@ $(function() {
             if ($(this).attr("id") == "navbarbrand") {
 				$("#navhome").addClass('active');
                 $("#home").show();
-                $("#footer").show();
 			} else if ($(this).attr("id") == "naveat") {
 				$("#naveat").addClass('active');
 				$("#eat").show();
