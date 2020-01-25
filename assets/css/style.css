@@ -71,14 +71,14 @@ body {
 /* Home page start */
 
 #home {
-    height: 100vh;
+    height: 90vh;
 
     position: relative;
     
     background: url(../images/BTN_Home.jpg) no-repeat center center fixed; 
     background-size: cover;
 
-    max-height: 200vh;
+    max-height: 100vh;
     
     align-items: center;
     justify-content: center;
@@ -375,6 +375,7 @@ image {
     bottom: 0;
     height: 4rem;
     width: 100%;
+    z-index: 1;
     overflow: hidden;
 }
 
