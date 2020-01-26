@@ -58,7 +58,7 @@ $(function() {
             } else if ($(this).attr("id") == "buttonstay") {
                 $("#navstay").addClass('active');
                 $("#stay").show();
-            });
+            };
         });
 });
     
@@ -75,7 +75,7 @@ $(function() {
 
 
 // END. NEED THIS AT END
-});
+;
 
 /* --
 $("#buttoneat").click(function(){

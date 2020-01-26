@@ -183,7 +183,7 @@ blackbox {
     background-image: flex;
 }
 
-#buttoneat:hover {
+#buttonstay:hover {
     opacity: 0.7;
     transition: .25s ease-in-out;
 }
