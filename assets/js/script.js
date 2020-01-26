@@ -9,72 +9,72 @@ $(function() {
 
 /* ------ Hide sections ------ */
 
-		$("#navhome, #naveat, #navdrink, #navstay").click(function() {
-			$("#home, #eat, #drink, #stay").hide();
+	$("#navhome, #naveat, #navdrink, #navstay").click(function() {
+		$("#home, #eat, #drink, #stay, #mapeat01").hide();
 
 /* ------ Remove active class ------ */
 
-		$("#navhome, #naveat, #navdrink, #stay").removeClass("active");
+	$("#navhome, #naveat, #navdrink, #stay").removeClass("active");
 
 /* ------ If/else statements to check which li was clicked ------ */
 /* ------ apply 'active' class only to that li, and show the corresponding section ------ */
 
-		if ($(this).attr("id") === "navhome") {
-			$("#navhome").addClass("active");
-            $("#home").show();
+	if ($(this).attr("id") === "navhome") {
+		$("#navhome").addClass("active");
+        $("#home").show();
 
-        } else if ($(this).attr("id") === "navbarbrand") {
-			$("#navhome").addClass("active");
-            $("#home").show();
+    } else if ($(this).attr("id") === "navbarbrand") {
+		$("#navhome").addClass("active");
+        $("#home").show();
 
-		} else if ($(this).attr("id") === "naveat") {
-			$("#naveat").addClass("active");
-            $("#eat").show();
+	} else if ($(this).attr("id") === "naveat") {
+		$("#naveat").addClass("active");
+        $("#eat").show();
 
-		} else if ($(this).attr("id") === "navdrink") {
-			$("#navdrink").addClass("active");
-            $("#drink").show();
+	} else if ($(this).attr("id") === "navdrink") {
+		$("#navdrink").addClass("active");
+        $("#drink").show();
                 
-		} else if ($(this).attr("id") === "navstay") {
-			$("#navstay").addClass("active");
-             $("#stay").show();
-            }
-        });
+	} else if ($(this).attr("id") === "navstay") {
+		$("#navstay").addClass("active");
+        $("#stay").show();
+        }
+    });
 });
 
 /* ----------- NAV BAR END -----------  */
 
 /* ----------- HOME PAGE BOXES START   ----------- */
 
-        $("#buttoneat, buttondrink, buttonstay").click(function() {
-            $("#home, #eat, #drink, #stay").hide();
+    $("#buttoneat, buttondrink, buttonstay").click(function() {
+        $("#home, #eat, #drink, #stay").hide();
 
-            if ($(this).attr("id") === "buttoneat") {
-                $("#naveat").addClass("active");
-                $("#eat").show();
+        if ($(this).attr("id") === "buttoneat") {
+            $("#naveat").addClass("active");
+            $("#eat").show();
 
-            } else if ($(this).attr("id") === "buttondrink") {
-                $("#navrink").addClass("active");
-                $("#drink").show();
+        } else if ($(this).attr("id") === "buttondrink") {
+            $("#navrink").addClass("active");
+            $("#drink").show();
                 
-            } else if ($(this).attr("id") === "buttonstay") {
-                $("#navstay").addClass("active");
-                $("#stay").show();
-            };
-        });
+        } else if ($(this).attr("id") === "buttonstay") {
+            $("#navstay").addClass("active");
+            $("#stay").show();
+        };
+    });
 });
     
 
 /* ----------- HOME PAGE BOXES END ----------- */
 
 
-        $("#eat01").click(function() {
-            $("#home, #eat, #drink, #stay").hide();
+    $("#eat01").click(function() {
+        $("#home, #eat, #drink, #stay").hide();
 
-            if ($(this).attr("id") === "eat01") {
-                $("#mapeat01").show();
-                   };
-        });
+        if ($(this).attr("id") === "eat01") {
+            $("#mapeat01").show();
+        };
+    });
     
 
 

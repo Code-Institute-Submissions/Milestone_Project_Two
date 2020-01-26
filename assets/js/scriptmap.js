@@ -20,7 +20,7 @@ function initMap(){
             { lat: 50.821079, lng: -0.146990 }, // Salt Room 
             { lat: 50.821388, lng: -0.141080 }, // Food For Friends 
             { lat: 50.822121, lng: -0.143370 }, // Coal Shed 
-            { lat: 50.819450, lng: -0.122070 } // Ginger Dog 
+            { lat: 50.820845, lng: -0.136460 } // VIP Pizza 
         ];
 
         const markers = locations.map(function(location, i) {
