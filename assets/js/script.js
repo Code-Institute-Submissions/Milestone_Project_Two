@@ -9,7 +9,7 @@ $(function() {
 
 /* ------ Hide sections ------ */
 
-		$("#navhome, #naveat, #navdrink, #navstay").on("click", function () {
+		$("#navhome, #naveat, #navdrink, #navstay").click(function() {
 			$("#home, #eat, #drink, #stay").hide();
 
 /* ------ Remove active class ------ */
@@ -44,17 +44,17 @@ $(function() {
 
 /* ----------- HOME PAGE BOXES START ----------- */
 
-        $("#buttoneat, buttondrink, buttonstay").on("click", function () {
+        $("#buttoneat, buttondrink, buttonstay").click(function() {
             $("#home, #eat, #drink, #stay").hide();
 
             if ($(this).attr("id") == "buttoneat") {
                 $("#naveat").addClass('active');
                 $("#eat").show();
-
+           
             } else if ($(this).attr("id") == "buttondrink") {
-                $("#navdrink").addClass('active');
+                $("#navrink").addClass('active');
                 $("#drink").show();
-
+    
             } else if ($(this).attr("id") == "buttonstay") {
                 $("#navstay").addClass('active');
                 $("#stay").show();
@@ -66,7 +66,14 @@ $(function() {
 /* ----------- HOME PAGE BOXES END ----------- */
 
 
+        $("#eat01").click(function() {
+            $("#home, #eat, #drink, #stay").hide();
 
+            if ($(this).attr("id") == "eat01") {
+                $("#naveat").addClass('active');
+                $("#mapeat01").show();
+                   };
+        });
 
 
 
