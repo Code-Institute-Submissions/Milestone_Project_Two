@@ -16,8 +16,8 @@ $(function() {
 
 		$("#navhome, #naveat, #navdrink, #stay").removeClass('active');
 
-// If/else statements to check which li was clicked,
-// apply 'active' class only to that li, and show the corresponding section.
+/* ------ If/else statements to check which li was clicked ------ */
+/* ------ apply 'active' class only to that li, and show the corresponding section ------ */
 		if ($(this).attr("id") == "navhome") {
 			$("#navhome").addClass('active');
             $("#home").show();
@@ -39,7 +39,46 @@ $(function() {
              $("#stay").show();
             }
         });
-	});
 });
 
-// ----------- NAV BAR END ----------- //
+
+/* ----------- HOME PAGE BOXES START ----------- */
+
+        $("#buttoneat, buttondrink, buttonstay").on("click", function () {
+            $("#home, #eat, #drink, #stay").hide();
+
+            if ($(this).attr("id") == "buttoneat") {
+                $("#naveat").addClass('active');
+                $("#eat").show();
+
+            } else if ($(this).attr("id") == "buttondrink") {
+                $("#navdrink").addClass('active');
+                $("#drink").show();
+
+            } else if ($(this).attr("id") == "buttonstay") {
+                $("#navstay").addClass('active');
+                $("#stay").show();
+            });
+        });
+});
+    
+
+/* ----------- HOME PAGE BOXES END ----------- */
+
+
+
+
+
+
+
+
+
+
+// END. NEED THIS AT END
+});
+
+/* --
+$("#buttoneat").click(function(){
+        $("#eat").show();
+    })
+*/
