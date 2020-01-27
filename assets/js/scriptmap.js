@@ -11,6 +11,7 @@ function initMap(){
 
         const labels = "ABCDEFGHIJKLMNOPQRSTUVXYZ";
 
+        /*
         const locations = [
             { lat: 50.822010, lng: -0.140770 }, // 64 Degrees
             { lat: 50.825371, lng: -0.138480 }, // Chilli Pickle
@@ -22,7 +23,7 @@ function initMap(){
             { lat: 50.822121, lng: -0.143370 }, // Coal Shed 
             { lat: 50.820845, lng: -0.136460 } // VIP Pizza 
         ];
-
+*/
         const markers = locations.map(function(location, i) {
             return new google.maps.Marker({
                 position: location,
