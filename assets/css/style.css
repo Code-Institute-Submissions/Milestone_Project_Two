@@ -288,7 +288,7 @@ image {
     margin-top: 1rem;
     margin-left: 1rem;
     margin-right: 1rem;
-    padding-left: 0.75rem;1
+    padding-left: 0.75rem;
     padding-right: 0.25rem;
     font-weight: 900;
     text-align: center;
@@ -297,6 +297,39 @@ image {
     line-height: 1.4rem;
     text-transform: uppercase;
 }
+
+.backbuttondrink {
+    background-color: #000;
+    color: #6cc3cc;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-left: 0.75rem;
+    padding-right: 0.25rem;
+    font-weight: 900;
+    text-align: center;
+    font-size: 0.5rem;
+    letter-spacing: 0.5rem;
+    line-height: 1.4rem;
+    text-transform: uppercase;
+}
+
+.backbuttonstay {
+    background-color: #000;
+    color: #6cc3cc;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-left: 0.75rem;
+    padding-right: 0.25rem;
+    font-weight: 900;
+    text-align: center;
+    font-size: 0.5rem;
+    letter-spacing: 0.5rem;
+    line-height: 1.4rem;
+    text-transform: uppercase;
+}
+
 
 /* Review Pages end */
 
