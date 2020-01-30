@@ -21,4 +21,13 @@ Each button then takes you to a large map showing the location of the venue and 
 The footer is only visible on the HOME page so as not to crowd the simplicity of the other pages.
 
 ## User Story
-As a user, I want to quickly and easily find interesting and out of the way places to go in Brighton. I may be coming down just for the day, or staying for a weekend. I don't want to be stuck with the hordes of other day-trippers and toursist, I want to go where the locals go and see the 'real' Brighton. 
+
+As a user, I want to quickly and easily find interesting and out of the way places to go in Brighton. 
+
+I want to feel straight away that this site is my kind of style and I can trust it's recommendations.
+
+**User 1: Day tripper:** The user here is only going to be in town for a day, so will want somewhere fun and interesting to have some lunch or dinner, and a few drinks before heading home. They won't want to waste time going places that aren't great. On the site they can discover some interesting places to really make the most of their day.
+
+**User 2: Weekender:** The user here is down for a few days over the weekend. Having never been to Brighton before they are looking for an interesting experience to remember. 
+
+I may be coming down just for the day, or staying for a weekend. I don't want to be stuck with the hordes of other day-trippers and toursist, I want to go where the locals go and see the 'real' Brighton. 
