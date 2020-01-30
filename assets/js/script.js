@@ -111,15 +111,6 @@ function initMap(aMap){
   },
   {
     "featureType": "administrative.land_parcel",
-    "elementType": "labels",
-    "stylers": [
-      {
-        "visibility": "off"
-      }
-    ]
-  },
-  {
-    "featureType": "administrative.land_parcel",
     "elementType": "labels.text.fill",
     "stylers": [
       {
@@ -133,15 +124,6 @@ function initMap(aMap){
     "stylers": [
       {
         "color": "#eeeeee"
-      }
-    ]
-  },
-  {
-    "featureType": "poi",
-    "elementType": "labels.text",
-    "stylers": [
-      {
-        "visibility": "off"
       }
     ]
   },
@@ -210,15 +192,6 @@ function initMap(aMap){
   },
   {
     "featureType": "road.local",
-    "elementType": "labels",
-    "stylers": [
-      {
-        "visibility": "off"
-      }
-    ]
-  },
-  {
-    "featureType": "road.local",
     "elementType": "labels.text.fill",
     "stylers": [
       {
@@ -250,9 +223,6 @@ function initMap(aMap){
     "stylers": [
       {
         "color": "#6cc3cc"
-      },
-      {
-        "weight": 5.5
       }
     ]
   },
@@ -372,13 +342,13 @@ function initMap(aMap){
 
 /* END. NEED THIS AT END */
     
-// var object1 = {"name":"Pickled Ginger", "about": "something about", "lat":50, "lng":70}
+// var object1 = {"name":"64 Degrees", "about": "something about", "lat":50.821695, "lng":-0.140899}
 
 //  function clicked_object(whatObject){
             
-//             locations = [{ lat: whatObject["lat"], lng: whatObject["long"] }] // Chilli Pickle
-//             initMap("googlemapeat02");
-//             $("#mapeat02").show();
+//             locations = [{ lat: whatObject["lat"], lng: whatObject["lng"] }] // 64 Degrees
+//             initMap("googlemapeat01");
+//             $("#mapeat01").show();
 //             document.getElementById("header").innerHTML = whatObject["name"];
 
 //     }
@@ -388,3 +358,4 @@ function initMap(aMap){
 //         clicked_object(object1);
 
 //     });
+
