@@ -32,7 +32,7 @@ I want to feel straight away that this site is my kind of style and I can trust 
 
 **User 2: Local resident:** The user here is a resident of the city, that wants to find somewhere new that they just didn't know about. 
 
-By having a funky, fun image on the **HOME** page, the user can feel that this is going to be a site with a cool vibe, which reflects the vibe of the city. If they want to tap into the feel of the city and get under its skin, this will be the place to go. The stylish logo and the contempory typography also give a feel of Brighton.
+By having a funky, fun image on the **HOME** page, the user can feel that this is going to be a site with a cool vibe, which reflects the vibe of the city. If they want to tap into the feel of the city and get under its skin, this will be the place to go. The stylish logo and the contempory typography also give a feel of Brighton. The strap line of "YOUR GUIDE TO THE LOCAL SIDE OF BRIGHTON" tells the user just what the purpose of the site is. To make you feel like you're in-the-know. 
 
 The following click through pages follow the stylish, simple theme. Picking up the typograhy and colour. 
 
