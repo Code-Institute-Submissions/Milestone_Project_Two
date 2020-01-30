@@ -111,15 +111,6 @@ function initMap(aMap){
   },
   {
     "featureType": "administrative.land_parcel",
-    "elementType": "labels",
-    "stylers": [
-      {
-        "visibility": "off"
-      }
-    ]
-  },
-  {
-    "featureType": "administrative.land_parcel",
     "elementType": "labels.text.fill",
     "stylers": [
       {
@@ -133,15 +124,6 @@ function initMap(aMap){
     "stylers": [
       {
         "color": "#eeeeee"
-      }
-    ]
-  },
-  {
-    "featureType": "poi",
-    "elementType": "labels.text",
-    "stylers": [
-      {
-        "visibility": "off"
       }
     ]
   },
@@ -210,15 +192,6 @@ function initMap(aMap){
   },
   {
     "featureType": "road.local",
-    "elementType": "labels",
-    "stylers": [
-      {
-        "visibility": "off"
-      }
-    ]
-  },
-  {
-    "featureType": "road.local",
     "elementType": "labels.text.fill",
     "stylers": [
       {
@@ -249,10 +222,7 @@ function initMap(aMap){
     "elementType": "geometry",
     "stylers": [
       {
-        "color": "#6cc3cc"
-      },
-      {
-        "weight": 5.5
+        "color": "#c9c9c9"
       }
     ]
   },
