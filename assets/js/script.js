@@ -1,5 +1,9 @@
 $(document).ready(function() {
 
+
+
+
+    
 /* ------ On load, hide all sections apart from 'home'  ------ */ 
 $(function() {
     $("#eat, #drink, #stay, #mapeat01, #mapeat02, #mapeat03, #mapeat04, #mapeat05, #mapeat06, #mapeat07, #mapeat08, #mapeat09").hide();
@@ -69,9 +73,171 @@ $(function() {
 
 
 /* XXXXXXXXXXXXX MAPS START XXXXXXXXXXXXX */
-function initMap(){
-        const map = new google.maps.Map(document.getElementById("googlemapeat01"), {
+function initMap(aMap){
+        const map = new google.maps.Map(document.getElementById(aMap), {
             zoom: 14,
+            styles: [
+  {
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#f5f5f5"
+      }
+    ]
+  },
+  {
+    "elementType": "labels.icon",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#616161"
+      }
+    ]
+  },
+  {
+    "elementType": "labels.text.stroke",
+    "stylers": [
+      {
+        "color": "#f5f5f5"
+      }
+    ]
+  },
+  {
+    "featureType": "administrative.land_parcel",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#bdbdbd"
+      }
+    ]
+  },
+  {
+    "featureType": "poi",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#eeeeee"
+      }
+    ]
+  },
+  {
+    "featureType": "poi",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#757575"
+      }
+    ]
+  },
+  {
+    "featureType": "poi.park",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#e5e5e5"
+      }
+    ]
+  },
+  {
+    "featureType": "poi.park",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#9e9e9e"
+      }
+    ]
+  },
+  {
+    "featureType": "road",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#ffffff"
+      }
+    ]
+  },
+  {
+    "featureType": "road.arterial",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#757575"
+      }
+    ]
+  },
+  {
+    "featureType": "road.highway",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#dadada"
+      }
+    ]
+  },
+  {
+    "featureType": "road.highway",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#616161"
+      }
+    ]
+  },
+  {
+    "featureType": "road.local",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#9e9e9e"
+      }
+    ]
+  },
+  {
+    "featureType": "transit.line",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#e5e5e5"
+      }
+    ]
+  },
+  {
+    "featureType": "transit.station",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#eeeeee"
+      }
+    ]
+  },
+  {
+    "featureType": "water",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#c9c9c9"
+      }
+    ]
+  },
+  {
+    "featureType": "water",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#9e9e9e"
+      }
+    ]
+  }
+]
+
+            ,
             center: {
                 lat: 50.827362,
                 lng: -0.140730  
@@ -92,15 +258,16 @@ function initMap(){
         $("#home, #eat, #drink, #stay").hide();
         if ($(this).attr("id") === "eat01") {
             locations = [{ lat: 50.821695, lng: -0.140899 }] // 64 Degrees
-            initMap()
+            initMap("googlemapeat01");
             $("#mapeat01").show();
         };
+    });
     /* ------ Show mapeat02 ------ */   
     $("#eat02").click(function() {
         $("#home, #eat, #drink, #stay").hide();
         if ($(this).attr("id") === "eat02") {
             locations = [{ lat: 50.824542, lng: -0.138657 }] // Chilli Pickle
-            initMap()
+            initMap("googlemapeat02");
             $("#mapeat02").show();
         };
     });
@@ -167,11 +334,27 @@ function initMap(){
             $("#mapeat09").show();
         };
     });
-    });
-;
+
+
     
 /* XXXXXXXXXXXXX MAPS END XXXXXXXXXXXXX */
 
 
 /* END. NEED THIS AT END */
     
+// var object1 = {"name":"Pickled Ginger", "about": "something about", "lat":50, "lng":70}
+
+//  function clicked_object(whatObject){
+            
+//             locations = [{ lat: whatObject["lat"], lng: whatObject["long"] }] // Chilli Pickle
+//             initMap("googlemapeat02");
+//             $("#mapeat02").show();
+//             document.getElementById("header").innerHTML = whatObject["name"];
+
+//     }
+
+
+//     $("#eat01").click(function() {
+//         clicked_object(object1);
+
+//     });
