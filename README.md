@@ -28,6 +28,18 @@ I want to feel straight away that this site is my kind of style and I can trust 
 
 **User 1: Day tripper:** The user here is only going to be in town for a day, so will want somewhere fun and interesting to have some lunch or dinner, and a few drinks before heading home. They won't want to waste time going places that aren't great. On the site they can discover some interesting places to really make the most of their day.
 
-**User 2: Weekender:** The user here is down for a few days over the weekend. Having never been to Brighton before they are looking for an interesting experience to remember. 
+**User 2: Weekender:** The user here is down for a few days over the weekend. Having never been to Brighton before they are looking for an interesting experience to remember. They don't want to be stuck with the hordes of other day-trippers and toursist, they want to go where the locals go and see the 'real' Brighton.
 
-I may be coming down just for the day, or staying for a weekend. I don't want to be stuck with the hordes of other day-trippers and toursist, I want to go where the locals go and see the 'real' Brighton. 
+**User 2: Local resident:** The user here is a resident of the city, that wants to find somewhere new that they just didn't know about. 
+
+By having a funky, fun image on the **HOME** page, the user can feel that this is going to be a site with a cool vibe, which reflects the vibe of the city. If they want to tap into the feel of the city and get under its skin, this will be the place to go. The stylish logo and the contempory typography also give a feel of Brighton.
+
+The following click through pages follow the stylish, simple theme. Picking up the typograhy and colour. 
+
+## Navigation bar
+
+This holds all the links to the main sections of the site: **HOME, EAT, DRINK, STAY**
+
+
+
+
