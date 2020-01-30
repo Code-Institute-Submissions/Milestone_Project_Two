@@ -1,6 +1,7 @@
 
-# Overview - Handpicked Brighton
-
+# Milestone Project Two - Handpicked Brighton
+---
+## Overview
 This is a visitors guide to the best place to eat, drink and stay in Brighton. It provides the user with a selection of the best that the city has to offer for their time there. I wanted to highlight a 'locals' view of what's great and what they would tell visitors to do and experience it as a local would.
 
 The illustration on the home page introduces the quirky and playful vibe that Brighton has. It is relaxed and fun. The colours used on the website reflect the colours of the paint on the railings and lamp post etc around the city. It's very much the colour of Brighton.
