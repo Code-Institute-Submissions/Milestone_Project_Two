@@ -253,94 +253,28 @@ function initMap(aMap){
             const markerCluster = new MarkerClusterer(map, markers,
             {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
     } 
-    /* ------ Show mapeat01 ------ */
-    $("#eat01").click(function() {
-        $("#home, #eat, #drink, #stay").hide();
-        if ($(this).attr("id") === "eat01") {
-            locations = [{ lat: 50.821695, lng: -0.140899 }] // 64 Degrees
-            initMap("googlemapeat01");
-            $("#mapeat01").show();
-        };
-    });
-    /* ------ Show mapeat02 ------ */   
-    $("#eat02").click(function() {
-        $("#home, #eat, #drink, #stay").hide();
-        if ($(this).attr("id") === "eat02") {
-            locations = [{ lat: 50.824542, lng: -0.138657 }] // Chilli Pickle
-            initMap("googlemapeat02");
-            $("#mapeat02").show();
-        };
-    });
-    /* ------ Show mapeat03 ------ */
-    $("#eat03").click(function() {
-        $("#home, #eat, #drink, #stay").hide();
-        if ($(this).attr("id") === "eat03") {
-            locations = [{ lat: 50.826980, lng: -0.136221 }] // Issac At
-            initMap()
-            $("#mapeat03").show();
-        };
-    });
-    /* ------ Show mapeat04 ------ */
-    $("#eat04").click(function() {
-        $("#home, #eat, #drink, #stay").hide();
-        if ($(this).attr("id") === "eat04") {
-            locations = [{ lat: 50.828954, lng: -0.135693 }] // Meatliquor
-            initMap()
-            $("#mapeat04").show();
-        };
-    });
-    /* ------ Show mapeat05 ------ */
-    $("#eat05").click(function() {
-        $("#home, #eat, #drink, #stay").hide();
-        if ($(this).attr("id") === "eat05") {
-            locations = [{ lat: 50.822524, lng: -0.141957 }] // Browns
-            initMap()
-            $("#mapeat05").show();
-        };
-    });
-    /* ------ Show mapeat06 ------ */
-    $("#eat06").click(function() {
-        $("#home, #eat, #drink, #stay").hide();
-        if ($(this).attr("id") === "eat06") {
-            locations = [{ lat: 50.821452, lng: -0.148349 }] // The Salt Room
-            initMap()
-            $("#mapeat06").show();
-        };
-    });
-    /* ------ Show mapeat07 ------ */
-    $("#eat07").click(function() {
-        $("#home, #eat, #drink, #stay").hide();
-        if ($(this).attr("id") === "eat07") {
-            locations = [{ lat: 50.821328, lng: -0.140952 }] // Food For Friends
-            initMap()
-            $("#mapeat07").show();
-        };
-    });
-    /* ------ Show mapeat08 ------ */
-    $("#eat08").click(function() {
-        $("#home, #eat, #drink, #stay").hide();
-        if ($(this).attr("id") === "eat08") {
-            locations = [{ lat: 50.822072, lng: -0.143385 }] // Coal Shed
-            initMap()
-            $("#mapeat08").show();
-        };
-    });
-    /* ------ Show mapeat09 ------ */
-    $("#eat09").click(function() {
-        $("#home, #eat, #drink, #stay").hide();
-        if ($(this).attr("id") === "eat09") {
-            locations = [{ lat: 50.820831, lng: -0.136467 }] // VIP Pizza
-            initMap()
-            $("#mapeat09").show();
-        };
-    });
+// XXXXX STEPHEN'S CODE XXXXX
+   
+var object1 = {"name":"64 Degrees", "about": "NEW TEXT FOR 64 DEGREES!!!!!", "lat":50.821695, "lng":-0.140899}
+
+function clicked_object(whatObject){       
+            locations = [{ lat: whatObject["lat"], lng: whatObject["lng"] }] // 64 Degrees
+             initMap("googlemapeat01");
+             $("#mapeat01").show();
+             document.getElementById("header").innerHTML = whatObject["name"];
+    }
+     $("#eat01").click(function() {
+         clicked_object(object1);
+
+     });
+
 
 
     
 /* XXXXXXXXXXXXX MAPS END XXXXXXXXXXXXX */
 
 
-/* END. NEED THIS AT END */
+/* XXXXXX stephen's example coding  XXXXXX
     
 // var object1 = {"name":"64 Degrees", "about": "something about", "lat":50.821695, "lng":-0.140899}
 
@@ -359,3 +293,88 @@ function initMap(aMap){
 
 //     });
 
+/* XXXXXXXXXXX muted old maps XXXXXXXXXXXX
+
+// ------ Show mapeat01 ------ /
+    $("#eat01").click(function() {
+        $("#home, #eat, #drink, #stay").hide();
+        if ($(this).attr("id") === "eat01") {
+            locations = [{ lat: 50.821695, lng: -0.140899 }] // 64 Degrees
+            initMap("googlemapeat01");
+            $("#mapeat01").show();
+        };
+    });
+    // ------ Show mapeat02 ------ /   
+    $("#eat02").click(function() {
+        $("#home, #eat, #drink, #stay").hide();
+        if ($(this).attr("id") === "eat02") {
+            locations = [{ lat: 50.824542, lng: -0.138657 }] // Chilli Pickle
+            initMap("googlemapeat02");
+            $("#mapeat02").show();
+        };
+    });
+    // ------ Show mapeat03 ------ 
+    $("#eat03").click(function() {
+        $("#home, #eat, #drink, #stay").hide();
+        if ($(this).attr("id") === "eat03") {
+            locations = [{ lat: 50.826980, lng: -0.136221 }] // Issac At
+            initMap()
+            $("#mapeat03").show();
+        };
+    });
+    // ------ Show mapeat04 ------ 
+    $("#eat04").click(function() {
+        $("#home, #eat, #drink, #stay").hide();
+        if ($(this).attr("id") === "eat04") {
+            locations = [{ lat: 50.828954, lng: -0.135693 }] // Meatliquor
+            initMap()
+            $("#mapeat04").show();
+        };
+    });
+    // ------ Show mapeat05 ------ /
+    $("#eat05").click(function() {
+        $("#home, #eat, #drink, #stay").hide();
+        if ($(this).attr("id") === "eat05") {
+            locations = [{ lat: 50.822524, lng: -0.141957 }] // Browns
+            initMap()
+            $("#mapeat05").show();
+        };
+    });
+    // ------ Show mapeat06 ------ 
+    $("#eat06").click(function() {
+        $("#home, #eat, #drink, #stay").hide();
+        if ($(this).attr("id") === "eat06") {
+            locations = [{ lat: 50.821452, lng: -0.148349 }] // The Salt Room
+            initMap()
+            $("#mapeat06").show();
+        };
+    });
+    // ------ Show mapeat07 ------ 
+    $("#eat07").click(function() {
+        $("#home, #eat, #drink, #stay").hide();
+        if ($(this).attr("id") === "eat07") {
+            locations = [{ lat: 50.821328, lng: -0.140952 }] // Food For Friends
+            initMap()
+            $("#mapeat07").show();
+        };
+    });
+    //------ Show mapeat08 ------
+    $("#eat08").click(function() {
+        $("#home, #eat, #drink, #stay").hide();
+        if ($(this).attr("id") === "eat08") {
+            locations = [{ lat: 50.822072, lng: -0.143385 }] // Coal Shed
+            initMap()
+            $("#mapeat08").show();
+        };
+    });
+    //------ Show mapeat09 ------
+    $("#eat09").click(function() {
+        $("#home, #eat, #drink, #stay").hide();
+        if ($(this).attr("id") === "eat09") {
+            locations = [{ lat: 50.820831, lng: -0.136467 }] // VIP Pizza
+            initMap()
+            $("#mapeat09").show();
+        };
+    });
+
+    --- Muted old maps --- */
