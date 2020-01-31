@@ -276,7 +276,7 @@ var object2 = {"name":"Chilli Pickle", "about": "NEW TEXT FOR CHILLI PICKLE. NEE
              $("#mapeat02").show();
              document.getElementById("header").innerHTML = whatObject["name"];
     }
-     $("#eat01").click(function() {
+     $("#eat02").click(function() {
          clicked_object(object2);
      });
 
