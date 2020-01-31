@@ -255,9 +255,11 @@ function initMap(aMap){
     } 
 // XXXXX STEPHEN'S CODE XXXXX
    
-var object1 = {"name":"64 Degrees", "about": "NEW TEXT FOR 64 DEGREES!!!!!", "lat":50.821695, "lng":-0.140899}
+var object1 = {"name":"64 Degrees", "about": "NEW TEXT FOR 64 DEGREES. NEEDS TO SHOW UP IN MAP PAGE!!!!!", "lat":50.821695, "lng":-0.140899}
+var object2 = {"name":"Chilli Pickle", "about": "NEW TEXT FOR CHILLI PICKLE. NEEDS TO SHOW UP IN MAP PAGE!!!!!", "lat":50.824542, "lng":-0.138657}
 
-function clicked_object(whatObject){       
+    // To show 64 Degrees map when tile is clicked 
+    function clicked_object(whatObject){       
             locations = [{ lat: whatObject["lat"], lng: whatObject["lng"] }] // 64 Degrees
              initMap("googlemapeat01");
              $("#mapeat01").show();
@@ -265,7 +267,17 @@ function clicked_object(whatObject){
     }
      $("#eat01").click(function() {
          clicked_object(object1);
+     });
 
+    // To show Chilli Pickle map when tile is clicked 
+    function clicked_object(whatObject){       
+            locations = [{ lat: whatObject["lat"], lng: whatObject["lng"] }] // Chilli Pickle
+             initMap("googlemapeat02");
+             $("#mapeat02").show();
+             document.getElementById("header").innerHTML = whatObject["name"];
+    }
+     $("#eat01").click(function() {
+         clicked_object(object2);
      });
 
 
