@@ -236,8 +236,7 @@ function initMap(aMap){
     ]
   }
 ]
-
-            ,
+          ,
             center: {
                 lat: 50.827362,
                 lng: -0.140730  
@@ -259,11 +258,14 @@ var object1 = {"name":"64 Degrees", "about": "NEW TEXT FOR 64 DEGREES. NEEDS TO 
 var object2 = {"name":"Chilli Pickle", "about": "NEW TEXT FOR CHILLI PICKLE. NEEDS TO SHOW UP IN MAP PAGE!!!!!", "lat":50.824542, "lng":-0.138657}
 
 
-// Michael's code
+
+
+
+/* Michael's code start XXXXXXXXXXXX
 
 function clicked_object(whatObject, elementToShow){       
-            locations = [{ lat: whatObject["lat"], lng: whatObject["lng"] }] // Chilli Pickle
-             initMap("googlemapeat02");
+            locations = [{ lat: whatObject["lat"], lng: whatObject["lng"] }] 
+             initMap("googlemapeat01");
              $(elementToShow ).show();
              document.getElementById("header").innerHTML = whatObject["name"];
     }
@@ -276,8 +278,13 @@ $("#eat02").click(function() {
          clicked_object(object2, "#mapeat02");
      });
 
+Michael's code end XXXXXXXXXX */
 
-    /* To show 64 Degrees map when tile is clicked 
+
+
+
+
+// To show 64 Degrees map when tile is clicked 
     function clicked_object(whatObject){       
             locations = [{ lat: whatObject["lat"], lng: whatObject["lng"] }] // 64 Degrees
              initMap("googlemapeat01");
@@ -299,10 +306,8 @@ $("#eat02").click(function() {
          clicked_object(object2);
      });
 
-
-
     
-/* XXXXXXXXXXXXX MAPS END XXXXXXXXXXXXX */
+// XXXXXXXXXX MAPS END XXXXXXXXXXXX
 
 
 /* XXXXXX stephen's example coding  XXXXXX
@@ -323,6 +328,10 @@ $("#eat02").click(function() {
 //         clicked_object(object1);
 
 //     });
+
+
+
+
 
 /* XXXXXXXXXXX muted old maps XXXXXXXXXXXX
 
