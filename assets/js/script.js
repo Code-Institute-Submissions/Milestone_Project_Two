@@ -7,15 +7,18 @@ $(function() {
     $("#mapstay01, #mapstay02, #mapstay03, #mapstay04, #mapstay05, #mapstay06, #mapstay07, #mapstay08, #mapstay09").hide();
     
 /* XXXXXXXXXXXXX NAV BAR START XXXXXXXXXXXXX  */
+
     /* ------ Hide sections ------ */
 	$("#navhome, #naveat, #navdrink, #navstay").click(function() {
 		$("#home, #eat, #drink, #stay").hide();
 	    $("#mapeat01, #mapeat02, #mapeat03, #mapeat04, #mapeat05, #mapeat06, #mapeat07, #mapeat08, #mapeat09").hide();
         $("#mapdrink01, #mapdrink02, #mapdrink03, #mapdrink04, #mapdrink05, #mapdrink06, #mapdrink07, #mapdrink08, #mapdrink09").hide();
         $("#mapstay01, #mapstay02, #mapstay03, #mapstay04, #mapstay05, #mapstay06, #mapstay07, #mapstay08, #mapstay09").hide();
-    /* ------ Remove active class ------ */
+    
+        /* ------ Remove active class ------ */
 	$("#navhome, #naveat, #navdrink, #stay").removeClass("active");
 	$("#navhome, #naveat, #navdrink, #navstay").removeClass("active");
+    
     /* ------ If/else statements to check which li was clicked ------ */
     /* ------ apply 'active' class only to that li, and show the corresponding section ------ */
 	if ($(this).attr("id") === "navhome") {
@@ -38,11 +41,15 @@ $(function() {
     });
 });
 /* XXXXXXXXXXXXX NAV BAR END XXXXXXXXXXXXX  */
+
+
 /* XXXXXXXXXXXXX HOME PAGE EAT/DRINK/STAY START XXXXXXXXXXXXX */
-    /* ------ Hide sections ------ */
+    
+/* ------ Hide sections ------ */
     $("#buttoneat, #buttondrink, #buttonstay").click(function() {
         $("#home, #eat, #drink, #stay").hide();
-    /* ------ If/else statements to check which button was clicked ------ */
+    
+        /* ------ If/else statements to check which button was clicked ------ */
     /* ------ apply 'active' class only to that li, and show the corresponding section ------ */        
         if ($(this).attr("id") === "buttoneat") {
             $("#naveat").addClass("active");
@@ -58,6 +65,8 @@ $(function() {
     });
 });
 /* XXXXXXXXXXXXX HOME PAGE EAT/DRINK/STAY BOX BUTTONS END XXXXXXXXXXXXX */
+
+
 /* XXXXXXXXXXXXX MAPS START XXXXXXXXXXXXX */
 function initMap(aMap){
         const map = new google.maps.Map(document.getElementById(aMap), {
@@ -238,7 +247,27 @@ function initMap(aMap){
             const markerCluster = new MarkerClusterer(map, markers,
             {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
     } 
-    /* ------ Show mapeat01 ------ */
+
+// New code XXXXXXXXXX
+
+var object1 = {"name":"64 Degrees", "about": "something about", "lat":50.821695, "lng":-0.140899}
+
+
+<button id="1" onClick="reply_click(this.id)">B1</button>
+<button id="2" onClick="reply_click(this.id)">B2</button>
+<button id="3" onClick="reply_click(this.id)">B3</button>
+    
+<script type="text/javascript">
+  function reply_click(clicked_id)
+  {
+      alert(clicked_id);
+  }
+</script>
+
+
+
+
+    /* ------ Show mapeat01 -----
 // XXXXX STEPHEN'S CODE XXXXX
 
 var object1 = {"name":"64 Degrees", "about": "NEW TEXT FOR 64 DEGREES!!!!!", "lat":50.821695, "lng":-0.140899}
@@ -254,7 +283,7 @@ function clicked_object(whatObject){
 
      });
 
-
+- */
 
 
 /* XXXXXXXXXXXXX MAPS END XXXXXXXXXXXXX */
@@ -263,6 +292,7 @@ function clicked_object(whatObject){
 /* XXXXXX stephen's example coding  XXXXXX
     
 // var object1 = {"name":"64 Degrees", "about": "something about", "lat":50.821695, "lng":-0.140899}
+
 //  function clicked_object(whatObject){
             
 //             locations = [{ lat: whatObject["lat"], lng: whatObject["lng"] }] // 64 Degrees
@@ -274,83 +304,86 @@ function clicked_object(whatObject){
 //         clicked_object(object1);
 //     });
 /* XXXXXXXXXXX muted old maps XXXXXXXXXXXX
-// ------ Show mapeat01 ------ /
+
+// ------ Show mapeat01 ------ 
     $("#eat01").click(function() {
         $("#home, #eat, #drink, #stay").hide();
         if ($(this).attr("id") === "eat01") {
-@@ -262,7 +304,7 @@ function initMap(aMap){
+            locations = [{ lat: 50.821695, lng: -0.140899 }] // 64 Degrees
+            initMap("googlemapeat01");
             $("#mapeat01").show();
         };
     });
-     
-    // ------ Show mapeat02 ------ /   
+    // ------ Show mapeat02 ------    
     $("#eat02").click(function() {
         $("#home, #eat, #drink, #stay").hide();
         if ($(this).attr("id") === "eat02") {
-@@ -271,7 +313,7 @@ function initMap(aMap){
+            locations = [{ lat: 50.824542, lng: -0.138657 }] // Chilli Pickle
+            initMap("googlemapeat02");
             $("#mapeat02").show();
         };
     });
-
-    // ------ Show mapeat03 ------ 
+    /* ------ Show mapeat03 ------ 
     $("#eat03").click(function() {
         $("#home, #eat, #drink, #stay").hide();
         if ($(this).attr("id") === "eat03") {
-@@ -280,7 +322,7 @@ function initMap(aMap){
+            locations = [{ lat: 50.826980, lng: -0.136221 }] // Issac At
+            initMap()
             $("#mapeat03").show();
         };
     });
-
-    // ------ Show mapeat04 ------ 
+    /* ------ Show mapeat04 ------ 
     $("#eat04").click(function() {
         $("#home, #eat, #drink, #stay").hide();
         if ($(this).attr("id") === "eat04") {
-@@ -289,7 +331,7 @@ function initMap(aMap){
+            locations = [{ lat: 50.828954, lng: -0.135693 }] // Meatliquor
+            initMap()
             $("#mapeat04").show();
         };
     });
-
-    // ------ Show mapeat05 ------ /
+    /* ------ Show mapeat05 ------ 
     $("#eat05").click(function() {
         $("#home, #eat, #drink, #stay").hide();
         if ($(this).attr("id") === "eat05") {
-@@ -298,7 +340,7 @@ function initMap(aMap){
+            locations = [{ lat: 50.822524, lng: -0.141957 }] // Browns
+            initMap()
             $("#mapeat05").show();
         };
     });
-
     // ------ Show mapeat06 ------ 
     $("#eat06").click(function() {
         $("#home, #eat, #drink, #stay").hide();
         if ($(this).attr("id") === "eat06") {
-@@ -307,7 +349,7 @@ function initMap(aMap){
+            locations = [{ lat: 50.821452, lng: -0.148349 }] // The Salt Room
+            initMap()
             $("#mapeat06").show();
         };
     });
-
     // ------ Show mapeat07 ------ 
     $("#eat07").click(function() {
         $("#home, #eat, #drink, #stay").hide();
         if ($(this).attr("id") === "eat07") {
-@@ -316,7 +358,7 @@ function initMap(aMap){
+            locations = [{ lat: 50.821328, lng: -0.140952 }] // Food For Friends
+            initMap()
             $("#mapeat07").show();
         };
     });
-
-    //------ Show mapeat08 ------
+    // ------ Show mapeat08 ------ 
     $("#eat08").click(function() {
         $("#home, #eat, #drink, #stay").hide();
         if ($(this).attr("id") === "eat08") {
-@@ -325,7 +367,7 @@ function initMap(aMap){
+            locations = [{ lat: 50.822072, lng: -0.143385 }] // Coal Shed
+            initMap()
             $("#mapeat08").show();
         };
     });
-
-    //------ Show mapeat09 ------
+    // ------ Show mapeat09 ------ 
     $("#eat09").click(function() {
         $("#home, #eat, #drink, #stay").hide();
         if ($(this).attr("id") === "eat09") {
-@@ -335,27 +377,4 @@ function initMap(aMap){
+            locations = [{ lat: 50.820831, lng: -0.136467 }] // VIP Pizza
+            initMap()
+            $("#mapeat09").show();
         };
     });
 
@@ -358,7 +391,7 @@ function clicked_object(whatObject){
 /* XXXXXXXXXXXXX MAPS END XXXXXXXXXXXXX */
 
 
-/* END. NEED THIS AT END */
+/* stephen's code */
 
 // var object1 = {"name":"64 Degrees", "about": "something about", "lat":50.821695, "lng":-0.140899}
 
