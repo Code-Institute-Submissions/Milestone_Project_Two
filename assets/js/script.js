@@ -3,7 +3,7 @@ $(document).ready(function() {
     
 /* ------ On load, hide all sections apart from 'home'  ------ */ 
 $(function() {
-    $("#eat, #drink, #stay, #mapeat01, #mapeat02, #mapeat03, #mapeat04, #mapeat05, #mapeat06, #mapeat07, #mapeat08, #mapeat09").hide();
+    $("#eat, #drink, #stay, #testdisplay, #mapeat01, #mapeat02, #mapeat03, #mapeat04, #mapeat05, #mapeat06, #mapeat07, #mapeat08, #mapeat09").hide();
     $("#mapdrink01, #mapdrink02, #mapdrink03, #mapdrink04, #mapdrink05, #mapdrink06, #mapdrink07, #mapdrink08, #mapdrink09").hide();
     $("#mapstay01, #mapstay02, #mapstay03, #mapstay04, #mapstay05, #mapstay06, #mapstay07, #mapstay08, #mapstay09").hide();
     
@@ -343,17 +343,27 @@ function initMap(aMap){
 
 /* this whole object gets put into the parameter whatObject - clicked_object(argument) --> clicked_object(parameter) and is 'unpacked' on line 664 */
 var object1 = {"name":"64 Degrees", "about": "NEW TEXT FOR 64 DEGREES!!!!!", "lat":50.821695, "lng":-0.140899}
+var object2 = {"name":"Chilli Pickle", "about": "NEW TEXT FOR CHILLI!!!!!", "lat":50.821665, "lng":-0.144449}
 
 function clicked_object(whatObject){
             /* locations to be passed to the initMap function are pulled from the info in whatObject (aka object1) */
             locations = [{ lat: whatObject["lat"], lng: whatObject["lng"] }] // 64 Degrees
              initMap("googlemapeat01");
-             $("#mapeat01").show();
-             document.getElementById("header").innerHTML = whatObject["name"];
+             /* display the previously hidden template */
+             $("#testdisplay").show();
+             $("#eat").hide();
+            /* get the html elemnts called venuename and bodytext, and put what we have under name and about in the object for them*/
+             document.getElementById("venuename").innerHTML = whatObject["name"];
+             document.getElementById("bodytext").innerHTML = whatObject["about"];
     }
-    /* START HERE When an element with the ID of eat01 was clicked.. (go to line ) */
+    /* START HERE When an element with the ID of eat01 was clicked.. (go to line 360 ) */
      $("#eat01").click(function() {
-        /* .. call the clicked_object function, and pass it the arguement of object1 (found on line ) */ 
+        /* .. call the clicked_object function, and pass it the arguement of object1 (found on line 345 ) */ 
         clicked_object(object1);
+
+     });
+     $("#eat02").click(function() {
+        /* .. call the clicked_object function, and pass it the arguement of object1 (found on line 345 ) */ 
+        clicked_object(object2);
 
      });
