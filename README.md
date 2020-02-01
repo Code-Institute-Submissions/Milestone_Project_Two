@@ -21,7 +21,7 @@ Each section (**EAT, DRINK and STAY**) have nine large visual buttons to choose 
 
 Each button then takes you to a large map showing the location of the venue and a write-up describing it. At the end of the review is a simple button taking the user to the website, and another taking the user back to the main **EAT, DRINK, STAY** menus.
 
-The footer is only visible on the HOME page so as not to crowd the simplicity of the other pages.
+The footer is only visible on the **HOME** page so as not to crowd the simplicity of the other pages. It contains the site's social media.
 
 ## User Story
 
@@ -43,10 +43,13 @@ This holds all the links to the main sections of the site: **HOME, EAT, DRINK, S
 
 ## Home
 
-TThis is the first page a user comes to, and it has to make a big impact and entice them to want to go further. By having a funky, fun image on the **HOME** page, the user can feel that this is going to be a site with a cool vibe, which reflects the vibe of the city. If they want to tap into the feel of the city and get under its skin, this will be the place to go. The stylish logo and the contempory typography also give a feel of Brighton. The strap line of "YOUR GUIDE TO THE LOCAL SIDE OF BRIGHTON" tells the user just what the purpose of the site is. To make you feel like you're in-the-know.  
+This is the first page a user comes to, and it has to make a big impact and entice them to want to go further. By having a funky, fun image on the **HOME** page, the user can feel that this is going to be a site with a cool vibe, which reflects the vibe of the city. If they want to tap into the feel of the city and get under its skin, this will be the place to go. The stylish logo and the contempory typography also give a feel of Brighton. The strap line of "YOUR GUIDE TO THE LOCAL SIDE OF BRIGHTON" tells the user just what the purpose of the site is. To make you feel like you're in-the-know.  
 
 The three simple looking buttons, **EAT, DRINK,** and **STAY** immediately intice the user to go further and explore. Their simple message means that it's clear what they will show the user.
 
-The footer only appears on the **HOME** page, so not to overcrowd and complicated the following pages. It contains 
+The footer only appears on the **HOME** page, so not to overcrowd and complicated the following pages. It contains the site's social media.
 
+## EAT page
+
+This is the page that shows when the **EAT** button is clicked. It shows an arrangement of nine handpicked venues to get food. The large images give a visual climpse of what the venue looks like. The strong, stylish typography of the name of the venue with a one word classifications under it gives the user more clues about if it's the type of venue they are interested in. There is a simple, clean hover when the mouse glides over each box to show it is highlighted.
 
