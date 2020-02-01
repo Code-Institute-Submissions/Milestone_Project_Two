@@ -299,9 +299,16 @@
   <div class="container-fluid">
 
   <div id="mapeat01" 
-    onclick="myFunction()">
-  </div>
-  
+        onclick="myFunction"() {
+            ("#home, #eat, #drink, #stay").hide();
+         if ($(this).attr("id") === "eat01") {
+             locations = [{ lat: 50.821695, lng: -0.140899 }] 
+            initMap("googlemapeat01");
+             $("#mapeat01").show();
+         }>
+        
+         
+
     <div class="row">
         <div class="col-12 col-md-4 col-lg-3 reviewbox"> 
         <p class="venuename">64 Degrees</p>
@@ -315,8 +322,11 @@
          </div>
            <div class="col-12 col-md-8 col-lg-9 map" id="googlemapeat01"></div>   
         </div>
-            
-  </div>
+    </div>
+
+    </div>
+
+</section>
 
 
 </section>
