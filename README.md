@@ -2,6 +2,7 @@
 # Milestone Project Two - Handpicked Brighton
 ---
 ## Overview
+
 This is a visitors guide to the best place to eat, drink and stay in Brighton. It provides the user with a selection of the best that the city has to offer for their time there. I wanted to highlight a 'locals' view of what's great and what they would tell visitors to do and experience it as a local would.
 
 The illustration on the **HOME** page introduces the quirky and playful vibe that Brighton has. It is relaxed and fun. 
@@ -11,6 +12,8 @@ The main sea-green colour used on the website reflect the colour of the paint on
 I created the Handpicked Brighton logo to be reflect the values of the city. The handwritten font is used to show the creative side and the 'handpicked' aspect as if it's a list written by an actual person. The San Serif is bold, stylish and confident. The two contrast and compliment each other. 
 
 ## UX
+
+The site is fully responsive, so can be viewed on all devices. This makes it fun and easy to plan your trip from a laptop or tablet from home, or from your phone on the move.
 
 The Navigation is always visible allowing the user to click back and forth to each section easliy. The HOME page has three large buttons that reflect the Navigation bar to allow an alternative way to get around the site.
 
@@ -32,14 +35,18 @@ I want to feel straight away that this site is my kind of style and I can trust 
 
 **User 2: Local resident:** The user here is a resident of the city, that wants to find somewhere new that they just didn't know about. 
 
-By having a funky, fun image on the **HOME** page, the user can feel that this is going to be a site with a cool vibe, which reflects the vibe of the city. If they want to tap into the feel of the city and get under its skin, this will be the place to go. The stylish logo and the contempory typography also give a feel of Brighton. The strap line of "YOUR GUIDE TO THE LOCAL SIDE OF BRIGHTON" tells the user just what the purpose of the site is. To make you feel like you're in-the-know. 
-
 The following click through pages follow the stylish, simple theme. Picking up the typograhy and colour. 
 
 ## Navigation bar
 
-This holds all the links to the main sections of the site: **HOME, EAT, DRINK, STAY**
+This holds all the links to the main sections of the site: **HOME, EAT, DRINK, STAY**. This allows the user to navigate quickly to the relevant section. the **Handwrittem Brighton** logo also acts as a link to the **HOME** page.
 
+## Home
 
+TThis is the first page a user comes to, and it has to make a big impact and entice them to want to go further. By having a funky, fun image on the **HOME** page, the user can feel that this is going to be a site with a cool vibe, which reflects the vibe of the city. If they want to tap into the feel of the city and get under its skin, this will be the place to go. The stylish logo and the contempory typography also give a feel of Brighton. The strap line of "YOUR GUIDE TO THE LOCAL SIDE OF BRIGHTON" tells the user just what the purpose of the site is. To make you feel like you're in-the-know.  
+
+The three simple looking buttons, **EAT, DRINK,** and **STAY** immediately intice the user to go further and explore. Their simple message means that it's clear what they will show the user.
+
+The footer only appears on the **HOME** page, so not to overcrowd and complicated the following pages. It contains 
 
 
