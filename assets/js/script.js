@@ -255,11 +255,18 @@ function initMap(aMap){
     } 
 
 // TRYING
-    var object = [
+    function myFunction() {
+        document.getElementById("testeat").show = ["mapeat01"];
+    }
+    
+    
+/*   
+    [
     {   "ID": "mapeat01",    
        "name": "64 degrees",    
        "lat": 50.821695,    
-       "lng": -0.140899   }, 
+       "lng": -0.140899   },
+       
     {   "ID": "mapeat02",    
        "name": "Chilli Pickle",    
         "lat": 50.824542,    
@@ -270,7 +277,7 @@ function onclick(){
     document.getElementById("object").innerHTML = ["ID", "name", "lat", "lng"]
 };
 
-
+*/
 
 
 
@@ -375,4 +382,24 @@ HIDE OLD MAPS XXXXXXXXXXXXXXXXX */
         clicked_object("mapeat01");
 
      });
+
+
+
+
+     // TRYING
+    var object1 = [
+    {   "ID": "mapeat01",    
+       "name": "64 degrees",    
+       "lat": 50.821695,    
+       "lng": -0.140899   },
+       
+    {   "ID": "mapeat02",    
+       "name": "Chilli Pickle",    
+        "lat": 50.824542,    
+       "lng": -0.138657   },
+    ]
+
+function onclick(){
+    document.getElementById("object").innerHTML = ["ID", "name", "lat", "lng"]
+};
 */
