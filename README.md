@@ -28,7 +28,7 @@ Each button then takes you to a large map showing the location of the venue and 
 The footer is only visible on the **HOME** page so as not to crowd the simplicity of the other pages. It contains the site's social media.
 
 
-### User Story
+### User Stories
 
 As a user, I want to quickly and easily find interesting and out of the way places to go in Brighton. 
 
