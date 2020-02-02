@@ -29,7 +29,9 @@ The footer is only visible on the **HOME** page so as not to crowd the simplicit
 
 ---
 
-## User Story
+## Features
+
+### User Story
 
 As a user, I want to quickly and easily find interesting and out of the way places to go in Brighton. 
 
@@ -43,13 +45,12 @@ I want to feel straight away that this site is my kind of style and I can trust 
 
 The following click through pages follow the stylish, simple theme. Picking up the typograhy and colour. 
 
-## Navigation bar
+### Navigation bar
 
 This holds all the links to the main sections of the site: **HOME, EAT, DRINK, STAY**. This allows the user to navigate quickly to the relevant section. the **Handwrittem Brighton** logo also acts as a link to the **HOME** page.
 
----
 
-## Home
+### Home
 
 This is the first page a user comes to, and it has to make a big impact and entice them to want to go further. By having a funky, fun image on the **HOME** page, the user can feel that this is going to be a site with a cool vibe, which reflects the vibe of the city. If they want to tap into the feel of the city and get under its skin, this will be the place to go. The stylish logo and the contempory typography also give a feel of Brighton. The strap line of "YOUR GUIDE TO THE LOCAL SIDE OF BRIGHTON" tells the user just what the purpose of the site is. To make you feel like you're in-the-know.  
 
@@ -59,13 +60,13 @@ The footer only appears on the **HOME** page, so not to overcrowd and complicate
 
 ---
 
-## EAT/DRINK/STAY pages
+### EAT/DRINK/STAY pages
 
 These are the pages that show when the **EAT, DRINK,** or **STAY** buttons are clicked. They show an arrangement of nine handpicked venues to get food, drink or to stay. The large images give a visual climpse of what the venue looks like. The strong, stylish typography of the name of the venue with a one word classifications under it gives the user more clues about if it's the type of venue they are interested in. There is a simple, clean hover when the mouse glides over each box to show it is highlighted.
 
 ---
 
-## Venue information pages
+### Venue information pages
 
 Once a venue is chose from either **EAT, DRINK,** or **STAY**, the user is taken to the appropriate
 
