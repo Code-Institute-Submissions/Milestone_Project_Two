@@ -254,7 +254,7 @@ function initMap(aMap){
     } 
 
 
-// FROM FRIDAY NIGHT
+// FROM FRIDAY NIGHT 
 
 // this whole object gets put into the parameter whatObject - clicked_object(argument) --> clicked_object(parameter) and is 'unpacked' on line 664 
 var object1 = {"name":"64 Degrees", "about": "NEW TEXT FOR 64 DEGREES!!!!!", "lat":50.821695, "lng":-0.140899}
@@ -262,16 +262,16 @@ var object2 = {"name":"Chilli Pickle", "about": "NEW TEXT FOR CHILLI!!!!!", "lat
 
 function clicked_object(whatObject){
             // locations to be passed to the initMap function are pulled from the info in whatObject (aka object1) /
+            $("#mapeat01").show();
             locations = [{ lat: whatObject["lat"], lng: whatObject["lng"] }] 
-             initMap("googlemapeat01");
-             $("#mapeat01").show();
-             document.getElementById("header").innerHTML = whatObject["name"];
-             // display the previously hidden template /
-             $("#testdisplay").show();
-             $("#eat").hide();
+            initMap("googlemapeat01");
+            // document.getElementById("header").innerHTML = whatObject["name"];
+            // display the previously hidden template /
+            $("#mapeat01").show();
+            $("#eat").hide();
             // get the html elemnts called venuename and bodytext, and put what we have under name and about in the object for them/
-             document.getElementById("venuename").innerHTML = whatObject["name"];
-             document.getElementById("bodytext").innerHTML = whatObject["about"];
+            document.getElementById("venuename").innerHTML = whatObject["name"];
+            document.getElementById("bodytext").innerHTML = whatObject["about"];
     }
     // START HERE When an element with the ID of eat01 was clicked.. (go to line ) /
      $("#eat01").click(function() {
@@ -285,7 +285,7 @@ function clicked_object(whatObject){
 
      }); 
 
-    // FRIDAY NIGHT */
+    // FRIDAY NIGHT /
 
 
 
