@@ -27,9 +27,6 @@ Each button then takes you to a large map showing the location of the venue and 
 
 The footer is only visible on the **HOME** page so as not to crowd the simplicity of the other pages. It contains the site's social media.
 
----
-
-## Features
 
 ### User Story
 
@@ -41,7 +38,11 @@ I want to feel straight away that this site is my kind of style and I can trust 
 
 **User 2: Weekender:** The user here is down for a few days over the weekend. Having never been to Brighton before they are looking for an interesting experience to remember. They don't want to be stuck with the hordes of other day-trippers and toursist, they want to go where the locals go and see the 'real' Brighton.
 
-**User 2: Local resident:** The user here is a resident of the city, that wants to find somewhere new that they just didn't know about. 
+**User 2: Local resident:** The user here is a resident of the city, that wants to find somewhere new that they just didn't know about.
+
+---
+
+## Features
 
 The following click through pages follow the stylish, simple theme. Picking up the typograhy and colour. 
 
@@ -56,6 +57,8 @@ This is the first page a user comes to, and it has to make a big impact and enti
 
 The three simple looking buttons, **EAT, DRINK,** and **STAY** immediately intice the user to go further and explore. Their simple message means that it's clear what they will show the user.
 
+### Footer
+
 The footer only appears on the **HOME** page, so not to overcrowd and complicated the following pages. It contains the site's social media.
 
 ---
@@ -68,7 +71,7 @@ These are the pages that show when the **EAT, DRINK,** or **STAY** buttons are c
 
 ### Venue information pages
 
-Once a venue is chose from either **EAT, DRINK,** or **STAY**, the user is taken to the appropriate
+Once a venue is chose from either **EAT, DRINK,** or **STAY**, the user is taken to a page which displays the information for that location. 
 
 ---
 
@@ -78,3 +81,16 @@ These are my original wireframes for my site.
 
 ![Wireframes](desktop/GARY/Coding/MilestoneProjectTwo/New-Wireframe.png)
 
+
+
+## Credits/thanks
+
+Chris Quinn **2BN-Chris_alumnus** for his amazing help on Slack when I was stuck on my coding. Really got me out of a hole.
+
+All the tutors that helped me along the way on the **Tutor Support**. 
+
+My mentor **Simen Xxx** for all the advice and pointers. And for pushing me to go further than I thought I could.
+
+
+
+Once a venue is chose from either **EAT, DRINK,** or **STAY**, the user is taken to a page which displays the information for that location. 
