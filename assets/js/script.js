@@ -5,9 +5,7 @@ $(document).ready(function () {
 $(function () {
     $("#navhome").addClass("active");
     $("[id*='mapeat'], [id*='mapdrink'], [id*='mapstay']").hide();
-    // $("#eat, #drink, #stay, #testdisplay, #mapeat01, #mapeat02, #mapeat03, #mapeat04, #mapeat05, #mapeat06, #mapeat07, #mapeat08, #mapeat09").hide();
-    // $("#mapdrink01, #mapdrink02, #mapdrink03, #mapdrink04, #mapdrink05, #mapdrink06, #mapdrink07, #mapdrink08, #mapdrink09").hide();
-    // $("#mapstay01, #mapstay02, #mapstay03, #mapstay04, #mapstay05, #mapstay06, #mapstay07, #mapstay08, #mapstay09").hide();
+    
     
 /* XXXXXXXXXXXXX NAV BAR START XXXXXXXXXXXXX  */
 
@@ -15,10 +13,7 @@ $(function () {
 	$("#navhome, #naveat, #navdrink, #navstay").click(function () {
 		$("#home, #eat, #drink, #stay").hide();
         $("[id*='mapeat'], [id*='mapdrink'], [id*='mapstay']").hide();
-        // $("#mapeat01, #mapeat02, #mapeat03, #mapeat04, #mapeat05, #mapeat06, #mapeat07, #mapeat08, #mapeat09").hide();
-        // $("#mapdrink01, #mapdrink02, #mapdrink03, #mapdrink04, #mapdrink05, #mapdrink06, #mapdrink07, #mapdrink08, #mapdrink09").hide();
-        // $("#mapstay01, #mapstay02, #mapstay03, #mapstay04, #mapstay05, #mapstay06, #mapstay07, #mapstay08, #mapstay09").hide();
-
+        
     /* ------ Remove active class ------ */
 	$("#navhome, #naveat, #navdrink, #navstay").removeClass("active");
 	
@@ -46,6 +41,7 @@ $(function () {
         }
     });
 });
+
 /* XXXXXXXXXXXXX NAV BAR END XXXXXXXXXXXXX  */
 
 
@@ -71,10 +67,12 @@ $(function () {
         };
     });
 });
+
 /* XXXXXXXXXXXXX HOME PAGE EAT/DRINK/STAY BOX BUTTONS END XXXXXXXXXXXXX */
 
 
 /* XXXXXXXXXXXXX MAPS START XXXXXXXXXXXXX */
+
 function initMap(aMap){
         var map = new google.maps.Map(document.getElementById(aMap), {
             zoom: 14,
