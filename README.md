@@ -71,7 +71,7 @@ These are the pages that show when the **EAT, DRINK,** or **STAY** buttons are c
 
 ### Venue information pages
 
-Once a venue is chose from either **EAT, DRINK,** or **STAY**, the user is taken to a page which displays the information for that location. 
+Once a venue is chosen from either **EAT, DRINK,** or **STAY**, the user is taken to a page which displays the information for that venue. It has a large custom map with a marker showing the location, a review of the venue and a link to their website. There is also a button to take you back to the **EAT, DRINK,** or **STAY** page you just came from.
 
 ---
 
@@ -79,7 +79,7 @@ Once a venue is chose from either **EAT, DRINK,** or **STAY**, the user is taken
 
 These are my original wireframes for my site.
 
-![Wireframes](desktop/GARY/Coding/MilestoneProjectTwo/New-Wireframe.png)
+![Wireframes](desktop1/GARY/Coding/MilestoneProjectTwo/New-Wireframe.png)
 
 
 
@@ -89,8 +89,8 @@ Chris Quinn **2BN-Chris_alumnus** for his amazing help on Slack when I was stuck
 
 All the tutors that helped me along the way on the **Tutor Support**. 
 
-My mentor **Simen Xxx** for all the advice and pointers. And for pushing me to go further than I thought I could.
+My mentor **Simen Dehlin** for all the advice and pointers. And for pushing me to go further than I thought I could.
 
 
 
-Once a venue is chose from either **EAT, DRINK,** or **STAY**, the user is taken to a page which displays the information for that location. 
+
