@@ -81,6 +81,30 @@ These are my original wireframes for my site.
 
 ![Wireframes](desktop1/GARY/Coding/MilestoneProjectTwo/New-Wireframe.png)
 
+---
+
+## Features left to implement
+
+There would ideally be many more options to choose from in each section. I chose nine as i nice number for the grid.
+
+On each map page I would have liked to put in more links to other options. 
+
+On the map markers, I would want to have aditional information such as address, contact details, opening times and weblinks.
+
+---
+
+## Technologies used
+
+1. HTML
+2. CSS
+3. JavaScript
+4. jQuery
+3. Bootstrap
+4. Font Awesome 
+5. Google Maps API
+6. Google Fonts
+
+
 ## Credits
 
 ### Thanks
@@ -104,11 +128,13 @@ All venue text is from the venues own websites and social media.
 
 ## Acknowledgements
 
-### Anna Gilhespy YouTube and website
-I used Anna Gilhespy's Bootstrap tutorial video and her website to help me work out the structure of the content.
+### Anna Gilhespy website
+I used Anna Gilhespy's Bootstrap tutorial video to help me work out the structure of the content.
 [Anna Gilhespy](https://ajgreaves.github.io/bootstrap-grid-demo/)
 
+Traversy Media YouTube
+I watch Traversy Media's YouTube tutorial video, JavaScript Crash Course For Beginners, to help me understand JavaScript.
+[JavaScript Crash Course For Beginners](https://www.youtube.com/watch?v=hdI2bqOjy3c)
 
-[Anna Gilhespy](https://www.youtube.com/watch?v=zDpCejbl1sU&feature=youtu.be)
 
 
