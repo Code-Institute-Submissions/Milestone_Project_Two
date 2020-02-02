@@ -81,15 +81,26 @@ These are my original wireframes for my site.
 
 ![Wireframes](desktop1/GARY/Coding/MilestoneProjectTwo/New-Wireframe.png)
 
+## Credits
 
+### Thanks
 
-## Credits/thanks
-
-Chris Quinn **2BN-Chris_alumnus** for his amazing help on Slack when I was stuck on my coding. Really got me out of a hole.
+**Chris Quinn (2BN-Chris_alumnus)** for his amazing help on Slack when I was stuck on my coding. Really got me out of a hole.
 
 All the tutors that helped me along the way on the **Tutor Support**. 
 
-My mentor **Simen Dehlin** for all the advice and pointers. And for pushing me to go further than I thought I could.
+My mentor **Simen Dehlin** for all the advice and pointers. And for pushing me to go further.
+
+### Images
+
+Home image was sourced from the iStock image library.
+[iStock](https://www.istockphoto.com/gb)
+
+All venue images are from the venues own websites and social media.
+
+### Text
+
+All venue text is from the venues own websites and social media.
 
 
 
