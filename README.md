@@ -104,27 +104,56 @@ On the map markers, I would want to have aditional information such as address, 
 5. Google Maps API
 6. Google Fonts
 
+---
+
+## Testing
+To test both my HTML and my CSS, I ran them through the W3C validation websites. [W3C Markup Validation Service](https://validator.w3.org/), and [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/).
+This allowed me to catch any problems such as rouge punctuation marks or incorrect code. This helped me go back in and change the errors so my code was more efficient and worked properly.
+
+
+---
+
+## Deployment
+My site is deployed on GitHub. 
+
+1. At the start of your project when you have created your GitPod workspace it's a good idea to start commiting your files to a repository.
+
+9. We then use the command git commit -m "Intial commit", which is the standard message when starting a repository.
+10.We need to tell it how to find the remote repository, so go back to GitHub and to the box with the heading 'or push an existing repository from the command center.
+
+
+14. Go back to GitHub and you will see that your file has now been saved to this remote repository.
+15. At regular intervals it is a good idea to commit your files in case something goes wrong.
+16. Command git status will show you files that need to be added.
+17. Command git add -A will add all those files.
+18. Then of course you need a git commit -m "with a message".
+
+I have been pushing my code through to GitHub very regularly as, on occasion, something has gone wrong and I've had to go into my history and retrieve bits of code that I know will work. 
+
+---
 
 ## Credits
 
 ### Thanks
 
+My mentor **Simen Dehlin** for all the advice and pointers. And for pushing me to go further.
+
 **Chris Quinn (2BN-Chris_alumnus)** for his amazing help on Slack when I was stuck on my coding. Really got me out of a hole.
 
-All the tutors that helped me along the way on the **Tutor Support**. 
+All the **tutors** that helped me along the way on the **Tutor Support**. 
 
-My mentor **Simen Dehlin** for all the advice and pointers. And for pushing me to go further.
+**RubberDucky** for inspiration and sage advice in the lonely dark hours.
 
 ### Images
 
 Home image was sourced from the iStock image library.
 [iStock](https://www.istockphoto.com/gb)
 
-All venue images are from the venues own websites and social media.
+All venue images are from the venues' own websites and social media.
 
 ### Text
 
-All venue text is from the venues own websites and social media.
+All venue text is from the venues' own websites and social media.
 
 ## Acknowledgements
 
