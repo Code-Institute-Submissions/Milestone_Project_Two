@@ -102,6 +102,13 @@ All venue images are from the venues own websites and social media.
 
 All venue text is from the venues own websites and social media.
 
+## Acknowledgements
 
+### Anna Gilhespy YouTube and website
+I used Anna Gilhespy's Bootstrap tutorial video and her website to help me work out the structure of the content.
+[Anna Gilhespy](https://ajgreaves.github.io/bootstrap-grid-demo/)
+
+
+[Anna Gilhespy](https://www.youtube.com/watch?v=zDpCejbl1sU&feature=youtu.be)
 
 
