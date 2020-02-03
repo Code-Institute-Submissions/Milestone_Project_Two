@@ -44,7 +44,7 @@ I want to feel straight away that this site is my kind of style and I can trust 
 
 ## Features
 
-The following click through pages follow the stylish, simple theme. Picking up the typograhy and colour. 
+The following click through pages follow the stylish, simple theme, picking up the typograhy and colour. 
 
 ### Navigation bar
 
@@ -87,7 +87,7 @@ These are my original wireframes for my site.
 
 There would ideally be many more options to choose from in each section. I chose nine as a nice number for the grid.
 
-On each map page I would have liked to put in more links to other options. 
+On each review page I would have liked to put in more links to other options. 
 
 On the map markers, I would want to have aditional information such as address, contact details, opening times and weblinks.
 
@@ -118,12 +118,13 @@ This allowed me to catch any problems such as rouge punctuation marks or incorre
 ### Home page
 1. Test the image fits the whole screen at all sizes by expanding and contracting screen size.
 2. Test the main message is visible at all sizes by expanding and contracting screen size.
-3. Test **EAT, DRINK, STAY** butons work by hovering over them to change colour and by clicking and seeing if they takes you to the relevant page.
+3. Test **EAT, DRINK, STAY** butons work by hovering over them to change opacity and by clicking and seeing if they takes you to the relevant page.
 
 ### EAT, DRINK, STAY pages
 1. Make sure grid of images flows with the page breaks by expanding and contracting screen size.
 2. Test the headings and subheadings are visible on all sizes by expanding and contracting screen size.
-3. Test all tiles link to relevant pages when clicked.
+3. Test tiles work by hovering over them to change opacity.
+4. Test all tiles link to relevant pages when clicked.
 
 ### Review pages
 1. Make sure grid flows with the page breaks by expanding and contracting screen size.
@@ -135,7 +136,6 @@ This allowed me to catch any problems such as rouge punctuation marks or incorre
 
 ### Real life user testing
 I tested this out with several family members and friends. 
-
 
 ---
 
@@ -187,7 +187,7 @@ All venue text is from the venues' own websites and social media.
 ## Acknowledgements
 
 ### Anna Gilhespy website
-I used Anna Gilhespy's Bootstrap tutorial video to help me work out the structure of the content.
+I used Anna Gilhespy's website to help me work out the structure of the content.
 [Anna Gilhespy](https://ajgreaves.github.io/bootstrap-grid-demo/)
 
 ### Traversy Media YouTube
