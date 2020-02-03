@@ -19,7 +19,7 @@ I created the Handpicked Brighton logo to be reflect the values of the city. The
 
 The site is fully responsive, so can be viewed on all devices. This makes it fun and easy to plan your trip from a laptop or tablet from home, or from your phone on the move.
 
-The Navigation is always visible allowing the user to click back and forth to each section easliy. The HOME page has three large buttons that reflect the Navigation bar to allow an alternative way to get around the site.
+The Navigation is always visible allowing the user to click back and forth to each section easliy. The **HOME** page has three large buttons that reflect the Navigation bar to allow an alternative way to get around the site.
 
 Each section (**EAT, DRINK and STAY**) have nine large visual buttons to choose from showing an enticing image of the location, it's name and a simple one word description to give the user help in deciding where to click.
 
