@@ -110,7 +110,7 @@ On the map markers, I would want to have aditional information such as address, 
 To test both my HTML and my CSS, I ran them through the W3C validation websites. [W3C Markup Validation Service](https://validator.w3.org/), and [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/).
 This allowed me to catch any problems such as rouge punctuation marks or incorrect code. This helped me go back in and change the errors so my code was more efficient and worked properly.
 
-### NAVIGATION BAR
+### Navigation bar
 1. Test that works at all sizes and toggles down when goes to mobile size by expanding and contracting screen size. 
 2. Test all links by hovering over to change colour and by and by making sure they redirect to relevant sections by clicking between them.
 3. Test that it is always at the top of the site by scrolling down the pages.
@@ -119,6 +119,23 @@ This allowed me to catch any problems such as rouge punctuation marks or incorre
 1. Test the image fits the whole screen at all sizes by expanding and contracting screen size.
 2. Test the main message is visible at all sizes by expanding and contracting screen size.
 3. Test **EAT, DRINK, STAY** butons work by hovering over them to change colour and by clicking and seeing if they takes you to the relevant page.
+
+### EAT, DRINK, STAY pages
+1. Make sure grid of images flows with the page breaks by expanding and contracting screen size.
+2. Test the headings and subheadings are visible on all sizes by expanding and contracting screen size.
+3. Test all tiles link to relevant pages when clicked.
+
+### Review pages
+1. Make sure grid flows with the page breaks by expanding and contracting screen size.
+2. Test the headings, text and maps are visible on all sizes by expanding and contracting screen size.
+3. Test all weblinks to make sure they link to the relevant sites.
+
+### Social buttons
+1. Test buttons are live and hover works by placing cursor over them to change colour.
+
+### Real life user testing
+I tested this out with several family members and friends. 
+
 
 ---
 
