@@ -173,7 +173,7 @@ All venue text is from the venues' own websites and social media.
 I used Anna Gilhespy's Bootstrap tutorial video to help me work out the structure of the content.
 [Anna Gilhespy](https://ajgreaves.github.io/bootstrap-grid-demo/)
 
-Traversy Media YouTube
+### Traversy Media YouTube
 I watch Traversy Media's YouTube tutorial video, JavaScript Crash Course For Beginners, to help me understand JavaScript.
 [JavaScript Crash Course For Beginners](https://www.youtube.com/watch?v=hdI2bqOjy3c)
 
