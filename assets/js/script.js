@@ -86,7 +86,7 @@ $(function () {
 /* XXXXXXXXXXXXX MAPS/REVIEWS START XXXXXXXXXXXXX */
 
 function initMap(aMap){
-        var map = new google.maps.Map(document.getElementById(aMap), {
+        const map = new google.maps.Map(document.getElementById(aMap), {
             zoom: 14,
             styles: [
   {
@@ -254,14 +254,14 @@ function initMap(aMap){
                 lng: -0.140730  
             }
         });
-        var labels = "ABCDEFGHIJKLMNOPQRSTUVXYZ";
-        var markers = locations.map(function(location, i) {
+        const labels = "ABCDEFGHIJKLMNOPQRSTUVXYZ";
+        const markers = locations.map(function(location, i) {
             return new google.maps.Marker({
                 position: location,
                 label: labels[i % labels.length]
             });
         });
-            var markerCluster = new MarkerClusterer(map, markers,
+            const markerCluster = new MarkerClusterer(map, markers,
             {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
     } 
 
