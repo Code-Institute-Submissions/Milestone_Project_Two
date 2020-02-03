@@ -291,7 +291,10 @@ function clicked_object(whatObject){
 
 /* 
 
-// TRYING
+// SAMANTHA CODE XXXXXXXXX FRIDAY NIGHT
+
+// FOR JAVASCRIPT
+
 var object1 = [
     {   "ID": "mapeat01",    
        "name": "64 degrees",    
@@ -303,12 +306,16 @@ var object1 = [
        "lng": -0.138657 },
     ]
     
+// FOR HTML
 
 function getTheID(id){
     console.log(id)
 }
     
-    
+// SAMANTHA CODE XXXXXXXXX  FRIDAY NIGHT 
+
+
+
 
 
     [
@@ -413,7 +420,7 @@ function onclick(){
 
 
 
-
+<!--SAMANTHA CODE XXXXXXXXX FRIDAY NIGHT-->
 
 /* function clicked_object(whatObject){
             // locations to be passed to the initMap function are pulled from the info in whatObject (aka object1) 
@@ -433,7 +440,7 @@ function onclick(){
 
      });
 
-
+<!--SAMANTHA CODE XXXXXXXXX FRIDAY NIGHT-->
 
 
      // TRYING
@@ -455,14 +462,23 @@ function onclick(){
 
 
 
-Would say just focus on getting the ID, so can simplify it down to this (and this is definitely not complete code, just the flow of it)
-//In the html
 
+// SAMANTHA CODE XXXXXXXXX FRIDAY NIGHT
+
+Would say just focus on getting the ID, so can simplify it down to this (and this is definitely not complete code, just the flow of it)
+
+//In the html
 <div onclick= getTheID(mapeat01) >
+
 // in the script.js
 function getTheID(id){
     console.log(id)
 }
+
+// SAMANTHA CODE XXXXXXXXX FRIDAY NIGHT
+
+
+
 
 // TRYING
     function myFunction() {
