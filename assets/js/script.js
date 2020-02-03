@@ -75,7 +75,7 @@ $(function () {
 /* XXXXXXXXXXXXX HOME PAGE EAT/DRINK/STAY BOX BUTTONS END XXXXXXXXXXXXX */
 
 
-/* XXXXXXXXXXXXX MAPS START XXXXXXXXXXXXX */
+/* XXXXXXXXXXXXX MAPS/REVIEWS START XXXXXXXXXXXXX */
 
 function initMap(aMap){
         var map = new google.maps.Map(document.getElementById(aMap), {
@@ -258,38 +258,166 @@ function initMap(aMap){
     } 
 
 
-// FROM FRIDAY NIGHT 
+/* ------ Venue data starts ------ */
+/* ------ EAT ------ */
+const object1 = {"name": "64 Degrees", 
+"about": "Tucked away in the Brighton Lanes, 64 Degrees is a small restaurant with an open kitchen by Great British Menu 2017 winner chef Michael Bremner,  where our passionate chefs concoct an evolving menu of tasty small plates using fresh, local produce.", 
+"lat":50.821695, "lng":-0.140899, 
+"website": "https://64degrees.co.uk/"}
 
-// this whole object gets put into the parameter whatObject - clicked_object(argument) --> clicked_object(parameter) and is 'unpacked' on line 664 
-var object1 = {"name":"64 Degrees", "about": "NEW TEXT FOR 64 DEGREES!!!!!", "lat":50.821695, "lng":-0.140899}
-var object2 = {"name":"Chilli Pickle", "about": "NEW TEXT FOR CHILLI!!!!!", "lat":50.821665, "lng":-0.144449}
+const object2 = {"name": "Chilli Pickle", 
+"about": "Inspired by Dawn & Alun’s Indian travels from the tropics of Tamil Nadu & Kerala, the wetlands of West Bengal, to the Rajasthani desert plains the country is an adventure and their cuisine embraces this it is vibrant, big flavoured and truly unapologetic.", 
+"lat":50.824542, "lng":-0.138657, 
+"website": "https://thechillipickle.com"}
+
+const object3 = {"name": "Isaac At", 
+"about": "Isaac At is a modern British restaurant in the centre of Brighton serving Sussex on a plate. Sourcing all of its ingredients from Sussex and the surrounding area. It was also the first restaurant in the world to be serving an exclusively all English wine list. ", 
+"lat":50.826980, "lng":-0.136221, 
+"website": "https://www.isaac-at.com/"}
+
+const object4 = {"name": "Meatliquor", 
+"about": "Back in 2008, an elusive van known as the MEATwagon began rocking up in South London on Friday nights. London Landlord Scott Collins went to try for himself, and it was love at first bite. The burgers were like nothing else. In September 2013 we opened our first place outside of London in Brighton.", 
+"lat":50.828954, "lng":-0.135693, 
+"website": "https://meatliquor.com/restaurant/meatliquor-brighton/"}
+
+const object5 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
+const object6 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
+const object7 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
+const object8 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
+const object9 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
+/* ------ DRINK ------ */
+const object10 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
+const object11 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
+const object12 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
+const object13 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
+const object14 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
+const object15 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
+const object16 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
+const object17 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
+const object18 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
+/* ------ STAY ------ */
+const object10 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
+const object11 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
+const object12 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
+const object13 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
+const object14 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
+const object15 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
+const object16 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
+const object17 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
+const object18 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
+
+/* ------ Venue data ends ------ */
+
+// var object3 = {"name": "Stephen's Super restaurnat Pickle", "about": "best restaurant ever", "lat":50.821665, "lng":-0.144449, "website": "https//:www.google.com"}
+
 
 function clicked_object(whatObject){
-            // locations to be passed to the initMap function are pulled from the info in whatObject (aka object1) /
             $("#mapeat01").show();
             locations = [{ lat: whatObject["lat"], lng: whatObject["lng"] }] 
             initMap("googlemapeat01");
-            // document.getElementById("header").innerHTML = whatObject["name"];
-            // display the previously hidden template /
+
             $("#mapeat01").show();
             $("#eat").hide();
-            // get the html elemnts called venuename and bodytext, and put what we have under name and about in the object for them/
+
             document.getElementById("venuename").innerHTML = whatObject["name"];
             document.getElementById("bodytext").innerHTML = whatObject["about"];
-    }
-    // START HERE When an element with the ID of eat01 was clicked.. (go to line ) /
-     $("#eat01").click(function() {
-        // .. call the clicked_object function, and pass it the arguement of object1 / 
-        clicked_object(object1);
+            document.getElementById("weblink").href = whatObject["website"];
+            document.getElementById("ta").href = whatObject["taLink"];
+            document.getElementById("ta").src = whatObject["taLink"];
 
+
+ /* ------ Click functions to show review pages start ------ */           
+    /* ------ EAT ------ */
+    }
+     $("#eat01").click(function() {
+        clicked_object(object1);
      });
      $("#eat02").click(function() {
-        // .. call the clicked_object function, and pass it the arguement of object2  / 
         clicked_object(object2);
-
+     });
+     $("#eat03").click(function() {
+        clicked_object(object3);
+     }); 
+     $("#eat04").click(function() {
+        clicked_object(object4);
+     }); 
+     $("#eat05").click(function() {
+        clicked_object(object5);
+     }); 
+     $("#eat06").click(function() {
+        clicked_object(object6);
+     }); 
+     $("#eat07").click(function() {
+        clicked_object(object8);
+     }); 
+     $("#eat08").click(function() {
+        clicked_object(object8);
+     }); 
+     $("#eat09").click(function() {
+        clicked_object(object9);
      }); 
 
-    // FRIDAY NIGHT /
+     /* ------ DRINK ------ */
+     $("#drink01").click(function() {
+        clicked_object(object10);
+     }); 
+     $("#drink02").click(function() {
+        clicked_object(object11);
+     }); 
+     $("#drink03").click(function() {
+        clicked_object(object12);
+     }); 
+     $("#drink04").click(function() {
+        clicked_object(object13);
+     }); 
+     $("#drink05").click(function() {
+        clicked_object(object14);
+     }); 
+     $("#drink06").click(function() {
+        clicked_object(object15);
+     }); 
+     $("#drink07").click(function() {
+        clicked_object(object16);
+     }); 
+     $("#drink08").click(function() {
+        clicked_object(object17);
+     }); 
+     $("#drink09").click(function() {
+        clicked_object(object18);
+     }); 
+
+     /* ------ STAY ------ */
+     $("#stay01").click(function() {
+        clicked_object(object10);
+     }); 
+     $("#stay01").click(function() {
+        clicked_object(object10);
+     }); 
+     $("#stay01").click(function() {
+        clicked_object(object10);
+     }); 
+     $("#stay01").click(function() {
+        clicked_object(object10);
+     }); 
+     $("#stay01").click(function() {
+        clicked_object(object10);
+     }); 
+     $("#stay01").click(function() {
+        clicked_object(object10);
+     }); 
+     $("#stay01").click(function() {
+        clicked_object(object10);
+     }); 
+     $("#stay01").click(function() {
+        clicked_object(object10);
+     }); 
+     $("#stay01").click(function() {
+        clicked_object(object10);
+     }); 
+
+ /* ------ Click functions to show review pages end ------ */
+
+/* XXXXXXXXXXXXX MAPS/REVIEWS START XXXXXXXXXXXXX */
 
 // BACK-TO BUTTONS START
 
