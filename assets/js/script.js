@@ -28,10 +28,6 @@ $(function () {
 		    $("#navhome").addClass("active");
             $("#home").show();
 
-        } else if ($(this).attr("id") === "navbarbrand") {
-		    $("#navhome").addClass("active");
-            $("#home").show();
-        
 	    } else if ($(this).attr("id") === "naveat") {
 		    $("#naveat").addClass("active");
             $("#eat").show();
@@ -46,6 +42,15 @@ $(function () {
     });
 });
 
+        $("#navbarbrand").click(function(){
+            $("#home").show();
+            $("#navhome").addClass("active");
+            $("#naveat").removeClass("active");
+            $("#navdrink").removeClass("active");
+            $("#navstay").removeClass("active");
+        });
+
+
 /* XXXXXXXXXXXXX NAV BAR END XXXXXXXXXXXXX  */
 
 
@@ -58,15 +63,18 @@ $(function () {
     /* ------ If/else statements to check which button was clicked ------ */
     /* ------ apply 'active' class only to that li, and show the corresponding section ------ */        
         if ($(this).attr("id") === "buttoneat") {
-            $("#naveat").addClass("active");
-            $("#eat").show();
+                $("#naveat").addClass("active");
+                $("#navhome").removeClass("active");
+                $("#eat").show();
 
             } else if ($(this).attr("id") === "buttondrink") {
-                $("#navrink").addClass("active");
+                $("#navdrink").addClass("active");
+                $("#navhome").removeClass("active");
                 $("#drink").show();
                 
             } else if ($(this).attr("id") === "buttonstay") {
                 $("#navstay").addClass("active");
+                $("#navhome").removeClass("active");
                 $("#stay").show();
         };
     });
@@ -307,25 +315,98 @@ const object9 = {"name": "VIP Pizza",
 "website": "http://pizzavip.co.uk/"}
 
 /* ------ DRINK ------ */
-const object10 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
-const object11 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
-const object12 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
-const object13 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
-const object14 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
-const object15 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
-const object16 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
-const object17 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
-const object18 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
+
+const object10 = {"name": "xxxx", 
+"about": "xxxxxxxx", 
+"lat":0, "lng":-0, 
+"website": "https//:www.xxxxx"}
+
+const object11 = {"name": "xxxx", 
+"about": "xxxxxxxx", 
+"lat":0, "lng":-0, 
+"website": "https//:www.xxxxx"}
+
+const object12 = {"name": "xxxx", 
+"about": "xxxxxxxx", 
+"lat":0, "lng":-0, 
+"website": "https//:www.xxxxx"}
+
+const object13 = {"name": "xxxx", 
+"about": "xxxxxxxx", 
+"lat":0, "lng":-0, 
+"website": "https//:www.xxxxx"}
+
+const object14 = {"name": "xxxx", 
+"about": "xxxxxxxx", 
+"lat":0, "lng":-0, 
+"website": "https//:www.xxxxx"}
+
+const object15 = {"name": "xxxx", 
+"about": "xxxxxxxx", 
+"lat":0, "lng":-0, 
+"website": "https//:www.xxxxx"}
+
+const object16 = {"name": "xxxx", 
+"about": "xxxxxxxx", 
+"lat":0, "lng":-0, 
+"website": "https//:www.xxxxx"}
+
+const object17 = {"name": "xxxx", 
+"about": "xxxxxxxx", 
+"lat":0, "lng":-0, 
+"website": "https//:www.xxxxx"}
+
+const object18 = {"name": "xxxx", 
+"about": "xxxxxxxx", 
+"lat":0, "lng":-0, 
+"website": "https//:www.xxxxx"}
+
 /* ------ STAY ------ */
-const object19 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
-const object20 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
-const object21 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
-const object22 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
-const object23 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
-const object24 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
-const object25 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
-const object26 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
-const object27 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
+
+const object19 = {"name": "xxxx", 
+"about": "xxxxxxxx", 
+"lat":0, "lng":-0, 
+"website": "https//:www.xxxxx"}
+
+const object20 = {"name": "xxxx", 
+"about": "xxxxxxxx", 
+"lat":0, "lng":-0, 
+"website": "https//:www.xxxxx"}
+
+const object21 = {"name": "xxxx", 
+"about": "xxxxxxxx", 
+"lat":0, "lng":-0, 
+"website": "https//:www.xxxxx"}
+
+const object22 = {"name": 
+"xxxx", "about": "xxxxxxxx", 
+"lat":0, "lng":-0, 
+"website": "https//:www.xxxxx"}
+
+const object23 = {"name": "xxxx", 
+"about": "xxxxxxxx", 
+"lat":0, "lng":-0, 
+"website": "https//:www.xxxxx"}
+
+const object24 = {"name": "xxxx", 
+"about": "xxxxxxxx", 
+"lat":0, "lng":-0, 
+"website": "https//:www.xxxxx"}
+
+const object25 = {"name": "xxxx", 
+"about": "xxxxxxxx", 
+"lat":0, "lng":-0, 
+"website": "https//:www.xxxxx"}
+
+const object26 = {"name": "xxxx", 
+"about": "xxxxxxxx", 
+"lat":0, "lng":-0, 
+"website": "https//:www.xxxxx"}
+
+const object27 = {"name": "xxxx", 
+"about": "xxxxxxxx", 
+"lat":0, "lng":-0, 
+"website": "https//:www.xxxxx"}
 
 /* ------ Venue data ends ------ */
 
@@ -347,7 +428,8 @@ function clicked_object(whatObject){
             document.getElementById("ta").src = whatObject["taLink"];
 
 
- /* ------ Click functions to show review pages start ------ */           
+ /* ------ Click functions to show review pages start ------ */    
+
     /* ------ EAT ------ */
     }
      $("#eat01").click(function() {
@@ -379,6 +461,7 @@ function clicked_object(whatObject){
      }); 
 
      /* ------ DRINK ------ */
+
      $("#drink01").click(function() {
         clicked_object(object10);
      }); 
@@ -408,31 +491,32 @@ function clicked_object(whatObject){
      }); 
 
      /* ------ STAY ------ */
+
      $("#stay01").click(function() {
         clicked_object(object19);
      }); 
-     $("#stay01").click(function() {
+     $("#stay02").click(function() {
         clicked_object(object20);
      }); 
-     $("#stay01").click(function() {
+     $("#stay03").click(function() {
         clicked_object(object21);
      }); 
-     $("#stay01").click(function() {
+     $("#stay04").click(function() {
         clicked_object(object22);
      }); 
-     $("#stay01").click(function() {
+     $("#stay05").click(function() {
         clicked_object(object23);
      }); 
-     $("#stay01").click(function() {
+     $("#stay06").click(function() {
         clicked_object(object24);
      }); 
-     $("#stay01").click(function() {
+     $("#stay07").click(function() {
         clicked_object(object25);
      }); 
-     $("#stay01").click(function() {
+     $("#stay08").click(function() {
         clicked_object(object26);
      }); 
-     $("#stay01").click(function() {
+     $("#stay09").click(function() {
         clicked_object(object27);
      }); 
 
@@ -457,207 +541,4 @@ $(".backbuttonstay").click(function(){
 // BACK-TO BUTTONS END
 
 
-$("#navbarbrand").click(function(){
-    $("#home").show();
-    $("#navhome").addClass("active");
-    $("#naveat").removeClass("active");
-    $("#navdrink").removeClass("active");
-    $("#navstay").removeClass("active");
-});
 
-/* 
-
-// SAMANTHA CODE XXXXXXXXX FRIDAY NIGHT
-
-// FOR JAVASCRIPT
-
-var object1 = [
-    {   "ID": "mapeat01",    
-       "name": "64 degrees",    
-       "lat": 50.821695,    
-       "lng": -0.140899 },
-    {   "ID": "mapeat02",    
-       "name": "Chilli Pickle",    
-        "lat": 50.824542,    
-       "lng": -0.138657 },
-    ]
-    
-// FOR HTML
-
-function getTheID(id){
-    console.log(id)
-}
-    
-// SAMANTHA CODE XXXXXXXXX  FRIDAY NIGHT 
-
-
-
-
-
-    [
-    {   "ID": "mapeat01",    
-       "name": "64 degrees",    
-       "lat": 50.821695,    
-       "lng": -0.140899   },
-       
-    {   "ID": "mapeat02",    
-       "name": "Chilli Pickle",    
-        "lat": 50.824542,    
-       "lng": -0.138657   },
-    ]
-
-function onclick(){
-    document.getElementById("object").innerHTML = ["ID", "name", "lat", "lng"]
-};
-
-*/
-
-
-
-
-
-
-/* HIDE OLD MAPS XXXXXXXXXXXXXXXXX
-    // ------ Show mapeat01 ------ 
-     $("#eat01").click(function() {
-         $("#home, #eat, #drink, #stay").hide(); {
-             locations = [{ lat: 50.821695, lng: -0.140899 }] // 64 Degrees
-             initMap("googlemapeat01");
-             $("#mapeat01").show();
-         };
-     });
-     // ------ Show mapeat02 ------    
-     $("#eat02").click(function() {
-         $("#home, #eat, #drink, #stay").hide(); {
-             locations = [{ lat: 50.824542, lng: -0.138657 }] // Chilli Pickle
-             initMap("googlemapeat02");
-             $("#mapeat02").show();
-         };
-     });
-     // ------ Show mapeat03 ------ 
-     $("#eat03").click(function() {
-         $("#home, #eat, #drink, #stay").hide(); {
-             locations = [{ lat: 50.826980, lng: -0.136221 }] // Issac At
-             initMap("googlemapeat03")
-             $("#mapeat03").show();
-         };
-     });
-     // ------ Show mapeat04 ------ 
-     $("#eat04").click(function() {
-         $("#home, #eat, #drink, #stay").hide(); {
-             locations = [{ lat: 50.828954, lng: -0.135693 }] // Meatliquor
-             initMap("googlemapeat04")
-             $("#mapeat04").show();
-         };
-     });
-     // ------ Show mapeat05 ------ 
-     $("#eat05").click(function() {
-         $("#home, #eat, #drink, #stay").hide(); {
-             locations = [{ lat: 50.822524, lng: -0.141957 }] // Browns
-             initMap("googlemapeat05")
-             $("#mapeat05").show();
-         };
-     });
-     // ------ Show mapeat06 ------ 
-     $("#eat06").click(function() {
-        $("#home, #eat, #drink, #stay").hide(); {
-             locations = [{ lat: 50.821452, lng: -0.148349 }] // The Salt Room
-             initMap("googlemapeat06")
-             $("#mapeat06").show();
-         };
-     });
-     // ------ Show mapeat07 ------ 
-     $("#eat07").click(function() {
-         $("#home, #eat, #drink, #stay").hide(); {
-             locations = [{ lat: 50.821328, lng: -0.140952 }] // Food For Friends
-             initMap("googlemapeat07")
-             $("#mapeat07").show();
-         };
-     });
-     // ------ Show mapeat08 ------ 
-     $("#eat08").click(function() {
-         $("#home, #eat, #drink, #stay").hide(); {
-             locations = [{ lat: 50.822072, lng: -0.143385 }] // Coal Shed
-             initMap("googlemapeat08")
-             $("#mapeat08").show();
-         };
-     });
-     // ------ Show mapeat09 ------ 
-     $("#eat09").click(function() {
-         $("#home, #eat, #drink, #stay").hide(); {
-             locations = [{ lat: 50.820831, lng: -0.136467 }] // VIP Pizza
-             initMap("googlemapeat09")
-             $("#mapeat09").show();
-         };
-     });
-
-/* HIDE OLD MAPS XXXXXXXXXXX
-    
-
-
-
-<!--SAMANTHA CODE XXXXXXXXX FRIDAY NIGHT-->
-
-/* function clicked_object(whatObject){
-            // locations to be passed to the initMap function are pulled from the info in whatObject (aka object1) 
-            locations = [{ lat: whatObject["lat"], lng: whatObject["lng"] }] 
-             initMap("googlemapeat01");
-             // display the previously hidden template /
-             $("#testdisplay").show();
-             $("#eat").hide();
-            // get the html elemnts called venuename and bodytext, and put what we have under name and about in the object for them/
-             document.getElementById("venuename").innerHTML = whatObject["name"];
-             document.getElementById("bodytext").innerHTML = whatObject["about"];
-    }
-    // START HERE When an element with the ID of eat01 was clicked..  /
-     $("#eat01").click(function() {
-        // .. call the clicked_object function, and pass it the arguement of object1 (found on line 345 ) / 
-        clicked_object("mapeat01");
-
-     });
-
-<!--SAMANTHA CODE XXXXXXXXX FRIDAY NIGHT-->
-
-
-     // TRYING
-    var object1 = [
-    {   "ID": "mapeat01",    
-       "name": "64 degrees",    
-       "lat": 50.821695,    
-       "lng": -0.140899   },
-       
-    {   "ID": "mapeat02",    
-       "name": "Chilli Pickle",    
-        "lat": 50.824542,    
-       "lng": -0.138657   },
-    ]
-
-function onclick(){
-    document.getElementById("object").innerHTML = ["ID", "name", "lat", "lng"]
-};
-
-
-
-
-// SAMANTHA CODE XXXXXXXXX FRIDAY NIGHT
-
-Would say just focus on getting the ID, so can simplify it down to this (and this is definitely not complete code, just the flow of it)
-
-//In the html
-<div onclick= getTheID(mapeat01) >
-
-// in the script.js
-function getTheID(id){
-    console.log(id)
-}
-
-// SAMANTHA CODE XXXXXXXXX FRIDAY NIGHT
-
-
-
-
-// TRYING
-    function myFunction() {
-        document.getElementById("testeat").show = ["mapeat01"];
-    }
-*/
