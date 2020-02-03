@@ -280,10 +280,25 @@ const object4 = {"name": "Meatliquor",
 "lat":50.828954, "lng":-0.135693, 
 "website": "https://meatliquor.com/restaurant/meatliquor-brighton/"}
 
-const object5 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
-const object6 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
-const object7 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
-const object8 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
+const object5 = {"name": "Browns", "about": "Just a short stroll from the Royal Pavilion, the twisting alleyways of The Lanes and the resort’s iconic pier, Browns Brighton first opened its doors in the early 1970s, marking the beginning of our on-going commitment to sourcing quality produce from British suppliers and providing first-class service to our customers.", 
+"lat":50.822524, "lng":-0.141957, 
+"website": "https://www.browns-restaurants.co.uk/restaurants/southeast/brighton"}
+
+const object6 = {"name": "The Salt Room", 
+"about": "Boasting uninterrupted views of the Brighton seafront and iconic West Pier ruins, The Salt Room is a modern British seafood restaurant that celebrates cooking over coal. Winner of the Seafood Restaurant of the Year 2017, our seaside restaurant is the best restaurant in Brighton to enjoy sustainable, local produce. ", 
+"lat":50.821452, "lng":-0.148349, 
+"website": "https://www.saltroom-restaurant.co.uk/"}
+
+const object7 = {"name": "Food For Friends", 
+"about": "Food for Friends is Brighton’s original award-winning vegetarian and vegan restaurant, featured in ‘The Sunday Times’ Top Vegetarian and Vegan Restaurants and in 'The Good Food Guide 2018'. Our ethos is tasty and honest cooking using fresh & consciously sourced produce. Our relaxed and attentive atmosphere will ensure you’ll be welcomed as a guest, but will leave as a friend.", 
+"lat":50.821328, "lng":-0.140952, 
+"website": "https://www.foodforfriends.com"}
+
+const object8 = {"name": "xxxx", 
+"about": "xxxxxxxx", 
+"lat":0, "lng":-0, 
+"website": "https//:www.xxxxx"}
+
 const object9 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
 /* ------ DRINK ------ */
 const object10 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
@@ -348,7 +363,7 @@ function clicked_object(whatObject){
         clicked_object(object6);
      }); 
      $("#eat07").click(function() {
-        clicked_object(object8);
+        clicked_object(object7);
      }); 
      $("#eat08").click(function() {
         clicked_object(object8);
