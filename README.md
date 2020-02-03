@@ -169,7 +169,7 @@ All the **tutors** that helped me along the way on the **Tutor Support**.
 
 ### Images
 
-Home image was sourced from the iStock image library.
+Home image was sourced from the **iStock** image library.
 [iStock](https://www.istockphoto.com/gb)
 
 All venue images are from the venues' own websites and social media.
@@ -187,7 +187,7 @@ I used Anna Gilhespy's website to help me work out the structure of the content.
 [Anna Gilhespy](https://ajgreaves.github.io/bootstrap-grid-demo/)
 
 ### Traversy Media YouTube
-I watch Traversy Media's YouTube tutorial video, JavaScript Crash Course For Beginners, to help me understand JavaScript.
+I watch Traversy Media's YouTube tutorial video, **JavaScript Crash Course For Beginners**, to help me understand JavaScript.
 [JavaScript Crash Course For Beginners](https://www.youtube.com/watch?v=hdI2bqOjy3c)
 
 
