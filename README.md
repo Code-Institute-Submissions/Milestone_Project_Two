@@ -79,7 +79,7 @@ Once a venue is chosen from either **EAT, DRINK,** or **STAY**, the user is take
 
 These are my original wireframes for my site.
 
-![Wireframes](GARY/Coding/MilestoneProjectTwo/New-Wireframe.png)
+![Wireframes](assets/images/wireframes/HandpickedWireframe.png)
 
 ---
 
