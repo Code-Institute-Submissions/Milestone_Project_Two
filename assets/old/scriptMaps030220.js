@@ -296,15 +296,15 @@ const object16 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "websi
 const object17 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
 const object18 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
 /* ------ STAY ------ */
-const object19 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
-const object20 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
-const object21 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
-const object22 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
-const object23 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
-const object24 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
-const object25 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
-const object26 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
-const object27 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
+const object10 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
+const object11 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
+const object12 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
+const object13 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
+const object14 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
+const object15 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
+const object16 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
+const object17 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
+const object18 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
 
 /* ------ Venue data ends ------ */
 
