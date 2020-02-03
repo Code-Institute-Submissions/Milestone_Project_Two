@@ -259,7 +259,9 @@ function initMap(aMap){
 
 
 /* ------ Venue data starts ------ */
+
 /* ------ EAT ------ */
+
 const object1 = {"name": "64 Degrees", 
 "about": "Tucked away in the Brighton Lanes, 64 Degrees is a small restaurant with an open kitchen by Great British Menu 2017 winner chef Michael Bremner,  where our passionate chefs concoct an evolving menu of tasty small plates using fresh, local produce.", 
 "lat":50.821695, "lng":-0.140899, 
@@ -294,12 +296,16 @@ const object7 = {"name": "Food For Friends",
 "lat":50.821328, "lng":-0.140952, 
 "website": "https://www.foodforfriends.com"}
 
-const object8 = {"name": "xxxx", 
-"about": "xxxxxxxx", 
-"lat":0, "lng":-0, 
-"website": "https//:www.xxxxx"}
+const object8 = {"name": "The Coal Shed", 
+"about": "The Coal Shed is a steak restaurant in the heart of Brighton. The menu is simple: the highest quality ingredients, sourced as locally as possible, and expertly cooked over coal. As well as a seasonal à la carte menu, we also offer daily specials, a great value express lunch and pre theatre menu, and Brighton's favourite Sunday Sharing Roast.", 
+"lat":50.822072, "lng":-0.143385, 
+"website": "https://www.coalshed-restaurant.co.uk/brighton"}
 
-const object9 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
+const object9 = {"name": "VIP Pizza", 
+"about": "An Authentic pizzeria and restaurant in offering real neapolitan pizza in the Brighton, Saltdean and Sussex area made with home made sourdough and cooked in 100% traditional wood burning pizza oven. All our ingredients are chosen based on their high quality and come from our farm in Naples regulated for its high quality.", 
+"lat":50.820831, "lng":-0.136467, 
+"website": "http://pizzavip.co.uk/"}
+
 /* ------ DRINK ------ */
 const object10 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
 const object11 = {"name": "xxxx", "about": "xxxxxxxx", "lat":0, "lng":-0, "website": "https//:www.xxxxx"}
