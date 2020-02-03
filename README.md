@@ -61,13 +61,9 @@ The three simple looking buttons, **EAT, DRINK,** and **STAY** immediately intic
 
 The footer only appears on the **HOME** page, so not to overcrowd and complicated the following pages. It contains the site's social media.
 
----
-
 ### EAT/DRINK/STAY pages
 
 These are the pages that show when the **EAT, DRINK,** or **STAY** buttons are clicked. They show an arrangement of nine handpicked venues to get food, drink or to stay. The large images give a visual climpse of what the venue looks like. The strong, stylish typography of the name of the venue with a one word classifications under it gives the user more clues about if it's the type of venue they are interested in. There is a simple, clean hover when the mouse glides over each box to show it is highlighted.
-
----
 
 ### Venue information pages
 
