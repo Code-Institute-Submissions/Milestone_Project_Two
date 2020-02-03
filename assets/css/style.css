@@ -337,10 +337,6 @@ image {
 
 /* Map Page start */
 
-#map {
-    height: 100%;
-    background-color: tomato;
-}
 
 .reviewbox {
     background-color: none;

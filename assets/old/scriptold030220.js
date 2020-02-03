@@ -4,19 +4,15 @@ $(document).ready(function () {
 /* ------ On load, hide all sections apart from 'home'------ */ 
 $(function () {
     $("#navhome").addClass("active");
-    $("#eat, #drink, #stay, #mapeat01, #mapeat02, #mapeat03, #mapeat04, #mapeat05, #mapeat06, #mapeat07, #mapeat08, #mapeat09").hide();
-    $("#mapdrink01, #mapdrink02, #mapdrink03, #mapdrink04, #mapdrink05, #mapdrink06, #mapdrink07, #mapdrink08, #mapdrink09").hide();
-    $("#mapstay01, #mapstay02, #mapstay03, #mapstay04, #mapstay05, #mapstay06, #mapstay07, #mapstay08, #mapstay09").hide();
+    $("[id*='mapeat'], [id*='mapdrink'], [id*='mapstay']").hide();
     
     
 /* XXXXXXXXXXXXX NAV BAR START XXXXXXXXXXXXX  */
 
     /* ------ Hide sections ------ */
-	$("#navhome, #naveat, #navdrink, #navstay").click(function() {
+	$("#navhome, #naveat, #navdrink, #navstay").click(function () {
 		$("#home, #eat, #drink, #stay").hide();
-	    $("#mapeat01, #mapeat02, #mapeat03, #mapeat04, #mapeat05, #mapeat06, #mapeat07, #mapeat08, #mapeat09").hide();
-        $("#mapdrink01, #mapdrink02, #mapdrink03, #mapdrink04, #mapdrink05, #mapdrink06, #mapdrink07, #mapdrink08, #mapdrink09").hide();
-        $("#mapstay01, #mapstay02, #mapstay03, #mapstay04, #mapstay05, #mapstay06, #mapstay07, #mapstay08, #mapstay09").hide();
+        $("[id*='mapeat'], [id*='mapdrink'], [id*='mapstay']").hide();
         
     /* ------ Remove active class ------ */
 	$("#navhome, #naveat, #navdrink, #navstay").removeClass("active");
@@ -279,42 +275,19 @@ function clicked_object(whatObject){
     }
     // START HERE When an element with the ID of eat01 was clicked.. (go to line ) /
      $("#eat01").click(function() {
-        // .. call the clicked_object function, and pass it the arguement of object1 / 
+        // .. call the clicked_object function, and pass it the arguement of object1 (found on line ) / 
         clicked_object(object1);
 
      });
      $("#eat02").click(function() {
-        // .. call the clicked_object function, and pass it the arguement of object2  / 
+        // .. call the clicked_object function, and pass it the arguement of object1 (found on line 345 ) / 
         clicked_object(object2);
 
      }); 
 
     // FRIDAY NIGHT /
 
-// BACK-TO BUTTONS START
 
-$(".backbuttoneat").click(function(){
-    $("#eat").show();
-    }); 
-
-$(".backbuttondrink").click(function(){
-    $("#drink").show();
-    }); 
-    
-$(".backbuttonstay").click(function(){
-    $("#stay").show();
-    }); 
-
-// BACK-TO BUTTONS END
-
-
-$("#navbarbrand").click(function(){
-    $("#home").show();
-    $("#navhome").addClass("active");
-    $("#naveat").removeClass("active");
-    $("#navdrink").removeClass("active");
-    $("#navstay").removeClass("active");
-});
 
 /* 
 
