@@ -79,7 +79,7 @@ Once a venue is chosen from either **EAT, DRINK,** or **STAY**, the user is take
 
 These are my original wireframes for my site.
 
-![Wireframes](desktop1/GARY/Coding/MilestoneProjectTwo/New-Wireframe.png)
+![Wireframes](GARY/Coding/MilestoneProjectTwo/New-Wireframe.png)
 
 ---
 
@@ -125,17 +125,18 @@ This allowed me to catch any problems such as rouge punctuation marks or incorre
 ## Deployment
 My site is deployed on GitHub. 
 
-1. At the start of your project when you have created your GitPod workspace it's a good idea to start commiting your files to a repository.
-
-9. We then use the command git commit -m "Intial commit", which is the standard message when starting a repository.
-10.We need to tell it how to find the remote repository, so go back to GitHub and to the box with the heading 'or push an existing repository from the command center.
-
-
-14. Go back to GitHub and you will see that your file has now been saved to this remote repository.
-15. At regular intervals it is a good idea to commit your files in case something goes wrong.
-16. Command git status will show you files that need to be added.
-17. Command git add -A will add all those files.
-18. Then of course you need a git commit -m "with a message".
+1. To create a new Gitpod repository, first click on the **new** button.
+2. Give your repository a short and memeorable name, and description so you can identify it later.
+3. Tick the 'Initialize this repository with a README' box and then click **Create repository**.
+4. Now you can launch **Gitpod** by clicking on the button.
+5. Create your **index.html** and get your boilerplate code by typing **!** and **tab**.
+6. To preview your project **python3 -m http.server** into the terminal window. This brings up a box with an **Expose** button. You can now choose to open preview or open the browser.
+7. To now push your work to GitHub, simply type **git add -A**, then **git commit -m "Intial commit"** (the standard message when starting a repository) and finally **git push**.
+8. Go back to GitHub and you will see that your file has now been saved to this remote repository.
+9. At regular intervals it is a good idea to commit your files in case something goes wrong.
+10. Command git status will show you files that need to be added.
+11. Command git add -A will add all those files.
+12. Then of course you need a git commit -m "with a message".
 
 I have been pushing my code through to GitHub very regularly as, on occasion, something has gone wrong and I've had to go into my history and retrieve bits of code that I know will work. 
 
