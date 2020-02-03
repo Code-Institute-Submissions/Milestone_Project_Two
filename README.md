@@ -85,7 +85,7 @@ These are my original wireframes for my site.
 
 ## Features left to implement
 
-There would ideally be many more options to choose from in each section. I chose nine as i nice number for the grid.
+There would ideally be many more options to choose from in each section. I chose nine as a nice number for the grid.
 
 On each map page I would have liked to put in more links to other options. 
 
