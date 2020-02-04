@@ -321,35 +321,35 @@ const object10 = {"name": "Bison Beer",
 "lat":50.825452, "lng":-0.137017, 
 "website": "https://www.bisonbeer.co.uk/"}
 
-const object11 = {"name": "xxxx", 
-"about": "xxxxxxxx", 
-"lat":0, "lng":0, 
-"website": "https//:www.xxxxx"}
+const object11 = {"name": "The Joker", 
+"about": "We have lovingly refurbished our first floor, creating an elegant cocktail lounge and games room complete with pool table, dartboard and smart TV. London Road looks ace from up here. Children are welcome until 8pm everyday.", 
+"lat":50.833887, "lng":-0.139027, 
+"website": "http://www.thejokerbrighton.com/"}
 
-const object12 = {"name": "xxxx", 
-"about": "xxxxxxxx", 
-"lat":0, "lng":-0, 
-"website": "https//:www.xxxxx"}
+const object12 = {"name": "The Mesmerist", 
+"about": "A dapper looking lounge bar in the heart of Brighton’s Lanes that spans three floors and offers a choice of individually styled rooms and spaces to enjoy a quality food offering or an expertly mixed cocktail or two.", 
+"lat":50.820973, "lng":-0.140574, 
+"website": "https://www.mesmerist.pub/"}
 
-const object13 = {"name": "xxxx", 
-"about": "xxxxxxxx", 
-"lat":0, "lng":-0, 
-"website": "https//:www.xxxxx"}
+const object13 = {"name": "Mrs Fitzherberts", 
+"about": "Set in an environment that is Fitz for a king, the newly refurbished Fitzherberts boasts two great heated and lit outdoor terraces. Our street terrace on Brighton’s premier pedestrianised thoroughfare, New Road, is the BEST place to watch Brighton play.", 
+"lat":50.823952, "lng":-0.139062, 
+"website": "https://www.mrsfitzherberts.co.uk/"}
 
-const object14 = {"name": "xxxx", 
-"about": "xxxxxxxx", 
-"lat":0, "lng":-0, 
-"website": "https//:www.xxxxx"}
+const object14 = {"name": "Ohso Social", 
+"about": "An oasis on Brighton’s world famous beach, OhSo Social is a truly unique venue, that transforms itself from a family friendly cafe-bar by day, into a buzzing hotspot for all to socialise by night.  We’re proud to serve delicious food, cakes, coffees and artisan beers and wines, as well as cocktails, and a vast array of spirits.", 
+"lat":50.819132, "lng":-0.139313, 
+"website": "https://www.ohsobrighton.co.uk/"}
 
-const object15 = {"name": "xxxx", 
-"about": "xxxxxxxx", 
-"lat":0, "lng":-0, 
-"website": "https//:www.xxxxx"}
+const object15 = {"name": "Speakeasy at the Wick", 
+"about": "Taking inspiration from America's prohibition era, The Wick have revamped their top floor and created The Speakeasy, second home to a classy, decadent crowd enjoying their haunts a little more interesting than Hoves usual stomping grounds.", 
+"lat":50.826080, "lng":-0.161790, 
+"website": "http://www.speakeasybrighton.co.uk/"}
 
-const object16 = {"name": "xxxx", 
-"about": "xxxxxxxx", 
-"lat":0, "lng":-0, 
-"website": "https//:www.xxxxx"}
+const object16 = {"name": "Unbarred Brewery", 
+"about": "No-rules brewing from the heart of brighton. Flavour without compromise, challenging convention with passion & care. Drink beer, have fun, enjoy in good company.", 
+"lat":50.833267, "lng":-0.139363, 
+"website": "https://www.unbarredbrewery.com/"}
 
 const object17 = {"name": "xxxx", 
 "about": "xxxxxxxx", 
