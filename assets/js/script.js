@@ -14,7 +14,7 @@ $(function () {
     /* ------ Hide sections ------ */
 	$("#navhome, #naveat, #navdrink, #navstay").click(function() {
 		$("#home, #eat, #drink, #stay").hide();
-	    $("#mapeat01, #mapeat02, #mapeat03, #mapeat04, #mapeat05, #mapeat06, #mapeat07, #mapeat08, #mapeat09").hide();
+	    $("#mapeat01").hide();
         $("#mapdrink01, #mapdrink02, #mapdrink03, #mapdrink04, #mapdrink05, #mapdrink06, #mapdrink07, #mapdrink08, #mapdrink09").hide();
         $("#mapstay01, #mapstay02, #mapstay03, #mapstay04, #mapstay05, #mapstay06, #mapstay07, #mapstay08, #mapstay09").hide();
         
