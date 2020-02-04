@@ -107,14 +107,6 @@ body {
     justify-content: center;
 }
 
-blackbox {
-    margin-top: 5.5rem;
-    margin-bottom: -6rem;
-    height: 200px;
-    width: 200px;
-    cursor: pointer;
-}
-
 .boxtext {
     font-weight: 900;
     color: #fff;
@@ -431,21 +423,3 @@ image {
 
 /* Footer end */
 
-
-/*
-
-#buttondrink {
-    margin: 1.5rem;
-    padding-left: 0rem;
-    padding-right: 0rem;
-	height: 250px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: responsive;
-	background-color: rgba(0, 0, 0, 0.7);;
-    cursor: pointer;
-    background-image: flex;
-}
-
-*/

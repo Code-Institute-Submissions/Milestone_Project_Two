@@ -9,7 +9,7 @@ $(function () {
     $("#mapstay01, #mapstay02, #mapstay03, #mapstay04, #mapstay05, #mapstay06, #mapstay07, #mapstay08, #mapstay09").hide();
     
     
-/* XXXXXXXXXXXXX NAV BAR START XXXXXXXXXXXXX  */
+/* XXXXXXXXXX NAV BAR START XXXXXXXXXX  */
 
     /* ------ Hide sections ------ */
 	$("#navhome, #naveat, #navdrink, #navstay").click(function() {
@@ -48,13 +48,14 @@ $(function () {
             $("#naveat").removeClass("active");
             $("#navdrink").removeClass("active");
             $("#navstay").removeClass("active");
+            $("#eat, #drink, #stay, #mapeat01").hide();
         });
 
 
-/* XXXXXXXXXXXXX NAV BAR END XXXXXXXXXXXXX  */
+/* XXXXXXXXXX NAV BAR END XXXXXXXXXX  */
 
 
-/* XXXXXXXXXXXXX HOME PAGE EAT/DRINK/STAY START XXXXXXXXXXXXX */
+/* XXXXXXXXXX HOME PAGE EAT/DRINK/STAY START XXXXXXXXXX */
 
     /* ------ Hide sections ------ */
     $("#buttoneat, #buttondrink, #buttonstay").click(function() {
@@ -80,10 +81,10 @@ $(function () {
     });
 });
 
-/* XXXXXXXXXXXXX HOME PAGE EAT/DRINK/STAY BOX BUTTONS END XXXXXXXXXXXXX */
+/* XXXXXXXXXX HOME PAGE EAT/DRINK/STAY BOX BUTTONS END XXXXXXXXXX */
 
 
-/* XXXXXXXXXXXXX MAPS/REVIEWS START XXXXXXXXXXXXX */
+/* XXXXXXXXXX MAPS/REVIEWS START XXXXXXXXXX */
 
 function initMap(aMap){
         const map = new google.maps.Map(document.getElementById(aMap), {
@@ -266,7 +267,7 @@ function initMap(aMap){
     } 
 
 
-/* ------ Venue reviews start ------ */
+/* XXXXXXXXXX Venue reviews start XXXXXXXXXX */
 
 /* ------ EAT ------ */
 
@@ -408,10 +409,10 @@ const object27 = {"name": "The Old Ship Hotel",
 "lat":50.820361, "lng":-0.142046, 
 "website": "https://www.oldshipbrighton.co.uk/"}
 
-/* ------ Venue reviews end ------ */
+/* XXXXXXXXXX Venue reviews end XXXXXXXXXX */
 
-// var object3 = {"name": "Stephen's Super restaurnat Pickle", "about": "best restaurant ever", "lat":50.821665, "lng":-0.144449, "website": "https//:www.google.com"}
 
+ /* XXXXXXXXXX Click functions to show review pages start XXXXXXXXXX */ 
 
 function clicked_object(whatObject){
             $("#mapeat01").show();
@@ -426,11 +427,9 @@ function clicked_object(whatObject){
             document.getElementById("venuename").innerHTML = whatObject["name"];
             document.getElementById("bodytext").innerHTML = whatObject["about"];
             document.getElementById("weblink").href = whatObject["website"];
-          //  document.getElementById("ta").href = whatObject["taLink"];
-          //  document.getElementById("ta").src = whatObject["taLink"];
-
-
- /* ------ Click functions to show review pages start ------ */    
+          //  document.getElementById("ta").href = whatObject["taLink"]; 
+          //  document.getElementById("ta").src = whatObject["taLink"]; (IMAGE?)
+   
 
     /* ------ EAT ------ */
     }
@@ -522,28 +521,31 @@ function clicked_object(whatObject){
         clicked_object(object27);
      }); 
 
- /* ------ Click functions to show review pages end ------ */
+ /* XXXXXXXXXX Click functions to show review pages end XXXXXXXXXX */
 
 
-/* XXXXXXXXXXXXX MAPS/REVIEWS START XXXXXXXXXXXXX */
+/* XXXXXXXXXXXXX MAPS/REVIEWS END XXXXXXXXXXXXX */
 
 
 
-/* BACK-TO BUTTONS START */
+/* XXXXXXXXXXXXX BACK-TO BUTTONS START XXXXXXXXXXXXX */
 
 $(".backbuttoneat").click(function(){
     $("#eat").show();
+    $("#drink, #stay, #mapeat01").hide();
     }); 
 
 $(".backbuttondrink").click(function(){
     $("#drink").show();
+    $("#eat, #stay, #mapeat01").hide();
     }); 
     
 $(".backbuttonstay").click(function(){
     $("#stay").show();
+    $("#eat, #drink, #mapeat01").hide();
     }); 
 
-/* BACK-TO BUTTONS END */
+/* XXXXXXXXXXXXX BACK-TO BUTTONS END XXXXXXXXXXXXX */
 
 
 
