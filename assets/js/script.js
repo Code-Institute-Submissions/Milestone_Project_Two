@@ -249,7 +249,7 @@ function initMap(aMap){
   }
 ]
             ,
-            center: {
+            center: { // Brighton
                 lat: 50.827362,
                 lng: -0.140730  
             }
@@ -266,7 +266,7 @@ function initMap(aMap){
     } 
 
 
-/* ------ Venue data starts ------ */
+/* ------ Venue reviews start ------ */
 
 /* ------ EAT ------ */
 
@@ -316,14 +316,14 @@ const object9 = {"name": "VIP Pizza",
 
 /* ------ DRINK ------ */
 
-const object10 = {"name": "xxxx", 
-"about": "xxxxxxxx", 
-"lat":0, "lng":-0, 
-"website": "https//:www.xxxxx"}
+const object10 = {"name": "Bison Beer", 
+"about": "Welcome to Bison Beer. We're a bar, bottleshop and brewery brand based in Brighton and Hove, actually. We stock a huge range of craft beer from around the world with a keen interest in the Sussex beer scene. We are local, independent and proud to be a part of what we think is the best city in the country.", 
+"lat":50.825452, "lng":-0.137017, 
+"website": "https://www.bisonbeer.co.uk/"}
 
 const object11 = {"name": "xxxx", 
 "about": "xxxxxxxx", 
-"lat":0, "lng":-0, 
+"lat":0, "lng":0, 
 "website": "https//:www.xxxxx"}
 
 const object12 = {"name": "xxxx", 
@@ -408,7 +408,7 @@ const object27 = {"name": "xxxx",
 "lat":0, "lng":-0, 
 "website": "https//:www.xxxxx"}
 
-/* ------ Venue data ends ------ */
+/* ------ Venue reviews end ------ */
 
 // var object3 = {"name": "Stephen's Super restaurnat Pickle", "about": "best restaurant ever", "lat":50.821665, "lng":-0.144449, "website": "https//:www.google.com"}
 
@@ -420,12 +420,14 @@ function clicked_object(whatObject){
 
             $("#mapeat01").show();
             $("#eat").hide();
+            $("#drink").hide();
+            $("#stay").hide();
 
             document.getElementById("venuename").innerHTML = whatObject["name"];
             document.getElementById("bodytext").innerHTML = whatObject["about"];
             document.getElementById("weblink").href = whatObject["website"];
-            document.getElementById("ta").href = whatObject["taLink"];
-            document.getElementById("ta").src = whatObject["taLink"];
+          //  document.getElementById("ta").href = whatObject["taLink"];
+          //  document.getElementById("ta").src = whatObject["taLink"];
 
 
  /* ------ Click functions to show review pages start ------ */    
@@ -522,9 +524,12 @@ function clicked_object(whatObject){
 
  /* ------ Click functions to show review pages end ------ */
 
+
 /* XXXXXXXXXXXXX MAPS/REVIEWS START XXXXXXXXXXXXX */
 
-// BACK-TO BUTTONS START
+
+
+/* BACK-TO BUTTONS START */
 
 $(".backbuttoneat").click(function(){
     $("#eat").show();
@@ -538,7 +543,7 @@ $(".backbuttonstay").click(function(){
     $("#stay").show();
     }); 
 
-// BACK-TO BUTTONS END
+/* BACK-TO BUTTONS END */
 
 
 
