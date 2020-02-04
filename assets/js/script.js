@@ -388,25 +388,25 @@ const object23 = {"name": "Blanch House",
 "lat":50.819649, "lng":-0.129305, 
 "website": "https://www.blanchhouse.co.uk/"}
 
-const object24 = {"name": "xxxx", 
-"about": "xxxxxxxx", 
-"lat":0, "lng":-0, 
-"website": "https//:www.xxxxx"}
+const object24 = {"name": "Mercure Brighton Seafront Hotel", 
+"about": "Mercure Brighton Seafront Hotel has recently undergone major renovations. Relax in rooms brimming with charm, celebrating the quirky history of the surrounding area. Comfortable beds and rustic effect furnishings come together to celebrate the old and new.", 
+"lat":50.822779, "lng":-0.155412, 
+"website": "https://www.mercurebrighton.co.uk/"}
 
-const object25 = {"name": "xxxx", 
-"about": "xxxxxxxx", 
-"lat":0, "lng":-0, 
-"website": "https//:www.xxxxx"}
+const object25 = {"name": "My Brighton", 
+"about": "My Brighton is a spirited place that fuses artisan tastes with soul and progressive design. Created in 2008 as a bolthole for business, pleasure and hedonism – its design is a reflection of a collaboration between the city’s own local creatives and New York-based, award winning designer Karim Rashid.", 
+"lat":50.824412, "lng":-0.138729, 
+"website": "https://myhotels.com/brighton/"}
 
-const object26 = {"name": "xxxx", 
-"about": "xxxxxxxx", 
-"lat":0, "lng":-0, 
-"website": "https//:www.xxxxx"}
+const object26 = {"name": "The Square", 
+"about": "Within the walls of a beautiful Grade II Listed Building located in the fashionable neighbourhood of Kemp Town sits the stylish Square Hotel, just off the seafront overlooking a Regency garden square. Exuding luxury from your first step through the door, The Square brings a sense of style and indulgence to your stay.", 
+"lat":50.819627, "lng":-0.132168, 
+"website": "https://www.squarebrighton.com/"}
 
-const object27 = {"name": "xxxx", 
-"about": "xxxxxxxx", 
-"lat":0, "lng":-0, 
-"website": "https//:www.xxxxx"}
+const object27 = {"name": "The Old Ship Hotel", 
+"about": "The Old Ship’s imposing exterior is a landmark of the Brighton seafront, with many bedrooms boasting stunning views across the coast. Each room is individually designed with distinctive characterful features that will make for a comfortable stay.", 
+"lat":50.820361, "lng":-0.142046, 
+"website": "https://www.oldshipbrighton.co.uk/"}
 
 /* ------ Venue reviews end ------ */
 
