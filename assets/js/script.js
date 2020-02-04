@@ -351,42 +351,42 @@ const object16 = {"name": "Unbarred Brewery",
 "lat":50.833267, "lng":-0.139363, 
 "website": "https://www.unbarredbrewery.com/"}
 
-const object17 = {"name": "xxxx", 
-"about": "xxxxxxxx", 
-"lat":0, "lng":-0, 
-"website": "https//:www.xxxxx"}
+const object17 = {"name": "The Walrus", 
+"about": "A stone’s throw from the beach, on historic Ship Street in Brighton’s famous Lanes, you’ll find the Walrus with its labyrinth of eclectically-decorated rooms and endless winding passageways. You’ll also discover a wonderful hidden two-storey roof garden.", 
+"lat":50.820769, "lng":-0.142313, 
+"website": "https://www.thewalrusbrighton.com/"}
 
-const object18 = {"name": "xxxx", 
-"about": "xxxxxxxx", 
-"lat":0, "lng":-0, 
-"website": "https//:www.xxxxx"}
+const object18 = {"name": "World’s End", 
+"about": "The World’s End is like nowhere else in Brighton. Four player virtual reality booths, an epic escape room, remote control racetrack, 50+ craft beers and Wolfsmouth burger kitchen - you won’t want to go home. Bad news, we kick you out at the end of the night. Good news, you can come back the next day.", 
+"lat":50.832836, "lng":-0.138295, 
+"website": "https://www.worldsend.pub/"}
 
 /* ------ STAY ------ */
 
-const object19 = {"name": "xxxx", 
-"about": "xxxxxxxx", 
-"lat":0, "lng":-0, 
-"website": "https//:www.xxxxx"}
+const object19 = {"name": "Artist Residence Brighton", 
+"about": "Creative, bohemian and downright eccentric, this unique boutique hotel at the head of Regency Square was reborn when we sent out an ad offering artists free board in return for their services. As a result, each of the 24 rooms is a blend of quirky original artwork and local character, with eye-popping sea views over Brighton seafront and the iconic West Pier.", 
+"lat":50.823212, "lng":-0.149850, 
+"website": "https://www.artistresidence.co.uk/our-hotels/brighton/"}
 
-const object20 = {"name": "xxxx", 
-"about": "xxxxxxxx", 
-"lat":0, "lng":-0, 
-"website": "https//:www.xxxxx"}
+const object20 = {"name": "Brighton Surf", 
+"about": "Brighton Surf Guest House is a contemporary, stylish and cosy guest house ideally located just a stones throw from the sea and the beach. We are about 400 meters from Brighton Pier in sophisticated Kemp Town, Brighton’s cosmopolitan and vibrant quarter.", 
+"lat":50.819320, "lng":-0.128118, 
+"website": "https://www.brightonsurf.com/"}
 
-const object21 = {"name": "xxxx", 
-"about": "xxxxxxxx", 
-"lat":0, "lng":-0, 
-"website": "https//:www.xxxxx"}
+const object21 = {"name": "Drakes", 
+"about": "All 20 bedrooms at Drakes are individually designed to make the most of the space and features of each room and are packed full of luxurious comforts. We have sought the very best of everything to be certain your stay with us is perfectly unforgettable.", 
+"lat":50.819458, "lng":-0.131482, 
+"website": "https://drakesofbrighton.com/"}
 
-const object22 = {"name": 
-"xxxx", "about": "xxxxxxxx", 
-"lat":0, "lng":-0, 
-"website": "https//:www.xxxxx"}
+const object22 = {"name": "Hotel du Vin", 
+"about": "Our luxury Brighton hotel is nestled in the iconic cobbled alleyways of The Lanes. Once the historic fishing village of Brighthelmstone, today The Lanes are home to designer boutiques, upmarket jewellers, and antique stores, and, of course, Hotel du Vin Brighton.", 
+"lat":50.820390, "lng":-0.142473, 
+"website": "https://www.hotelduvin.com/locations/brighton/"}
 
-const object23 = {"name": "xxxx", 
-"about": "xxxxxxxx", 
-"lat":0, "lng":-0, 
-"website": "https//:www.xxxxx"}
+const object23 = {"name": "Blanch House", 
+"about": "Blanch House is Brighton’s original boutique hotel. A Grade II listed town house, we are situated in a Georgian terrace just off the seafront in bohemian Kemptown in Brighton. We’re only a short walk from the centre of Brighton and a stone’s throw from the city’s stunning Regency seafront.", 
+"lat":50.819649, "lng":-0.129305, 
+"website": "https://www.blanchhouse.co.uk/"}
 
 const object24 = {"name": "xxxx", 
 "about": "xxxxxxxx", 
