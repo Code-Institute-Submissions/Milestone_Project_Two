@@ -67,7 +67,7 @@ These are the pages that show when the **EAT, DRINK,** or **STAY** buttons are c
 
 ### Venue information pages
 
-Once a venue is chosen from either **EAT, DRINK,** or **STAY**, the user is taken to a page which displays the information for that venue. It has a large custom map with a marker showing the location, a review of the venue and a link to their website. There is also a button to take you back to the **EAT, DRINK,** or **STAY** page you just came from.
+Once a venue is chosen from either **EAT, DRINK,** or **STAY**, the user is taken to a page which displays the information for that venue. It has a large custom map with a marker showing the location, a review of the venue and a link to their website. There is also a button to take you back to the **HOME** page.
 
 ---
 
