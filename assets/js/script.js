@@ -1,20 +1,16 @@
 $(document).ready(function () {
 
-    
-//------ On load, hide all sections apart from 'home'------  
-$(function () {
+$(function () { //------ On load, hide all sections apart from 'home'
     $("#navhome").addClass("active");
     $(".hideHome").hide();
     
     
 // XXXXXXXXXX NAV BAR START XXXXXXXXXX  */
 
-    //------ Hide sections ------ 
-	$(".nav-link").click(function() {
+	$(".nav-link").click(function() { //------ Hide sections  
 	    $("#home,.hideHome").hide();
         
-    // ------ Remove active class ------ 
-	$(".nav-link").removeClass("active");
+	$(".nav-link").removeClass("active"); // ------ Remove active class  
 	
 
     // ------ If/else statements to check which li was clicked ---/
@@ -40,10 +36,8 @@ $(function () {
         $("#navbarbrand").click(function(){
             $("#home").show();
             $("#navhome").addClass("active");
-            $("#naveat").removeClass("active");
-            $("#navdrink").removeClass("active");
-            $("#navstay").removeClass("active");
-            $("#eat, #drink, #stay, #mapeat01").hide();
+            $("#naveat, #navdrink, #navstay").removeClass("active");
+            $(".hideHome").hide();
         });
 
 
