@@ -503,29 +503,29 @@ const showMaps = myMaps.filter(function(map) {
     }
 });
 
-//function clickedObject(whatObject){
-        //  $("#mapeat01").show();
-        //  locations = [{ lat: whatObject["lat"], lng: whatObject["lng"] }] 
-        //  initMap("googlemapeat01");
+function clickedObject(whatObject){
+          $("#mapeat01").show();
+          locations = [{ lat: whatObject["lat"], lng: whatObject["lng"] }] 
+          initMap("googlemapeat01");
 
-        //  $("#mapeat01").show();
-        //   $("#eat, #drink, #stay").hide();
+          $("#mapeat01").show();
+          $("#eat, #drink, #stay").hide();
 
-        //   document.getElementById("venuename").innerHTML = whatObject["name"];
-        //   document.getElementById("bodytext").innerHTML = whatObject["about"];
-        //   document.getElementById("weblink").href = whatObject["website"];
+          document.getElementById("venuename").innerHTML = whatObject["name"];
+          document.getElementById("bodytext").innerHTML = whatObject["about"];
+          document.getElementById("weblink").href = whatObject["website"];
 
 
     
-    //}
-    // $("#eat01").click(function() {
-    //   clickedObject(eatPage01);
-    //});
+   }
+    $("#eat01").click(function() {
+      clickedObject(eatPage01);
+    });
      
 
 
 
-$(".backbuttonhome").click(function(){
+$(".backbuttonhome").click(function(){ //back to home on map page
     $("#home").show();
         $("#navhome").addClass("active");
         $("#naveat, #navdrink, #navstay").removeClass("active");
