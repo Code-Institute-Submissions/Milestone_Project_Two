@@ -492,7 +492,6 @@ lat:50.820361,
 lng:-0.142046, 
 website: "https://www.oldshipbrighton.co.uk/"
 },
-
 ]
 
 
@@ -515,21 +514,14 @@ function clickedObject(whatObject){
             document.getElementById("weblink").href = whatObject["website"];
 
 
-    // ------ EAT ------ 
+    
     }
      $("#eat01").click(function() {
-        clickedObject(object1);
+        clickedObject(eatPage01);
      
      }); 
 
- // XXXXXXXXXX Click functions to show review pages end XXXXXXXXXX 
 
-
-// XXXXXXXXXXXXX MAPS/REVIEWS END XXXXXXXXXXXXX 
-
-
-
-// XXXXXXXXXXXXX BACK-TO BUTTONS START XXXXXXXXXXXXX */
 
 $(".backbuttonhome").click(function(){
     $("#home").show();
@@ -538,8 +530,6 @@ $(".backbuttonhome").click(function(){
         $(".hideHome").hide();
     }); 
 
-
-// XXXXXXXXXXXXX BACK-TO BUTTONS END XXXXXXXXXXXXX 
 
 
 
