@@ -1,21 +1,31 @@
 $(document).ready(function () {
 
-$(function () { //------ On load, hide all sections apart from 'home'
+/**
+ * When site loads, hide all sections apart from home page
+ */
+$(function () { 
     $("#navhome").addClass("active");
     $(".hideHome").hide();
     
-    
-// XXXXXXXXXX NAV BAR START XXXXXXXXXX  */
+/**
+ * NAV BAR STARTS
+ */
 
-	$(".nav-link").click(function() { //------ Hide sections  
+/**
+ * Hide sections
+ */
+	$(".nav-link").click(function() { 
 	    $("#home,.hideHome").hide();
-        
-	$(".nav-link").removeClass("active"); // ------ Remove active class  
-	
 
-    // ------ If/else statements to check which li was clicked ---/
-    // ------ apply 'active' class only to that li, and show the corresponding secti/
-	if ($(this).attr("id") === "navhome") {
+/**
+ * Remove active class
+ */
+	$(".nav-link").removeClass("active");   
+	
+/**
+ * If/else statements to show which li was clicked. apply 'active' class only to that li, and show the section
+ */
+    if ($(this).attr("id") === "navhome") {
 		    $("#navhome").addClass("active");
             $("#home").show();
 
@@ -41,18 +51,20 @@ $(function () { //------ On load, hide all sections apart from 'home'
         });
 
 
-// XXXXXXXXXX NAV BAR END XXXXXXXXXX 
+/**
+ * HOME PAGE STARTS
+ */
 
+/**
+* Hide sections
+*/   
+        $(".buttonMain").click(function() {  
+            $("#home, .hideHome").hide();
 
-// XXXXXXXXXX HOME PAGE EAT/DRINK/STAY START XXXXXXXXXX 
-
-    
-    $(".buttonMain").click(function() { // ------ Hide sections ------ 
-        $("#home, .hideHome").hide();
-
-    // ------ If/else statements to check which button was clicked ------ 
-    // ------ apply 'active' class only to that li, and show the corresponding section ------         
-        if ($(this).attr("id") === "buttoneat") {
+/**
+ * If/else statements to show which button was clicked. Apply 'active' class and show section
+ */  
+        if ($(this).attr("id") === "buttoneat") { 
                 $("#naveat").addClass("active");
                 $("#navhome").removeClass("active");
                 $("#eat").show();
@@ -70,10 +82,10 @@ $(function () { //------ On load, hide all sections apart from 'home'
     });
 });
 
-// XXXXXXXXXX HOME PAGE EAT/DRINK/STAY BOX BUTTONS END XXXXXXXXXX/
-
-
-// XXXXXXXXXX MAPS/REVIEWS START XXXXXXXXXX /
+/**
+ * MAP/REVIEW SECTION STARTS
+ * @param {*} aMap 
+ */
 
 function initMap(aMap){
         const map = new google.maps.Map(document.getElementById(aMap), {
@@ -254,7 +266,7 @@ function initMap(aMap){
     } 
 
 
-// XXXXXXXXXX Venue reviews start XXXXXXXXXX 
+
 
 // ------ EAT ------ 
 
@@ -396,10 +408,12 @@ const object27 = {"name": "The Old Ship Hotel",
 "lat":50.820361, "lng":-0.142046, 
 "website": "https://www.oldshipbrighton.co.uk/"}
 
-//XXXXXXXXXX Venue reviews end XXXXXXXXXX 
 
 
- // XXXXXXXXXX Click functions to show review pages start XXXXXXXXXX  
+/**
+ * Click functions to show review pages start
+ * @param {*} whatObject 
+ */
 
 function clickedObject(whatObject){
             $("#mapeat01").show();
@@ -407,9 +421,7 @@ function clickedObject(whatObject){
             initMap("googlemapeat01");
 
             $("#mapeat01").show();
-            $("#eat").hide();
-            $("#drink").hide();
-            $("#stay").hide();
+            $("#eat, #drink, #stay").hide();
 
             document.getElementById("venuename").innerHTML = whatObject["name"];
             document.getElementById("bodytext").innerHTML = whatObject["about"];
