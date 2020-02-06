@@ -401,7 +401,7 @@ const object27 = {"name": "The Old Ship Hotel",
 
  // XXXXXXXXXX Click functions to show review pages start XXXXXXXXXX  
 
-function clicked_object(whatObject){
+function clickedObject(whatObject){
             $("#mapeat01").show();
             locations = [{ lat: whatObject["lat"], lng: whatObject["lng"] }] 
             initMap("googlemapeat01");
@@ -414,98 +414,96 @@ function clicked_object(whatObject){
             document.getElementById("venuename").innerHTML = whatObject["name"];
             document.getElementById("bodytext").innerHTML = whatObject["about"];
             document.getElementById("weblink").href = whatObject["website"];
-          //  document.getElementById("ta").href = whatObject["taLink"]; 
-          //  document.getElementById("ta").src = whatObject["taLink"]; (IMAGE?)
-   
+
 
     // ------ EAT ------ 
     }
      $("#eat01").click(function() {
-        clicked_object(object1);
+        clickedObject(object1);
      });
      $("#eat02").click(function() {
-        clicked_object(object2);
+        clickedObject(object2);
      });
      $("#eat03").click(function() {
-        clicked_object(object3);
+        clickedObject(object3);
      }); 
      $("#eat04").click(function() {
-        clicked_object(object4);
+        clickedObject(object4);
      }); 
      $("#eat05").click(function() {
-        clicked_object(object5);
+        clickedObject(object5);
      }); 
      $("#eat06").click(function() {
-        clicked_object(object6);
+        clickedObject(object6);
      }); 
      $("#eat07").click(function() {
-        clicked_object(object7);
+        clickedObject(object7);
      }); 
      $("#eat08").click(function() {
-        clicked_object(object8);
+        clickedObject(object8);
      }); 
      $("#eat09").click(function() {
-        clicked_object(object9);
+        clickedObject(object9);
      }); 
 
      // ------ DRINK ------ 
 
      $("#drink01").click(function() {
-        clicked_object(object10);
+        clickedObject(object10);
      }); 
      $("#drink02").click(function() {
-        clicked_object(object11);
+        clickedObject(object11);
      }); 
      $("#drink03").click(function() {
-        clicked_object(object12);
+        clickedObject(object12);
      }); 
      $("#drink04").click(function() {
-        clicked_object(object13);
+        clickedObject(object13);
      }); 
      $("#drink05").click(function() {
-        clicked_object(object14);
+        clickedObject(object14);
      }); 
      $("#drink06").click(function() {
-        clicked_object(object15);
+        clickedObject(object15);
      }); 
      $("#drink07").click(function() {
-        clicked_object(object16);
+        clickedObject(object16);
      }); 
      $("#drink08").click(function() {
-        clicked_object(object17);
+        clickedObject(object17);
      }); 
      $("#drink09").click(function() {
-        clicked_object(object18);
+        clickedObject(object18);
      }); 
 
      // ------ STAY ------ 
 
      $("#stay01").click(function() {
-        clicked_object(object19);
+        clickedObject(object19);
      }); 
      $("#stay02").click(function() {
-        clicked_object(object20);
+        clickedObject(object20);
      }); 
      $("#stay03").click(function() {
-        clicked_object(object21);
+        clickedObject(object21);
      }); 
      $("#stay04").click(function() {
-        clicked_object(object22);
+        clickedObject(object22);
      }); 
      $("#stay05").click(function() {
-        clicked_object(object23);
+        clickedObject(object23);
      }); 
      $("#stay06").click(function() {
-        clicked_object(object24);
+        clickedObject(object24);
      }); 
      $("#stay07").click(function() {
-        clicked_object(object25);
+        clickedObject(object25);
      }); 
      $("#stay08").click(function() {
-        clicked_object(object26);
+        clickedObject(object26);
      }); 
      $("#stay09").click(function() {
-        clicked_object(object27);
+        clickedObject(object27);
      }); 
 
  // XXXXXXXXXX Click functions to show review pages end XXXXXXXXXX 
