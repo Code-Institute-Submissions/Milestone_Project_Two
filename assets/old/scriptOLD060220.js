@@ -1,26 +1,29 @@
 $(document).ready(function () {
 
     
-//------ On load, hide all sections apart from 'home'------  
+/* ------ On load, hide all sections apart from 'home'------ */ 
 $(function () {
     $("#navhome").addClass("active");
-    $(".hideHome").hide();
+    $("#eat, #drink, #stay, #mapeat01, #mapeat02, #mapeat03, #mapeat04, #mapeat05, #mapeat06, #mapeat07, #mapeat08, #mapeat09").hide();
+    $("#mapdrink01, #mapdrink02, #mapdrink03, #mapdrink04, #mapdrink05, #mapdrink06, #mapdrink07, #mapdrink08, #mapdrink09").hide();
+    $("#mapstay01, #mapstay02, #mapstay03, #mapstay04, #mapstay05, #mapstay06, #mapstay07, #mapstay08, #mapstay09").hide();
     
     
-    
-// XXXXXXXXXX NAV BAR START XXXXXXXXXX  */
+/* XXXXXXXXXX NAV BAR START XXXXXXXXXX  */
 
-    //------ Hide sections ------ 
+    /* ------ Hide sections ------ */
 	$("#navhome, #naveat, #navdrink, #navstay").click(function() {
 		$("#home, #eat, #drink, #stay").hide();
 	    $("#mapeat01").hide();
+        $("#mapdrink01, #mapdrink02, #mapdrink03, #mapdrink04, #mapdrink05, #mapdrink06, #mapdrink07, #mapdrink08, #mapdrink09").hide();
+        $("#mapstay01, #mapstay02, #mapstay03, #mapstay04, #mapstay05, #mapstay06, #mapstay07, #mapstay08, #mapstay09").hide();
         
-    // ------ Remove active class ------ 
+    /* ------ Remove active class ------ */
 	$("#navhome, #naveat, #navdrink, #navstay").removeClass("active");
 	
 
-    // ------ If/else statements to check which li was clicked ---/
-    // ------ apply 'active' class only to that li, and show the corresponding secti/
+    /* ------ If/else statements to check which li was clicked ------ */
+    /* ------ apply 'active' class only to that li, and show the corresponding section ------ */
 	if ($(this).attr("id") === "navhome") {
 		    $("#navhome").addClass("active");
             $("#home").show();
@@ -49,17 +52,17 @@ $(function () {
         });
 
 
-// XXXXXXXXXX NAV BAR END XXXXXXXXXX 
+/* XXXXXXXXXX NAV BAR END XXXXXXXXXX  */
 
 
-// XXXXXXXXXX HOME PAGE EAT/DRINK/STAY START XXXXXXXXXX 
+/* XXXXXXXXXX HOME PAGE EAT/DRINK/STAY START XXXXXXXXXX */
 
-    // ------ Hide sections ------ 
+    /* ------ Hide sections ------ */
     $("#buttoneat, #buttondrink, #buttonstay").click(function() {
         $("#home, #eat, #drink, #stay").hide();
 
-    // ------ If/else statements to check which button was clicked ------ 
-    // ------ apply 'active' class only to that li, and show the corresponding section ------         
+    /* ------ If/else statements to check which button was clicked ------ */
+    /* ------ apply 'active' class only to that li, and show the corresponding section ------ */        
         if ($(this).attr("id") === "buttoneat") {
                 $("#naveat").addClass("active");
                 $("#navhome").removeClass("active");
@@ -78,10 +81,10 @@ $(function () {
     });
 });
 
-// XXXXXXXXXX HOME PAGE EAT/DRINK/STAY BOX BUTTONS END XXXXXXXXXX/
+/* XXXXXXXXXX HOME PAGE EAT/DRINK/STAY BOX BUTTONS END XXXXXXXXXX */
 
 
-// XXXXXXXXXX MAPS/REVIEWS START XXXXXXXXXX /
+/* XXXXXXXXXX MAPS/REVIEWS START XXXXXXXXXX */
 
 function initMap(aMap){
         const map = new google.maps.Map(document.getElementById(aMap), {
@@ -264,9 +267,9 @@ function initMap(aMap){
     } 
 
 
-// XXXXXXXXXX Venue reviews start XXXXXXXXXX 
+/* XXXXXXXXXX Venue reviews start XXXXXXXXXX */
 
-// ------ EAT ------ 
+/* ------ EAT ------ */
 
 const object1 = {"name": "64 Degrees", 
 "about": "Tucked away in the Brighton Lanes, 64 Degrees is a small restaurant with an open kitchen by Great British Menu 2017 winner chef Michael Bremner,  where our passionate chefs concoct an evolving menu of tasty small plates using fresh, local produce.", 
@@ -312,7 +315,7 @@ const object9 = {"name": "VIP Pizza",
 "lat":50.820831, "lng":-0.136467, 
 "website": "http://pizzavip.co.uk/"}
 
-// ------ DRINK ------ /
+/* ------ DRINK ------ */
 
 const object10 = {"name": "Bison Beer", 
 "about": "Welcome to Bison Beer. We're a bar, bottleshop and brewery brand based in Brighton and Hove, actually. We stock a huge range of craft beer from around the world with a keen interest in the Sussex beer scene. We are local, independent and proud to be a part of what we think is the best city in the country.", 
@@ -359,7 +362,7 @@ const object18 = {"name": "World’s End",
 "lat":50.832836, "lng":-0.138295, 
 "website": "https://www.worldsend.pub/"}
 
-// ------ STAY ------ 
+/* ------ STAY ------ */
 
 const object19 = {"name": "Artist Residence Brighton", 
 "about": "Creative, bohemian and downright eccentric, this unique boutique hotel at the head of Regency Square was reborn when we sent out an ad offering artists free board in return for their services. As a result, each of the 24 rooms is a blend of quirky original artwork and local character, with eye-popping sea views over Brighton seafront and the iconic West Pier.", 
@@ -406,10 +409,10 @@ const object27 = {"name": "The Old Ship Hotel",
 "lat":50.820361, "lng":-0.142046, 
 "website": "https://www.oldshipbrighton.co.uk/"}
 
-//XXXXXXXXXX Venue reviews end XXXXXXXXXX 
+/* XXXXXXXXXX Venue reviews end XXXXXXXXXX */
 
 
- // XXXXXXXXXX Click functions to show review pages start XXXXXXXXXX  
+ /* XXXXXXXXXX Click functions to show review pages start XXXXXXXXXX */ 
 
 function clicked_object(whatObject){
             $("#mapeat01").show();
@@ -428,7 +431,7 @@ function clicked_object(whatObject){
           //  document.getElementById("ta").src = whatObject["taLink"]; (IMAGE?)
    
 
-    // ------ EAT ------ 
+    /* ------ EAT ------ */
     }
      $("#eat01").click(function() {
         clicked_object(object1);
@@ -458,7 +461,7 @@ function clicked_object(whatObject){
         clicked_object(object9);
      }); 
 
-     // ------ DRINK ------ 
+     /* ------ DRINK ------ */
 
      $("#drink01").click(function() {
         clicked_object(object10);
@@ -488,7 +491,7 @@ function clicked_object(whatObject){
         clicked_object(object18);
      }); 
 
-     // ------ STAY ------ 
+     /* ------ STAY ------ */
 
      $("#stay01").click(function() {
         clicked_object(object19);
@@ -518,14 +521,14 @@ function clicked_object(whatObject){
         clicked_object(object27);
      }); 
 
- // XXXXXXXXXX Click functions to show review pages end XXXXXXXXXX 
+ /* XXXXXXXXXX Click functions to show review pages end XXXXXXXXXX */
 
 
-// XXXXXXXXXXXXX MAPS/REVIEWS END XXXXXXXXXXXXX 
+/* XXXXXXXXXXXXX MAPS/REVIEWS END XXXXXXXXXXXXX */
 
 
 
-// XXXXXXXXXXXXX BACK-TO BUTTONS START XXXXXXXXXXXXX */
+/* XXXXXXXXXXXXX BACK-TO BUTTONS START XXXXXXXXXXXXX */
 
 $(".backbuttoneat").click(function(){
     $("#eat").show();
@@ -542,7 +545,7 @@ $(".backbuttonstay").click(function(){
     $("#eat, #drink, #mapeat01").hide();
     }); 
 
-// XXXXXXXXXXXXX BACK-TO BUTTONS END XXXXXXXXXXXXX 
+/* XXXXXXXXXXXXX BACK-TO BUTTONS END XXXXXXXXXXXXX */
 
 
 
