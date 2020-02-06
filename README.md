@@ -61,7 +61,7 @@ The three simple looking buttons, **EAT, DRINK,** and **STAY** immediately intic
 
 The footer only appears on the **HOME** page, so not to overcrowd and complicated the following pages. It contains the site's social media.
 
-### Eat/Drink/Stay pages
+### Eat, Drink, Stay pages
 
 These are the pages that show when the **EAT, DRINK,** or **STAY** buttons are clicked. They show an arrangement of nine handpicked venues to get food, drink or to stay. The large images give a visual climpse of what the venue looks like. The strong, stylish typography of the name of the venue with a one word classifications under it gives the user more clues about if it's the type of venue they are interested in. There is a simple, clean hover when the mouse glides over each box to show it is highlighted.
 
@@ -118,7 +118,7 @@ My first code was very long with much repetition. It worked OK, but needed to be
 2. Test the main message is visible at all sizes by expanding and contracting screen size.
 3. Test **EAT, DRINK, STAY** butons work by hovering over them to change opacity and by clicking and seeing if they takes you to the relevant page.
 
-### EAT, DRINK, STAY pages
+### Eat, Drink, Stay pages
 1. Make sure grid of images flows with the page breaks by expanding and contracting screen size.
 2. Test the headings and subheadings are visible on all sizes by expanding and contracting screen size.
 3. Test tiles work by hovering over them to change opacity.
