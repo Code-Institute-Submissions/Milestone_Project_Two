@@ -7,16 +7,14 @@ $(function () {
     $(".hideHome").hide();
     
     
-    
 // XXXXXXXXXX NAV BAR START XXXXXXXXXX  */
 
     //------ Hide sections ------ 
-	$("#navhome, #naveat, #navdrink, #navstay").click(function() {
-		$("#home, #eat, #drink, #stay").hide();
-	    $("#mapeat01").hide();
+	$(".nav-link").click(function() {
+	    $("#home,.hideHome").hide();
         
     // ------ Remove active class ------ 
-	$("#navhome, #naveat, #navdrink, #navstay").removeClass("active");
+	$(".nav-link").removeClass("active");
 	
 
     // ------ If/else statements to check which li was clicked ---/
