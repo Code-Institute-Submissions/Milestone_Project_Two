@@ -46,9 +46,9 @@ $(function () { //------ On load, hide all sections apart from 'home'
 
 // XXXXXXXXXX HOME PAGE EAT/DRINK/STAY START XXXXXXXXXX 
 
-    // ------ Hide sections ------ 
-    $("#buttoneat, #buttondrink, #buttonstay").click(function() {
-        $("#home, #eat, #drink, #stay").hide();
+    
+    $(".buttonMain").click(function() { // ------ Hide sections ------ 
+        $("#home, .hideHome").hide();
 
     // ------ If/else statements to check which button was clicked ------ 
     // ------ apply 'active' class only to that li, and show the corresponding section ------         
