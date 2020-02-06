@@ -194,8 +194,15 @@ I used Anna Gilhespy's website to help me work out the structure of the content.
 [Anna Gilhespy](https://ajgreaves.github.io/bootstrap-grid-demo/)
 
 ### Traversy Media YouTube
-I watch Traversy Media's YouTube tutorial video, **JavaScript Crash Course For Beginners**, to help me understand JavaScript.
+I watched Traversy Media's YouTube tutorial videos, **JavaScript Crash Course For Beginners**, and **JavaScript Higher Order Functions & Arrays** to help me understand JavaScript.
 [JavaScript Crash Course For Beginners](https://www.youtube.com/watch?v=hdI2bqOjy3c)
+[JavaScript Higher Order Functions & Arrays](https://www.youtube.com/watch?v=rRgD1yVwIvE)
+
+
+### The Coding Train YouTube
+I watched The Coding Train's Youtube tutorial video, **16.8: Array Functions: filter() - Topics of JavaScript/ES6**, for help with understanding Filter.
+[16.8: Array Functions: filter() - Topics of JavaScript/ES6](https://www.youtube.com/watch?v=qmnH5MT_luk)
+
 
 
 
