@@ -49,13 +49,11 @@ body {
     color: #6cc3cc !important;
 }
 
-
 #navbarbrand {
     cursor: pointer;
 }
 
 /* Nav Bar end */
-
 
 
 /* Home page start */
@@ -74,8 +72,7 @@ body {
     justify-content: center;
 
     top: 0;
-    left: 0;
-    
+    left: 0;  
 }
 
 #intro {
