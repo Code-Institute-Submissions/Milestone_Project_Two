@@ -150,6 +150,11 @@ My site is deployed on GitHub.
 10. Command git status will show you files that need to be added.
 11. Command git add -A will add all those files.
 12. Then of course you need a git commit -m "with a message".
+13. To share your project with others, first click on the **settings** button on your project's page.
+14. Scroll down to the section called **GitHub Pages**. 
+15. Under the heading **Source** there's a button with None on it. Click that button and select **Master Branch**.
+16. The page will then reload giving you a weblink to share.
+
 
 I have been pushing my code through to GitHub very regularly as, on occasion, something has gone wrong and I've had to go into my history and retrieve bits of code that I know will work. 
 
