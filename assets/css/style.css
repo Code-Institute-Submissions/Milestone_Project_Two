@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,900&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
+
 
 /* General start */
 
@@ -24,13 +20,7 @@ body {
     text-decoration: none;
 }
 
-#maincontainer {
-    background-color: red;
-}
-
 /* General end */
-
-
 
 /* Nav Bar start */
 
@@ -89,16 +79,13 @@ body {
 }
 
 #intro {
-    background-color: rgba(108, 195, 204, 0.6);
-    position: center;
     width: 100%;
-    color: #fff;
+    color: #6cc3cc;
     font-weight: 900;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     padding: 1rem;
     margin-bottom: 12rem;
     align-items: center;
-    justify-content: center;
 }
 
 .boxtext {
@@ -123,10 +110,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: responsive;
 	background-color: rgba(0, 0, 0, 0.7);;
     cursor: pointer;
-    background-image: flex;
 }
 
 #buttoneat:hover {
@@ -143,10 +128,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: responsive;
 	background-color: rgba(0, 0, 0, 0.7);;
     cursor: pointer;
-    background-image: flex;
 }
 
 #buttondrink:hover {
@@ -163,10 +146,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: responsive;
 	background-color: rgba(0, 0, 0, 0.7);;
     cursor: pointer;
-    background-image: flex;
 }
 
 #buttonstay:hover {
@@ -177,36 +158,7 @@ body {
 /* Home page end */
 
 
-
-/* Divider start*/
-
-.seagull {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    height: 100px;
-   
-}
-
-/* Divider end */
-
-
-
 /* Review Pages start */
-
-#eat {
-    height: 100%;
-    background-color: none;
-}
-
-
-image {
-    opacity: 1;
-    display: block;
-    max-width: 100%;
-    height: auto;
-    transition: 1s ease;
-    backface-visibility: hidden;
-}
 
 
 .box {
@@ -217,10 +169,8 @@ image {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: responsive;
 	background-color:#000;
     cursor: pointer;
-    background-image: flex;
 }
 
 .box:hover {
@@ -268,7 +218,7 @@ image {
 }
 
 
-.backbuttoneat {
+.backbuttonhome {
     background-color: #000;
     color: #6cc3cc;
     margin-top: 1rem;
@@ -283,39 +233,6 @@ image {
     line-height: 1.4rem;
     text-transform: uppercase;
 }
-
-.backbuttondrink {
-    background-color: #000;
-    color: #6cc3cc;
-    margin-top: 1rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    padding-left: 0.75rem;
-    padding-right: 0.25rem;
-    font-weight: 900;
-    text-align: center;
-    font-size: 0.5rem;
-    letter-spacing: 0.5rem;
-    line-height: 1.4rem;
-    text-transform: uppercase;
-}
-
-.backbuttonstay {
-    background-color: #000;
-    color: #6cc3cc;
-    margin-top: 1rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    padding-left: 0.75rem;
-    padding-right: 0.25rem;
-    font-weight: 900;
-    text-align: center;
-    font-size: 0.5rem;
-    letter-spacing: 0.5rem;
-    line-height: 1.4rem;
-    text-transform: uppercase;
-}
-
 
 /* Review Pages end */
 
@@ -323,9 +240,7 @@ image {
 
 /* Map Page start */
 
-
 .reviewbox {
-    background-color: none;
     height: 100%;
     margin-top: 1rem;
 
