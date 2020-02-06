@@ -531,20 +531,13 @@ function clickedObject(whatObject){
 
 // XXXXXXXXXXXXX BACK-TO BUTTONS START XXXXXXXXXXXXX */
 
-$(".backbuttoneat").click(function(){
-    $("#eat").show();
-    $("#drink, #stay, #mapeat01").hide();
+$(".backbuttonhome").click(function(){
+    $("#home").show();
+        $("#navhome").addClass("active");
+        $("#naveat, #navdrink, #navstay").removeClass("active");
+        $(".hideHome").hide();
     }); 
 
-$(".backbuttondrink").click(function(){
-    $("#drink").show();
-    $("#eat, #stay, #mapeat01").hide();
-    }); 
-    
-$(".backbuttonstay").click(function(){
-    $("#stay").show();
-    $("#eat, #drink, #mapeat01").hide();
-    }); 
 
 // XXXXXXXXXXXXX BACK-TO BUTTONS END XXXXXXXXXXXXX 
 
