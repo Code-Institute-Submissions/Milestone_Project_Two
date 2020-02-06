@@ -244,11 +244,9 @@ function initMap(aMap){
                 lng: -0.140730  
             }
         });
-        const labels = "ABCDEFGHIJKLMNOPQRSTUVXYZ";
         const markers = locations.map(function(location, i) {
             return new google.maps.Marker({
                 position: location,
-                label: labels[i % labels.length]
             });
         });
             const markerCluster = new MarkerClusterer(map, markers,
