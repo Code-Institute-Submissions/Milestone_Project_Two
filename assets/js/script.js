@@ -84,7 +84,7 @@ $(function () {
 
 /**
  * MAP/REVIEW SECTION STARTS
- * @param {*} aMap 
+ * @param {*} aMap // String that holds the map ID
  */
 
 function initMap(aMap){
