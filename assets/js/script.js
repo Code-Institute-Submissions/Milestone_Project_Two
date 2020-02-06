@@ -43,6 +43,9 @@ $(function () {
     });
 });
 
+/**
+ * click function for logo/home button
+ */
         $("#navbarbrand").click(function(){
             $("#home").show();
             $("#navhome").addClass("active");
@@ -62,7 +65,7 @@ $(function () {
             $("#home, .hideHome").hide();
 
 /**
- * If/else statements to show which button was clicked. Apply 'active' class and show section
+ * If/else statements buttons. Apply 'active' class to nav and show section
  */  
         if ($(this).attr("id") === "buttoneat") { 
                 $("#naveat").addClass("active");
