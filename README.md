@@ -61,7 +61,7 @@ The three simple looking buttons, **EAT, DRINK,** and **STAY** immediately intic
 
 The footer only appears on the **HOME** page, so not to overcrowd and complicated the following pages. It contains the site's social media.
 
-### EAT/DRINK/STAY pages
+### Eat/Drink/Stay pages
 
 These are the pages that show when the **EAT, DRINK,** or **STAY** buttons are clicked. They show an arrangement of nine handpicked venues to get food, drink or to stay. The large images give a visual climpse of what the venue looks like. The strong, stylish typography of the name of the venue with a one word classifications under it gives the user more clues about if it's the type of venue they are interested in. There is a simple, clean hover when the mouse glides over each box to show it is highlighted.
 
@@ -105,6 +105,8 @@ On the map markers, I would want to have aditional information such as address, 
 ## Testing
 To test both my HTML and my CSS, I ran them through the W3C validation websites. [W3C Markup Validation Service](https://validator.w3.org/), and [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/).
 This allowed me to catch any problems such as rouge punctuation marks or incorrect code. This helped me go back in and change the errors so my code was more efficient and worked properly.
+
+My first code was very long with much repetition. It worked OK, but needed to be made simpler. each time i cut back on the code, I would have to check that all was still working. If it wasn't working, I would go back to a place where it was OK and start cutting again. Testing all the time. 
 
 ### Navigation bar
 1. Test that works at all sizes and toggles down when goes to mobile size by expanding and contracting screen size. 
@@ -166,7 +168,7 @@ I have been pushing my code through to GitHub very regularly as, on occasion, so
 
 My mentor **Simen Dehlin** for all the advice and pointers. And for pushing me to go further.
 
-**Chris Quinn (2BN-Chris_alumnus)** for his amazing help on Slack when I was stuck on my coding. Really got me out of a hole.
+**Chris Quinn (2BN-Chris_alumnus)** for his help on Slack when I was stuck on my coding.
 
 All the **tutors** that helped me along the way on the **Tutor Support**. 
 
