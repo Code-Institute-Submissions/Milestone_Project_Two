@@ -92,7 +92,9 @@ On the map markers, I would want to have aditional information such as address, 
 ## Technologies used
 
 1. HTML
+[HTML](https://ww pt.com/)
 2. CSS
+[HTML](https://ww pt.com/)
 3. JavaScript
 [JavaScript](https://www.javascript.com/)
 4. jQuery
