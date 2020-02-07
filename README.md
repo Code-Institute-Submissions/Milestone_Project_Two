@@ -110,10 +110,15 @@ This allowed me to catch any problems such as rouge punctuation marks or incorre
 
 My first code was very long with much repetition. It worked OK, but needed to be made simpler. each time i cut back on the code, I would have to check that all was still working. If it wasn't working, I would go back to a place where it was OK and start cutting again. Testing all the time. 
 
+
+
 ### Navigation bar
 1. Test that works at all sizes and toggles down when goes to mobile size by expanding and contracting screen size. 
 2. Test all links by hovering over to change colour and by and by making sure they redirect to relevant sections by clicking between them.
 3. Test that it is always at the top of the site by scrolling down the pages.
+
+#### Problem
+I had a problem with the Nav bar causing there to be a scroll bar along the bottom of the site. I discovered that this was caused by the Nav bar being 
 
 ### Home page
 1. Test the image fits the whole screen at all sizes by expanding and contracting screen size.
