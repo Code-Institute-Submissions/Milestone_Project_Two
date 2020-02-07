@@ -8,10 +8,6 @@ $(function () {
     $(".hideHome").hide();
     
 /**
- * NAV BAR STARTS
- */
-
-/**
  * Hide sections
  */
 	$(".nav-link").click(function() { 
@@ -53,11 +49,6 @@ $(function () {
             $(".hideHome").hide();
         });
 
-
-/**
- * HOME PAGE STARTS
- */
-
 /**
 * Hide sections
 */   
@@ -85,7 +76,10 @@ $(function () {
     });
 });
 
-
+/**
+ * Function to get maps
+ * @param {*} googleMapMain 
+ */
 function initMap(googleMapMain){
         const map = new google.maps.Map(document.getElementById(googleMapMain), {
             zoom: 14,
@@ -265,8 +259,9 @@ function initMap(googleMapMain){
     } 
 
 
-
-
+/**
+ * Array containing data for map pages
+ */
 const myMaps = [
 
 {
@@ -493,6 +488,9 @@ website: "https://www.oldshipbrighton.co.uk/"
 },
 ]
 
+/**
+ * Function to call data from myMap array and put on map pages
+ */
 $(".box").click(function(e) {
     const showMaps = myMaps.filter(function(map){
         if(map === e.target.id)return map;
@@ -513,10 +511,10 @@ function clickedObject(whatObject){
           document.getElementById("weblink").href = whatObject["website"];
    }
      
-
-
-
-$(".backbuttonhome").click(function(){ //back to home on map page
+/**
+ * Back to home on map page
+ */
+$(".backbuttonhome").click(function(){ 
     $("#home").show();
         $("#navhome").addClass("active");
         $("#naveat, #navdrink, #navstay").removeClass("active");
