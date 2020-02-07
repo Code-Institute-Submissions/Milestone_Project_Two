@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,900&display=swap');
 
 
-
 /* General start */
 
 html {
@@ -19,8 +18,6 @@ body {
     text-align: center;
     text-decoration: none;
 }
-
-/* General end */
 
 /* Nav Bar start */
 
@@ -52,9 +49,6 @@ body {
 #navbarbrand {
     cursor: pointer;
 }
-
-/* Nav Bar end */
-
 
 /* Home page start */
 
@@ -152,11 +146,7 @@ body {
     transition: .25s ease-in-out;
 }
 
-/* Home page end */
-
-
 /* Review Pages start */
-
 
 .box {
     margin: 1.5rem;
@@ -187,7 +177,6 @@ body {
     line-height: 1.1;
     text-transform: uppercase;
     padding-bottom: 0.5rem;
-
 }
 
 .reviewboxsub {
@@ -231,16 +220,11 @@ body {
     text-transform: uppercase;
 }
 
-/* Review Pages end */
-
-
-
 /* Map Page start */
 
 .reviewbox {
     height: 100%;
     margin-top: 1rem;
-
 }
 
 .map {
@@ -289,9 +273,6 @@ body {
     transition: .25s ease-in-out;
 }
 
-/* Map Page end */
-
-
 /* Footer start */
 
 #footer {
@@ -319,13 +300,8 @@ body {
     line-height: .25rem;
     text-align: center;
     color: #fff;
-
 }
 
 .sociallinks li a i:hover {
     color: #000;
 }
-
-
-/* Footer end */
-
