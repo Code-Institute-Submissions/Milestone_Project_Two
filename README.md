@@ -142,10 +142,13 @@ I tested this out with several family members and friends.
 ## Deployment
 My site is deployed on GitHub. 
 
-1. To share your project with others, first click on the **settings** button on your project's page.
-2. Scroll down to the section called **GitHub Pages**. 
-3. Under the heading **Source** there's a button with None on it. Click that button and select **Master Branch**.
-4. The page will then reload giving you a weblink to share.
+1. To share your project with others, first open **GitHib** in the browser.
+2. Sign into **GitHub** with your username and password.
+3. Under **Repositories** find your project, and click on it to open it's repository.
+4. click on the **settings** button on your project's page.
+5. Scroll down to the section called **GitHub Pages**. 
+6. Under the heading **Source** there's a button with None on it. Click that button and select **Master Branch**.
+7. The page will then reload giving you a weblink to share.
 
 
 I have been pushing my code through to GitHub very regularly as, on occasion, something has gone wrong and I've had to go into my history and retrieve bits of code that I know will work. 
