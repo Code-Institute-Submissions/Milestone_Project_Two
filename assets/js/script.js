@@ -78,10 +78,10 @@ $(function () {
 
 /**
  * Function to call map
- * @param {*} aMap 
+ * @param {*} googleMapMain
  */
-function initMap(aMap){
-        const map = new google.maps.Map(document.getElementById(aMap), {
+function initMap(googleMapMain){
+        const map = new google.maps.Map(document.getElementById(googleMapMain), {
             zoom: 14,
             styles: [
   {
