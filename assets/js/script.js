@@ -86,7 +86,6 @@ $(function () {
 });
 
 
-
 function initMap(googleMapMain){
         const map = new google.maps.Map(document.getElementById(googleMapMain), {
             zoom: 14,
