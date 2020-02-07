@@ -1,5 +1,5 @@
 
-# Milestone Project Two - Handpicked Brighton
+# Handpicked Brighton
 
 ---
 
@@ -92,9 +92,9 @@ On the map markers, I would want to have aditional information such as address, 
 ## Technologies used
 
 1. HTML
-[HTML](https://ww pt.com/)
+[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 2. CSS
-[HTML](https://ww pt.com/)
+[CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 3. JavaScript
 [JavaScript](https://www.javascript.com/)
 4. jQuery
@@ -109,6 +109,8 @@ On the map markers, I would want to have aditional information such as address, 
 [Google Fonts](https://fonts.google.com/)
 7. Balsamiq Wireframes
 [Balsamiq Wireframes](https://wireframestogo.com/)
+7. TinyPNG
+[TinyPNG](https://tinypng.com/)
 
 ---
 
