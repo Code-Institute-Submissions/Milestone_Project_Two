@@ -497,11 +497,12 @@ website: "https://www.oldshipbrighton.co.uk/"
 },
 ]
 
-const showMaps = myMaps.filter(function(map) {
-    if(map === "id") {
-        return true;
-    }
-});
+$(".box").click(function(e) {
+    const showMaps = myMaps.filter(function(map){
+        if(map === e.target.id)return map;
+    });
+        clickedObject(showMaps);
+    })
 
 function clickedObject(whatObject){
           $("#mapeat01").show();
@@ -514,13 +515,7 @@ function clickedObject(whatObject){
           document.getElementById("venuename").innerHTML = whatObject["name"];
           document.getElementById("bodytext").innerHTML = whatObject["about"];
           document.getElementById("weblink").href = whatObject["website"];
-
-
-    
    }
-    $("#eat01").click(function() {
-      clickedObject(eatPage01);
-    });
      
 
 
