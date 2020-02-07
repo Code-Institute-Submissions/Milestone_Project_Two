@@ -91,26 +91,16 @@ On the map markers, I would want to have aditional information such as address, 
 
 ## Technologies used
 
-1. HTML
-[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
-2. CSS
-[CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-3. JavaScript
-[JavaScript](https://www.javascript.com/)
-4. jQuery
-[jQuery](https://jquery.com/)
-3. Bootstrap
-[Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
-4. Font Awesome 
-[Font Awesome](https://fontawesome.com/)
-5. Google Maps API
-[Google Maps API](https://developers.google.com/maps/documentation)
-6. Google Fonts
-[Google Fonts](https://fonts.google.com/)
-7. Balsamiq Wireframes
-[Balsamiq Wireframes](https://wireframestogo.com/)
-7. TinyPNG
-[TinyPNG](https://tinypng.com/)
+1. [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+2. [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+3. [JavaScript](https://www.javascript.com/)
+4. [jQuery](https://jquery.com/)
+3. [Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
+4. [Font Awesome](https://fontawesome.com/)
+5. [Google Maps API](https://developers.google.com/maps/documentation)
+6. [Google Fonts](https://fonts.google.com/)
+7. [Balsamiq Wireframes](https://wireframestogo.com/)
+7. [TinyPNG](https://tinypng.com/)
 
 ---
 
