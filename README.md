@@ -94,11 +94,19 @@ On the map markers, I would want to have aditional information such as address, 
 1. HTML
 2. CSS
 3. JavaScript
+[JavaScript](https://www.javascript.com/)
 4. jQuery
+[jQuery](https://jquery.com/)
 3. Bootstrap
+[Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
 4. Font Awesome 
+[Font Awesome](https://fontawesome.com/)
 5. Google Maps API
+[Google Maps API](https://developers.google.com/maps/documentation)
 6. Google Fonts
+[Google Fonts](https://fonts.google.com/)
+7. Balsamiq Wireframes
+[Balsamiq Wireframes](https://wireframestogo.com/)
 
 ---
 
