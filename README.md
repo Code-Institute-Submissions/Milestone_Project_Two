@@ -128,7 +128,7 @@ I had a problem with the Nav bar causing there to be a scroll bar along the bott
 3. Test **EAT, DRINK, STAY** butons work by hovering over them to change opacity and by clicking and seeing if they takes you to the relevant page.
 
 #### Problem
-I had a problem the background image cutting off as it was at 100 view height. I fixed this by having the view height at 92 so the image fitted nicely when loaded.
+I had a problem the background image cutting off as it was at 100 view height. I fixed this by having the view height at 92.75 so the image fitted nicely when loaded on all devices.
 
 ### Eat, Drink, Stay pages
 1. Make sure grid of images flows with the page breaks by expanding and contracting screen size.
