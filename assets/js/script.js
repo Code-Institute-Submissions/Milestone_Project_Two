@@ -19,7 +19,7 @@ $(function () {
 	$(".nav-link").removeClass("active");   
 	
 /**
- * If/else statements to show which li was clicked. apply 'active' class only to that li, and show the section
+ * If/else statements to show which li was clicked. apply 'active' class only to that li, and show that section
  */
     if ($(this).attr("id") === "navhome") {
 		    $("#navhome").addClass("active");
@@ -256,11 +256,8 @@ $(function () {
             {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
     } 
 
-
-
-
 /**
- * Array containing data for map pages
+ * Array containing data for review/map pages
  */
 const myMaps = [
 
@@ -336,9 +333,6 @@ lat:50.820831,
 lng:-0.136467, 
 website: "http://pizzavip.co.uk/"
 },
-
-
-
 
 {
 id: "drink01",
@@ -489,7 +483,7 @@ website: "https://www.oldshipbrighton.co.uk/"
 ]
 
 /**
- * Function to call data from myMap array and put on map pages
+ * Function to call data from myMap array and put on review/map pages
  */
 $(".box").click(function(e) {
     let clickedId = this.id
@@ -500,7 +494,6 @@ $(".box").click(function(e) {
     })
 
 function clickedObject(whatObject){
-    console.log(whatObject[0]) 
           $("#googleMap").show();
           locations = [{ lat: whatObject[0].lat, lng: whatObject[0].lng }] 
           initMap("googleMapMain");
