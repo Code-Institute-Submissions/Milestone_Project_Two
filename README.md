@@ -120,12 +120,15 @@ My first code was very long with much repetition. It worked OK, but needed to be
 3. Test that it is always at the top of the site by scrolling down the pages.
 
 #### Problem
-I had a problem with the Nav bar causing there to be a scroll bar along the bottom of the site. I discovered that this was caused by the Nav bar being 
+I had a problem with the Nav bar causing there to be a scroll bar along the bottom of the site. I discovered that this was caused by the Nav bar being 100 view width. To clue this I changed the view width to 98.5. This was the largest I could use without the scroll bar showing.
 
 ### Home page
 1. Test the image fits the whole screen at all sizes by expanding and contracting screen size.
 2. Test the main message is visible at all sizes by expanding and contracting screen size.
 3. Test **EAT, DRINK, STAY** butons work by hovering over them to change opacity and by clicking and seeing if they takes you to the relevant page.
+
+#### Problem
+I had a problem the background image cutting off as it was at 100 view height. I fixed this by having the view height at 92 so the image fitted nicely when loaded.
 
 ### Eat, Drink, Stay pages
 1. Make sure grid of images flows with the page breaks by expanding and contracting screen size.
