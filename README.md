@@ -23,7 +23,7 @@ The Navigation is always visible allowing the user to click back and forth to ea
 
 Each section (**EAT, DRINK and STAY**) have nine large visual buttons to choose from showing an enticing image of the location, it's name and a simple one word description to give the user help in deciding where to click.
 
-Each button then takes you to a large map showing the location of the venue and a write-up describing it. At the end of the review is a simple button taking the user to the website, and another taking the user back to the main **EAT, DRINK, STAY** menus.
+Each button then takes you to a large map showing the location of the venue and a write-up describing it. The bespoke map was designed using [Styling Wizard: Google Maps APIs](https://mapstyle.withgoogle.com/) and matched the website colours to enhance the look of the page. At the end of the review is a simple button taking the user to the website, and another taking the user back to the main **EAT, DRINK, STAY** menus.
 
 The footer is only visible on the **HOME** page so as not to crowd the simplicity of the other pages. It contains the site's social media.
 
@@ -44,12 +44,11 @@ I want to feel straight away that this site is my kind of style and I can trust 
 
 ## Features
 
-The following click through pages follow the stylish, simple theme, picking up the typograhy and colour. 
+The click through pages follow the stylish, simple theme, picking up the typograhy and colour. 
 
 ### Navigation bar
 
 This holds all the links to the main sections of the site: **HOME, EAT, DRINK, STAY**. This allows the user to navigate quickly to the relevant section. the **Handwrittem Brighton** logo also acts as a link to the **HOME** page.
-
 
 ### Home
 
@@ -65,9 +64,9 @@ The footer only appears on the **HOME** page, so not to overcrowd and complicate
 
 These are the pages that show when the **EAT, DRINK,** or **STAY** buttons are clicked. They show an arrangement of nine handpicked venues to get food, drink or to stay. The large images give a visual climpse of what the venue looks like. The strong, stylish typography of the name of the venue with a one word classifications under it gives the user more clues about if it's the type of venue they are interested in. There is a simple, clean hover when the mouse glides over each box to show it is highlighted.
 
-### Venue information pages
+### Venue review pages
 
-Once a venue is chosen from either **EAT, DRINK,** or **STAY**, the user is taken to a page which displays the information for that venue. It has a large custom map with a marker showing the location, a review of the venue and a link to their website. There is also a button to take you back to the **HOME** page.
+Once a venue is chosen from either **EAT, DRINK,** or **STAY**, the user is taken to a page which displays the information for that venue. It has a large bespoke map with a marker showing the location, a review of the venue and a link to their website. There is also a button to take you back to the **HOME** page.
 
 ---
 
@@ -131,24 +130,29 @@ I had a problem with the Nav bar causing there to be a scroll bar along the bott
 I had a problem the background image cutting off as it was at 100 view height. I fixed this by having the view height at 92.75 so the image fitted nicely when loaded on all devices.
 
 ### Eat, Drink, Stay pages
-1. Make sure grid of images flows with the page breaks by expanding and contracting screen size.
-2. Test the headings and subheadings are visible on all sizes by expanding and contracting screen size.
+1. Make sure grid of images flows with the page breaks by expanding and contracting screen size, and using Chrome developer tools.
+2. Test the headings and subheadings are visible on all sizes by expanding and contracting screen size, and using Chrome developer tools.
 3. Test tiles work by hovering over them to change opacity.
 4. Test all tiles link to relevant pages when clicked.
 
 ### Review pages
-1. Make sure grid flows with the page breaks by expanding and contracting screen size.
-2. Test the headings, text and maps are visible on all sizes by expanding and contracting screen size.
+1. Make sure grid flows with the page breaks by expanding and contracting screen size, and using Chrome developer tools.
+2. Test the headings, text and maps are visible on all sizes by expanding and contracting screen size, and using Chrome developer tools.
 3. Test all weblinks to make sure they link to the relevant sites.
+4. Test *Back to home* button works on all review pages when clicked.
 
-### Social buttons
+#### Problems and solutions
+I write a few sets of code to call the data for the review pages, such as the name, review, website and the latitude and longitude. My code got better each time. My first were 27 click functions that called the data in from the index.html and showed the relevent page and map. This was too long, so my second turned the data into 27 objects that were called by 27 click functions. This was better as it used just one review page, but replaced the data each time. My final version placed all my data into an array and I wrote a function that filtered out which data I wanted from the array and placed it onto the page. This last one was the cleanest, but was also the hardest to get right, as I struggled to get it the work. See *Console.log() testing* below for details.
+
+### Footer with Social buttons
 1. Test buttons are live and hover works by placing cursor over them to change colour.
+2. Test Footer panel is only on home page and fits on all devices using Chrome developer tools.
 
 ### Real life user testing
-I tested this out with several family members and friends. 
+I tested this out with several family members and friends. This resulted in me designing my own Google Map in [Styling Wizard: Google Maps APIs](https://mapstyle.withgoogle.com/) as it was felt that a standard map not only looked a bit basic, but also already had all the standard place markers on it.
 
 ### Console.log() testing
-Testing with the **console.log()** was crucial when getting writing the function to call data from an array and place it on the maps pages. Having written an array and then a click function, I found it wasn't working. The page was loading the data as undefined, meaning that it wasn't finding my array data.
+Testing with the **console.log()** was crucial when getting writing the function to call data from an array and place it on the review pages. Having written an array and then a click function, I found it wasn't working. The page was loading the data as undefined, meaning that it wasn't finding my array data.
 
 To find out what was happening I used console.log() at different places in my function and tested what data was coming back. Once I had established that the filter was getting the data, but it wasn't being seen. I was able to change my if fuction to allow the collected object to show on the pages.  
 
