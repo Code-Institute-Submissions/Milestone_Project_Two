@@ -50,7 +50,7 @@ All the pages follow the stylish, simple theme, picking up the typograhy and col
 
 ### Navigation Bar
 
-This holds all the links to the main sections of the site: **HOME, EAT, DRINK, STAY**. This allows the user to navigate quickly to the relevant section. the **Handwritten Brighton** logo also acts as a link to the **HOME** page.
+This holds all the links to the main sections of the site: **HOME, EAT, DRINK,** and **STAY**. This allows the user to navigate quickly to the relevant section. the **Handwritten Brighton** logo also acts as a link to the **HOME** page.
 
 ### Home
 
