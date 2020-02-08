@@ -83,7 +83,7 @@ These are my original wireframes for my site.
 
 There would ideally be many more options to choose from in each section. I chose nine as a nice number for the grid.
 
-On each review page I would have liked to put in more links to other options. 
+On each review page I would have liked to put in more links to other options. These would include a link to a booking site such as Trip Advisor or a site to find nearby parking or transport.
 
 On the map markers, I would want to have aditional information such as address, contact details, opening times and weblinks.
 
@@ -181,8 +181,7 @@ All the **tutors** that helped me along the way on the **Tutor Support**.
 
 ### Images
 
-Home image was sourced from the **iStock** image library.
-[iStock](https://www.istockphoto.com/gb)
+Home image was sourced from the [iStock](https://www.istockphoto.com/gb) image library.
 
 All venue images are from the venues' own websites and social media.
 
