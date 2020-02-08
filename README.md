@@ -94,12 +94,13 @@ On the map markers, I would want to have aditional information such as address, 
 2. [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 3. [JavaScript](https://www.javascript.com/)
 4. [jQuery](https://jquery.com/)
-3. [Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
-4. [Font Awesome](https://fontawesome.com/)
-5. [Google Maps API](https://developers.google.com/maps/documentation)
-6. [Google Fonts](https://fonts.google.com/)
-7. [Balsamiq Wireframes](https://wireframestogo.com/)
-7. [TinyPNG](https://tinypng.com/)
+5. [Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
+6. [Font Awesome](https://fontawesome.com/)
+7. [Google Maps API](https://developers.google.com/maps/documentation)
+8. [Google Fonts](https://fonts.google.com/)
+9. [Balsamiq Wireframes](https://wireframestogo.com/)
+10. [TinyPNG](https://tinypng.com/)
+11. [Styling Wizard: Google Maps APIs](https://mapstyle.withgoogle.com/)
 
 ---
 
@@ -114,12 +115,13 @@ My first code was very long with much repetition. It worked OK, but needed to be
 1. I wanted my site to be fully responsive and mobile friendly. I used **Bootstrap** as my HTML framework to achieve this. While deciding on the final grid for each breakpoint I was able to make the browser window bigger and smaller, and use Chrome development tools to easily see which grid was the best, and to check that it worked and looked perfect in all configurations. I continued to do this throughout the build to make sure it still all worked.
 
 ### Navigation bar
-1. Test that works at all sizes and toggles down when goes to mobile size by expanding and contracting screen size. 
+1. Test that works at all sizes and toggles down when goes to mobile size by expanding and contracting screen size, and using Chrome developer tools. 
 2. Test all links by hovering over to change colour and by and by making sure they redirect to relevant sections by clicking between them.
 3. Test that it is always at the top of the site by scrolling down the pages.
+4. Testing that only the link that matched the page you were on was highlighted.
 
 #### Problem
-I had a problem with the Nav bar causing there to be a scroll bar along the bottom of the site. I discovered that this was caused by the Nav bar being 100 view width. To clue this I changed the view width to 98.5. This was the largest I could use without the scroll bar showing.
+I had a problem with the Nav bar causing there to be a scroll bar along the bottom of the site. I discovered that this was caused by the Nav bar being 100 view width. To clue this I changed the view width to 98.5. This was the largest I could use without the scroll bar showing. 
 
 ### Home page
 1. Test the image fits the whole screen at all sizes by expanding and contracting screen size.
@@ -155,6 +157,14 @@ I tested this out with several family members and friends. This resulted in me d
 Testing with the **console.log()** was crucial when getting writing the function to call data from an array and place it on the review pages. Having written an array and then a click function, I found it wasn't working. The page was loading the data as undefined, meaning that it wasn't finding my array data.
 
 To find out what was happening I used console.log() at different places in my function and tested what data was coming back. Once I had established that the filter was getting the data, but it wasn't being seen. I was able to change my if fuction to allow the collected object to show on the pages.  
+
+### Known bugs
+
+#### Navigation bar
+The Navigation bar being reduced to 98.5vw has cause a tiny bit of the home page image to show when scolling.
+
+#### Home page background image
+The background being reduced to 92.75vh has cause a bit of white space to appear at the bottom on very large screens. I tried different view heights and felt that this was the best solution as it works well on the most popular devices such as phones, tablets and laptops.
 
 ---
 
