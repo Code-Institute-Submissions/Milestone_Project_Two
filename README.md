@@ -11,7 +11,7 @@ The illustration on the **HOME** page introduces the quirky and playful vibe tha
 
 The main sea-green colour used on the website reflect the colour of the paint on the railings and lamp post etc around the city. It's very much the colour of Brighton, so adds a subtle visual signpost.
 
-I created the Handpicked Brighton logo to be reflect the values of the city. The handwritten font is used to show the creative side and the 'handpicked' aspect as if it's a list written by an actual person. The San Serif is bold, stylish and confident. The two contrast and compliment each other. I used the font family **Lato** in 300 and 900 for visual contrast.
+I created the Handpicked Brighton logo to reflect the values of the city. The handwritten font is used to show the creative side and the 'handpicked' aspect as if it's a list written by an actual person. The San Serif is bold, stylish and confident. The two contrast and compliment each other. I used the font family **Lato** in 300 and 900 for visual contrast.
 
 ---
 
@@ -19,11 +19,11 @@ I created the Handpicked Brighton logo to be reflect the values of the city. The
 
 The site is fully responsive, so can be viewed on all devices. This makes it fun and easy to plan your trip from a laptop or tablet from home, or from your phone on the move.
 
-The Navigation is always visible allowing the user to click back and forth to each section easliy. The **HOME** page has three large buttons that reflect the Navigation bar to allow an alternative way to get around the site.
+The Navigation is always visible allowing the user to click back and forth to each section easliy. The **HOME** page has three large buttons that reflect the Navigation Bar to allow an alternative way to get around the site.
 
 Each section (**EAT, DRINK and STAY**) have nine large visual buttons to choose from showing an enticing image of the location, it's name and a simple one word description to give the user help in deciding where to click.
 
-Each button then takes you to a review page, with a large map showing the location of the venue and a write-up describing it. The bespoke map was designed using [Styling Wizard: Google Maps APIs](https://mapstyle.withgoogle.com/) and matched the website colours to enhance the look of the page. At the end of the review is a simple button taking the user to the website, and another taking the user back to the main **HOME** menu.
+Each button then takes you to a review page, with a large map showing the location of the venue and a write-up describing it. The bespoke map was designed using [Styling Wizard: Google Maps APIs](https://mapstyle.withgoogle.com/) and matches the website colours to enhance the look of the page. At the end of the review is a simple button taking the user to the website, and another taking the user back to the **HOME** menu.
 
 The footer is only visible on the **HOME** page so as not to crowd the simplicity of the other pages. It contains the site's social media.
 
@@ -40,13 +40,15 @@ I want to feel straight away that this site is my kind of style and I can trust 
 
 **User 3: Local resident:** The user here is a resident of the city, that wants to find somewhere new that they just didn't know about.
 
+**User 4: Local resident:** As a local resident, the user has been asked for their opinion on where to go in Brighton. They can send a link to this website as quick and easy way to achieve this.
+
 ---
 
 ## Features
 
-The click through pages follow the stylish, simple theme, picking up the typograhy and colour. 
+All the pages follow the stylish, simple theme, picking up the typograhy and colour. 
 
-### Navigation bar
+### Navigation Bar
 
 This holds all the links to the main sections of the site: **HOME, EAT, DRINK, STAY**. This allows the user to navigate quickly to the relevant section. the **Handwritten Brighton** logo also acts as a link to the **HOME** page.
 
@@ -80,11 +82,9 @@ These are my original wireframes for my site.
 
 ## Features left to implement
 
-There would ideally be many more options to choose from in each section. I chose nine as a nice number for the grid.
-
-On each review page I would have liked to put in more links to other options. These would include a link to a booking site such as Trip Advisor or a site to find nearby parking or transport.
-
-On the map markers, I would want to have aditional information such as address, contact details, opening times and weblinks.
+1.There would ideally be many more options to choose from in each section. I chose nine as a nice number for the grid.
+2. On each review page I would have liked to put in more links to other options. These would include a link to a booking site such as Trip Advisor or a site to find nearby parking or transport.
+3. On the map markers, I would want to have aditional information such as address, contact details, opening times and weblinks.
 
 ---
 
@@ -105,45 +105,46 @@ On the map markers, I would want to have aditional information such as address, 
 ---
 
 ## Testing
+
 To test both my HTML and my CSS, I ran them through the W3C validation websites. [W3C Markup Validation Service](https://validator.w3.org/), and [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/).
 This allowed me to catch any problems such as rouge punctuation marks or incorrect code. This helped me go back in and change the errors so my code was more efficient and worked properly.
 
-My first code was very long with much repetition. It worked OK, but needed to be made simpler. each time i cut back on the code, I would have to check that all was still working. If it wasn't working, I would go back to a place where it was OK and start cutting again. Testing all the time. 
+My first code was very long with much repetition. It worked OK, but needed to be made simpler. each time i cut back on the code, I would  check that all was still working. If it wasn't working, I would go back to a place where it was OK and start cutting again. Testing by refreshing the site all the time. 
 
 ### Responsiveness
-1. I wanted my site to be fully responsive and mobile friendly. I used **Bootstrap** as my HTML framework to achieve this. While deciding on the final grid for each breakpoint I was able to make the browser window bigger and smaller, and use Chrome development tools to easily see which grid was the best, and to check that it worked and looked perfect in all configurations. I continued to do this throughout the build to make sure it still all worked.
+1. I wanted my site to be fully responsive and mobile friendly. I used **Bootstrap** as my HTML framework to achieve this. While deciding on the final grid for each breakpoint I was able to make the browser window bigger and smaller, and use Chrome Development Tools to easily see which grid was the best, and looked perfect in all configurations. I continued to do this throughout the build to make sure it still all worked.
 
-### Navigation bar
-1. Test that works at all sizes and toggles down when goes to mobile size by expanding and contracting screen size, and using Chrome developer tools. 
+### Navigation Bar
+1. Test that works at all sizes and toggles down when goes to mobile size by expanding and contracting screen size, and using Chrome Developer Tools. 
 2. Test all links by hovering over to change colour and by and by making sure they redirect to relevant sections by clicking between them.
-3. Test that it is always at the top of the site by scrolling down the pages.
+3. Test that it is always at the top of the site by clicking through the pages.
 4. Testing that only the link that matched the page you were on was highlighted.
 
 #### Problem
-I had a problem with the Nav bar causing there to be a scroll bar along the bottom of the site. I discovered that this was caused by the Nav bar being 100 view width. To clue this I changed the view width to 98.5. This was the largest I could use without the scroll bar showing. 
+I had a problem with the Navigation Bar. There was a scroll bar along the bottom of the site, which shouldn't have been there. I discovered that this was caused by the Navigation Bar being 100 view width. To fix this I changed the view width to 98.5, which was the largest I could use without the scroll bar showing. 
 
 ### Home page
-1. Test the image fits the whole screen at all sizes by expanding and contracting screen size.
-2. Test the main message is visible at all sizes by expanding and contracting screen size.
+1. Test the image fits the whole screen at all sizes by expanding and contracting screen size, and using Chrome Developer Tools.
+2. Test the main message is visible at all sizes by expanding and contracting screen size, and using Chrome Developer Tools.
 3. Test **EAT, DRINK, STAY** butons work by hovering over them to change opacity and by clicking and seeing if they takes you to the relevant page.
 
 #### Problem
 I had a problem the background image cutting off as it was at 100 view height. I fixed this by having the view height at 92.75 so the image fitted nicely when loaded on all devices.
 
 ### Eat, Drink, Stay pages
-1. Make sure grid of images flows with the page breaks by expanding and contracting screen size, and using Chrome developer tools.
-2. Test the headings and subheadings are visible on all sizes by expanding and contracting screen size, and using Chrome developer tools.
-3. Test tiles work by hovering over them to change opacity.
+1. Make sure grid of images flows with the page breaks by expanding and contracting screen size, and using Chrome Developer Tools.
+2. Test the headings and subheadings are visible on all sizes by expanding and contracting screen size, and using Chrome Developer Tools.
+3. Test tiles' hover worked by moving the mouse over them to change opacity.
 4. Test all tiles link to relevant pages when clicked.
 
 ### Review pages
-1. Make sure grid flows with the page breaks by expanding and contracting screen size, and using Chrome developer tools.
-2. Test the headings, text and maps are visible on all sizes by expanding and contracting screen size, and using Chrome developer tools.
+1. Make sure grid flows with the page breaks by expanding and contracting screen size, and using Chrome Developer Tools.
+2. Test the headings, text and maps are visible on all sizes by expanding and contracting screen size, and using Chrome Developer Tools.
 3. Test all weblinks to make sure they link to the relevant sites.
 4. Test *Back to home* button works on all review pages when clicked.
 
 #### Problems and solutions
-I write a few sets of code to call the data for the review pages, such as the name, review, website and the latitude and longitude. My code got better each time. My first were 27 click functions that called the data in from the index.html and showed the relevent page and map. This was too long, so my second turned the data into 27 objects that were called by 27 click functions. This was better as it used just one review page, but replaced the data each time. My final version placed all my data into an array and I wrote a function that filtered out which data I wanted from the array and placed it onto the page. This last one was the cleanest, but was also the hardest to get right, as I struggled to get it the work. See *Console.log() testing* below for details.
+I wrote a few sets of code to call the data for the review pages, such as the name, review, website and the latitude and longitude. My code got cleaner each time. My first were 27 click functions that called the data in from the index.html and showed the relevent page and map. This was too long, so my second turned the data into 27 objects that were called by 27 click functions. This was better as it used just one review page, but replaced the data each time. My final version placed all my data into an array and I wrote a function that filtered out which data I wanted from the array and placed it onto the page. This last one was the cleanest, but was also the hardest to get right, as I struggled to get it the work. See *Console.log() testing* below for details.
 
 ### Footer with Social buttons
 1. Test buttons are live and hover works by placing cursor over them to change colour.
@@ -159,7 +160,7 @@ To find out what was happening I used console.log() at different places in my fu
 
 ### Known bugs
 
-#### Navigation bar
+#### Navigation Bar
 The Navigation bar being reduced to 98.5vw has cause a tiny bit of the home page image to show when scolling.
 
 #### Home page background image
@@ -177,7 +178,6 @@ My site is deployed on GitHub.
 5. Scroll down to the section called **GitHub Pages**. 
 6. Under the heading **Source** there's a button with None on it. Click that button and select **Master Branch**.
 7. The page will then reload giving you a weblink to share.
-
 
 I have been pushing my code through to GitHub very regularly as, on occasion, something has gone wrong and I've had to go into my history and retrieve bits of code that I know will work. 
 
@@ -210,7 +210,7 @@ All venue text is from the venues' own websites and social media.
 ## Acknowledgements
 
 ### Anna Gilhespy website
-I used Anna Gilhespy's website to help me work out the structure of the content.
+I used Anna Gilhespy's website to help me work out the structure of the grid.
 [Anna Gilhespy](https://ajgreaves.github.io/bootstrap-grid-demo/)
 
 ### Traversy Media YouTube
