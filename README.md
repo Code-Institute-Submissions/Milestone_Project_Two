@@ -27,7 +27,7 @@ Each button then takes you to a review page, with a large map showing the locati
 
 The footer is only visible on the **HOME** page so as not to crowd the simplicity of the other pages. It contains the site's social media.
 
-The site makes use of a **Favicon** to visually show the user where the site is in their open tabs.
+The site has a **Favicon** to visually show the user where the site is in their open tabs. It uses the seagull from the **HOME** page background image, with the sea-green colour.
 
 ### User Stories
 
