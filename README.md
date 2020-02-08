@@ -21,7 +21,7 @@ The site is fully responsive, so can be viewed on all devices. This makes it fun
 
 The navigation is always visible allowing the user to click back and forth to each section easliy. The **HOME** page has three large buttons that reflect the Navigation Bar to allow an alternative way to get around the site.
 
-Each section (**EAT, DRINK and STAY**) have nine large visual buttons to choose from showing an enticing image of the location, it's name and a simple one word description to give the user help in deciding where to click.
+Each section (**EAT, DRINK** and **STAY**) have nine large visual buttons to choose from showing an enticing image of the location, it's name and a simple one word description to give the user help in deciding where to click.
 
 Each button then takes you to a review page, with a large map showing the location of the venue and a write-up describing it. The bespoke map was designed using [Styling Wizard: Google Maps APIs](https://mapstyle.withgoogle.com/) and matches the website colours to enhance the look of the page. At the end of the review is a simple button taking the user to the website, and another taking the user back to the **HOME** menu.
 
