@@ -111,6 +111,8 @@ This allowed me to catch any problems such as rouge punctuation marks or incorre
 My first code was very long with much repetition. It worked OK, but needed to be made simpler. each time i cut back on the code, I would have to check that all was still working. If it wasn't working, I would go back to a place where it was OK and start cutting again. Testing all the time. 
 
 
+### Responsiveness
+1. I wanted my site to be fully responsive and mobile friendly. I used **Bootstrap** as my HTML framework to achieve this. While deciding on the final grid for each breakpoint I was able to make the browser window bigger and smaller, and use Chrome development tools to easily see which grid was the best, and to check that it worked and looked perfect in all configurations. I continued to do this throughout the build to make sure it still all worked.
 
 ### Navigation bar
 1. Test that works at all sizes and toggles down when goes to mobile size by expanding and contracting screen size. 
@@ -141,6 +143,11 @@ I had a problem with the Nav bar causing there to be a scroll bar along the bott
 
 ### Real life user testing
 I tested this out with several family members and friends. 
+
+### Console.log() testing
+Testing with the **console.log()** was crucial when getting writing the function to call data from an array and place it on the maps pages. Having written an array and then a click function, I found it wasn't working. The page was loading the data as undefined, meaning that it wasn't finding my array data.
+
+To find out what was happening I used console.log() at different places in my function and tested what data was coming back. Once I had established that the filter was getting the data, but it wasn't being seen. I was able to change my if fuction to allow the collected object to show on the pages.  
 
 ---
 
