@@ -48,11 +48,11 @@ The click through pages follow the stylish, simple theme, picking up the typogra
 
 ### Navigation bar
 
-This holds all the links to the main sections of the site: **HOME, EAT, DRINK, STAY**. This allows the user to navigate quickly to the relevant section. the **Handwrittem Brighton** logo also acts as a link to the **HOME** page.
+This holds all the links to the main sections of the site: **HOME, EAT, DRINK, STAY**. This allows the user to navigate quickly to the relevant section. the **Handwritten Brighton** logo also acts as a link to the **HOME** page.
 
 ### Home
 
-This is the first page a user comes to, and it has to make a big impact and entice them to want to go further. By having a funky, fun image on the **HOME** page, the user can feel that this is going to be a site with a cool vibe, which reflects the vibe of the city. If they want to tap into the feel of the city and get under its skin, this will be the place to go. The stylish logo and the contempory typography also give a feel of Brighton. The strap line of "YOUR GUIDE TO THE LOCAL SIDE OF BRIGHTON" tells the user just what the purpose of the site is. To make you feel like you're in-the-know.  
+This is the first page a user comes to, and it has to make a big impact and entice them to want to go further. By having a funky, fun image on the **HOME** page, the user can feel that this is going to be a site with a cool vibe, which reflects the vibe of the city. If they want to tap into the feel of the city and get under its skin, this will be the place to go. The stylish logo and the contempory typography also give a feel of Brighton. The strap line of *"YOUR GUIDE TO THE LOCAL SIDE OF BRIGHTON"* tells the user just what the purpose of the site is. To make you feel like you're in-the-know.  
 
 The three simple looking buttons, **EAT, DRINK,** and **STAY** immediately intice the user to go further and explore. Their simple message means that it's clear what they will show the user.
 
@@ -109,7 +109,6 @@ To test both my HTML and my CSS, I ran them through the W3C validation websites.
 This allowed me to catch any problems such as rouge punctuation marks or incorrect code. This helped me go back in and change the errors so my code was more efficient and worked properly.
 
 My first code was very long with much repetition. It worked OK, but needed to be made simpler. each time i cut back on the code, I would have to check that all was still working. If it wasn't working, I would go back to a place where it was OK and start cutting again. Testing all the time. 
-
 
 ### Responsiveness
 1. I wanted my site to be fully responsive and mobile friendly. I used **Bootstrap** as my HTML framework to achieve this. While deciding on the final grid for each breakpoint I was able to make the browser window bigger and smaller, and use Chrome development tools to easily see which grid was the best, and to check that it worked and looked perfect in all configurations. I continued to do this throughout the build to make sure it still all worked.
